@@ -24,8 +24,22 @@ import liveChatUser4 from "../assets/images/liveChatUser4.png";
 import liveChatUser5 from "../assets/images/liveChatUser5.png";
 import liveChatUser6 from "../assets/images/liveChatUser6.png";
 import liveChatUser7 from "../assets/images/liveChatUser7.png";
+import message2 from "../assets/images/message2.png";
+import checkItOutBG from "../assets/images/checkItOutBG.png";
+import checkItOutImg from "../assets/images/checkItOutImg.png";
+import DashboardLastCard1 from "../assets/images/DashboardLastCard1.png";
+import DashboardLastCard2 from "../assets/images/DashboardLastCard2.png";
+import DashboardLastCard3 from "../assets/images/DashboardLastCard3.png";
+import dashboardLastCardBG from "../assets/images/dashboardLastCardBG.png";
 
 const images = {
+  dashboardLastCardBG,
+  DashboardLastCard1,
+  DashboardLastCard2,
+  DashboardLastCard3,
+  checkItOutImg,
+  checkItOutBG,
+  message2,
   liveChatUser2,
   liveChatUser3,
   liveChatUser4,

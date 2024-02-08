@@ -9,8 +9,8 @@ export default function Header() {
   const { isModalOpen, setIsModalOpen } = useModal();
 
   return (
-    <div className="w-full bg-headerBg fixed top-0 flex flex-row items-center justify-between px-7 py-3 opacity-75">
-      <div className="text-white text-3xl font-extrabold flex">
+    <div className="w-full bg-headerBg fixed top-0 flex flex-row items-center justify-between px-7 py-3 opacity-80 z-10">
+      <div className="text-white text-2xl font-extrabold flex flex items-center">
         GLOW SKIN
         <div className="w-[2px] h-10 bg-logoLine ml-10"></div>
       </div>

@@ -2,6 +2,22 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.textArea::placeholder {
+  color: #0CAAF3;
+}
+
+.textArea {
+  background-color: transparent;
+  resize: none;
+  overflow: auto;
+  height: 65px;
+
+}
+
+.textArea::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   text-align: center;
 }

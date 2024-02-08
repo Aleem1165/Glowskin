@@ -26,19 +26,20 @@ const Layout = () => {
       <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
         {/* <SignInContext.Provider value={{ signin, setSignin }}> */}
         <Header />
+        <LiveDrops />
+        <LiveChat />
         <div
-          className="flex pt-16 bg-cover "
+          className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px]"
           style={{
             backgroundImage: `url(${images.BG})`,
           }}
         >
-          <LiveDrops />
-          <div className="w-full pt-[60vh]">
+          <div className="w-full pt-[65vh]">
             <Outlet />
           </div>
-          <LiveChat />
+          {/* <LiveChat /> */}
+          <Footer />
         </div>
-        <Footer />
         <AuthModal />
         {/* </SignInContext.Provider> */}
       </ModalContext.Provider>

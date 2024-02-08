@@ -38,7 +38,7 @@ export default function LiveDrops() {
   };
 
   return (
-    <div className="w-[260px] pl-3 h-[100vh] mt-5">
+    <div className="w-[200px] pl-3 h-[88vh] fixed top-[12vh]">
       <div className="flex items-center justify-between text-xs font-semibold">
         <div className="flex items-center justify-center">
           <div className="w-2 h-2 bg-yellow rounded-full"></div>
@@ -68,7 +68,7 @@ export default function LiveDrops() {
         </div>
       </div>
       {tab === "top" ? (
-        <div className="mt-2 h-[95vh] check overflow-y-scroll">
+        <div className="mt-2 h-[84vh] check overflow-y-scroll">
           {top &&
             top.map((item, index) => {
               return (
@@ -89,7 +89,7 @@ export default function LiveDrops() {
             })}
         </div>
       ) : (
-        <div className="mt-2 h-[95vh] check overflow-y-scroll">
+        <div className="mt-2 h-[84vh] check overflow-y-scroll">
           {all &&
             all.map((item, index) => {
               return (

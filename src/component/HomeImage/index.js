@@ -12,9 +12,9 @@ const HomeImage = () => {
   const [signin, setSignin] = useState(false);
 
   return (
-    <div className="mb-10 px-10 flex w-full flex-col lg:flex-row justify-center gap-4 mt-8 max-w-screen-xl mx-auto ">
+    <div className="mb-10 flex w-full flex-col lg:flex-row justify-center gap-4 mt-8 max-w-screen-xl mx-auto ">
       <div
-        className="w-full  lg:w-1/2 bg-cover bg-contain bg-no-repeat relative flex flex-col items-center lg:items-start justify-center"
+        className="w-full lg:w-1/2 bg-cover bg-contain bg-no-repeat relative flex flex-col items-center lg:items-start justify-center"
         style={{
           backgroundImage: `url(${images.dashboardImg})`,
         }}
@@ -56,7 +56,7 @@ const HomeImage = () => {
         </div> */}
         <img
           src={images.dashboardImg1}
-          className="h-[180px] bottom-3 right-[-5px]  absolute hidden lg:block"
+          className="h-[185px] right-[-5px] bottom-0  absolute hidden lg:block"
         />
       </div>
       <div
@@ -111,7 +111,7 @@ const HomeImage = () => {
         )}
         <img
           src={images.dashboardImg2}
-          className="h-[180px] bottom-3 right-3 absolute hidden lg:block"
+          className="h-[185px] bottom-0 right-3 absolute hidden lg:block"
         />
       </div>
     </div>

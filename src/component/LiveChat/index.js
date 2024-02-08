@@ -90,7 +90,7 @@ export default function LiveChat() {
     },
   ]);
   return (
-    <div className="border border-lineBlue w-[290px] mt-5 h-[100vh] mr-3">
+    <div className="border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0 hidden 2xl:block">
       <div className="flex items-end justify-between pt-4 pr-2 border-b border-lineBlue pb-2">
         <div className="text-sm font-semibold text-white ml-4">
           <div>
@@ -109,7 +109,7 @@ export default function LiveChat() {
           <img src={images.chatArrowDown} className="w-3 h-2" />
         </div>
       </div>
-      <div className=" h-[80vh] check overflow-y-scroll">
+      <div className=" h-[63vh] check overflow-y-scroll">
         {message.map((item, index) => {
           return (
             <div
@@ -133,6 +133,18 @@ export default function LiveChat() {
             </div>
           );
         })}
+      </div>
+      <div className="border border-lineBlue px-3 pt-3 rounded-md text-lineBlue  w-90p mx-auto flex flex-row items-start justify-between">
+        <textarea
+          type="text"
+          placeholder="Message..."
+          className="w-full pr-2 focus:outline-none text-xs textArea"
+          // style={{ textAlignVertical: "top" }}
+        ></textarea>
+        <img
+          src={images.message2}
+          className="w-6 cursor-pointer active:opacity-50"
+        />
       </div>
     </div>
   );
