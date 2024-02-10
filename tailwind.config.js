@@ -22,6 +22,8 @@ module.exports = {
         btnDark: "#05263F",
         btnLight: "#033B63",
         green: "#61C553",
+        btnGray: "#444B52",
+        gemsBtn: "#07496E",
       },
       width: {
         "5p": "5%",

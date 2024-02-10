@@ -4,12 +4,12 @@ import images from "../../utilities/images";
 // import VideoPlayer from "../VideoPlayer";
 import videos from "../../utilities/videos";
 // import AutoVideoPlayer from "../AutoVideoPlayer";
-import { useModal } from "../../Screens/Layout";
+import { useModal, useSignIn } from "../../Screens/Layout";
 
 const HomeImage = () => {
   const { isModalOpen, setIsModalOpen } = useModal();
-  //   const { signin, setSignin } = useSignIn();
-  const [signin, setSignin] = useState(false);
+  const { signin, setSignin } = useSignIn();
+  // const [signin, setSignin] = useState(false);
 
   return (
     <div className="mb-10 flex w-full flex-col lg:flex-row justify-center gap-4 mt-8 max-w-screen-xl mx-auto ">

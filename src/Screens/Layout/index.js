@@ -12,7 +12,7 @@ const SignInContext = createContext();
 
 const Layout = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [signin, setSignin] = useState(false);
+  const [signin, setSignin] = useState(true);
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -24,24 +24,24 @@ const Layout = () => {
   return (
     <>
       <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
-        {/* <SignInContext.Provider value={{ signin, setSignin }}> */}
-        <Header />
-        <LiveDrops />
-        <LiveChat />
-        <div
-          className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px]"
-          style={{
-            backgroundImage: `url(${images.BG})`,
-          }}
-        >
-          <div className="w-full pt-[65vh]">
-            <Outlet />
+        <SignInContext.Provider value={{ signin, setSignin }}>
+          <Header />
+          <LiveDrops />
+          <LiveChat />
+          <div
+            className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px]"
+            style={{
+              backgroundImage: `url(${images.BG})`,
+            }}
+          >
+            <div className="w-full pt-[65vh]">
+              <Outlet />
+            </div>
+            {/* <LiveChat /> */}
+            <Footer />
           </div>
-          {/* <LiveChat /> */}
-          <Footer />
-        </div>
-        <AuthModal />
-        {/* </SignInContext.Provider> */}
+          <AuthModal />
+        </SignInContext.Provider>
       </ModalContext.Provider>
     </>
   );
@@ -55,14 +55,14 @@ const useModal = () => {
   return context;
 };
 
-// const useSignIn = () => {
-//   const context = useContext(SignInContext);
-//   if (!context) {
-//     throw new Error("useSignIn must be used within a SignInProvider");
-//   }
-//   return context;
-// };
+const useSignIn = () => {
+  const context = useContext(SignInContext);
+  if (!context) {
+    throw new Error("useSignIn must be used within a SignInProvider");
+  }
+  return context;
+};
 
-// export { useSignIn, useModal, Layout as default };
-export { useModal, Layout as default };
+export { useSignIn, useModal, Layout as default };
+// export { useModal, Layout as default };
 // export default Layout;

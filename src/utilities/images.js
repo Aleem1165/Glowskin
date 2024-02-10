@@ -31,8 +31,16 @@ import DashboardLastCard1 from "../assets/images/DashboardLastCard1.png";
 import DashboardLastCard2 from "../assets/images/DashboardLastCard2.png";
 import DashboardLastCard3 from "../assets/images/DashboardLastCard3.png";
 import dashboardLastCardBG from "../assets/images/dashboardLastCardBG.png";
+import transfer from "../assets/images/transfer.png";
+import user from "../assets/images/user.png";
+import notification from "../assets/images/notification.png";
+import coin from "../assets/images/coin.png";
 
 const images = {
+  coin,
+  transfer,
+  user,
+  notification,
   dashboardLastCardBG,
   DashboardLastCard1,
   DashboardLastCard2,
