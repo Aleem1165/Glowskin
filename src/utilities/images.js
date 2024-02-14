@@ -38,8 +38,66 @@ import coin from "../assets/images/coin.png";
 import progress from "../assets/images/progress.png";
 import crossWhite from "../assets/images/crossWhite.png";
 import infoSquare from "../assets/images/infoSquare.png";
+import visa from "../assets/images/visa.png";
+import unionPay from "../assets/images/unionPay.png";
+import sofort from "../assets/images/sofort.png";
+import neosurf from "../assets/images/neosurf.png";
+import sofort2 from "../assets/images/sofort2.png";
+import neteller from "../assets/images/neteller.png";
+import webPay from "../assets/images/webPay.png";
+import visa2 from "../assets/images/visa2.png";
+import pPay from "../assets/images/pPay.png";
+import zelle from "../assets/images/zelle.png";
+import arkPay from "../assets/images/arkPay.png";
+import csgo from "../assets/images/csgo.png";
+import rust from "../assets/images/rust.png";
+import usdt2 from "../assets/images/usdt2.png";
+import trx from "../assets/images/trx.png";
+import bnb from "../assets/images/bnb.png";
+import solana2 from "../assets/images/solana2.png";
+import solana from "../assets/images/solana.png";
+import chainlink from "../assets/images/chainlink.png";
+import ripple from "../assets/images/ripple.png";
+import usdc from "../assets/images/usdc.png";
+import litecoin from "../assets/images/litecoin.png";
+import usdt from "../assets/images/usdt.png";
+import dogecoin from "../assets/images/dogecoin.png";
+import etherum from "../assets/images/etherum.png";
+import bitcoin from "../assets/images/bitcoin.png";
+import promotion from "../assets/images/promotion.png";
+import csgo2 from "../assets/images/csgo2.png";
+import wallet from "../assets/images/wallet.png";
 
 const images = {
+  csgo2,
+  wallet,
+  promotion,
+  usdt2,
+  trx,
+  bnb,
+  solana2,
+  solana,
+  chainlink,
+  ripple,
+  usdc,
+  litecoin,
+  usdt,
+  dogecoin,
+  etherum,
+  bitcoin,
+  csgo,
+  rust,
+  unionPay,
+  sofort,
+  neosurf,
+  sofort2,
+  neteller,
+  webPay,
+  visa2,
+  pPay,
+  zelle,
+  arkPay,
+  visa,
   infoSquare,
   crossWhite,
   progress,

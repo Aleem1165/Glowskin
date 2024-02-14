@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import images from "../../utilities/images";
-import { useModal, useSignIn } from "../../Screens/Layout";
+import { useModal, usePayment, useSignIn } from "../../Screens/Layout";
 
-export default function Header() {
+export default function Header({ deposit, setDeposit }) {
+  const { paymentModal, setPaymentModal } = usePayment();
+  const { isModalOpen, setIsModalOpen } = useModal();
+  const { signin, setSignin } = useSignIn();
+
   const [hamberg, setHamberg] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [headerRight, setHeaderRight] = useState(false);
   const [headerRightSignin, setHeaderRightSignin] = useState(false);
-  const { isModalOpen, setIsModalOpen } = useModal();
-  const { signin, setSignin } = useSignIn();
 
   return (
     <div className="w-full bg-headerBg fixed top-0 flex flex-row items-center justify-between px-3 py-3 opacity-80 z-10">
@@ -64,10 +66,22 @@ export default function Header() {
             <div className="h-7 bg-yellow flex items-center px-2 ml-2 cursor-pointer">
               <img src={images.notification} className="h-4" />
             </div>
-            <div className="bg-yellow ml-2 h-7 px-4 flex items-center active:opacity-50 cursor-pointer text-xs font-semibold">
+            <div
+              onClick={() => {
+                setDeposit(true);
+                setPaymentModal(true);
+              }}
+              className="bg-yellow ml-2 h-7 px-4 flex items-center active:opacity-50 cursor-pointer text-xs font-semibold"
+            >
               Deposit
             </div>
-            <div className="bg-btnGray text-white ml-2 h-7 px-4 flex items-center active:opacity-50 cursor-pointer text-xs font-semibold">
+            <div
+              onClick={() => {
+                setDeposit(false);
+                setPaymentModal(true);
+              }}
+              className="bg-btnGray text-white ml-2 h-7 px-4 flex items-center active:opacity-50 cursor-pointer text-xs font-semibold"
+            >
               Withdraw
             </div>
             <div className="bg-gemsBtn h-7 ml-2 flex flex-row items-center px-3">

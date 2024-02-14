@@ -20,6 +20,7 @@ module.exports = {
         grayText: "#848B8D",
         blue: "#60A5FA",
         blue2: "#01233D",
+        blue3: "#003962",
         btnDark: "#05263F",
         btnLight: "#033B63",
         green: "#61C553",
@@ -28,6 +29,7 @@ module.exports = {
         gemsBtn: "#07496E",
         progressBlue: "#103A56",
         paymentModalBg: "#002C4C",
+        paymentModalBg2: "#001F34",
       },
       width: {
         "5p": "5%",

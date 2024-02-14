@@ -14,8 +14,8 @@ const PaymentContext = createContext();
 
 const Layout = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [signin, setSignin] = useState(false);
-  const [paymentModal, setPaymentModal] = useState(true);
+  const [signin, setSignin] = useState(true);
+  const [paymentModal, setPaymentModal] = useState(false);
   const [deposit, setDeposit] = useState(true);
 
   const openModal = () => {
@@ -30,7 +30,7 @@ const Layout = () => {
       <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
         <SignInContext.Provider value={{ signin, setSignin }}>
           <PaymentContext.Provider value={{ paymentModal, setPaymentModal }}>
-            <Header />
+            <Header deposit={deposit} setDeposit={setDeposit} />
             <LiveDrops />
             <LiveChat />
             <div
