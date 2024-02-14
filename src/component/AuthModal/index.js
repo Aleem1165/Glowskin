@@ -4,19 +4,15 @@ import { useModal } from "../../Screens/Layout";
 import Login from "../Login";
 import Register from "../Register";
 
-const AuthModal = (
-  {
-    // useModal,
-    // isOpen, onClose
-  }
-) => {
+const AuthModal = () => {
   const { isModalOpen, setIsModalOpen } = useModal();
   //   const { signin, setSignin } = useSignIn();
   const [modalOpen, setModalOpen] = useState(false);
   const [tabname, setTabname] = useState("login");
 
   useEffect(() => {
-    setModalOpen(isModalOpen);
+    setTabname("login");
+    setIsModalOpen(isModalOpen);
     if (isModalOpen) {
       document.body.style.overflow = "hidden"; // Disable scrolling
     } else {
@@ -29,7 +25,6 @@ const AuthModal = (
   }, [isModalOpen]);
 
   const closeModal = () => {
-    setModalOpen(false);
     setIsModalOpen(false);
   };
 

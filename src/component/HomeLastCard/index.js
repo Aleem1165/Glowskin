@@ -29,7 +29,7 @@ const HomeLastCard = () => {
           {data.map((card, index) => (
             <div
               key={card.id}
-              className="bg-cover bg-contain bg-no-repeat flex flex-col items-center justify-between pt-3 pb-5 cursor-pointer hover:pt-3 hover:pb-3 "
+              className="bg-cover bg-contain bg-no-repeat flex flex-col items-center justify-between pt-3 pb-5 cursor-pointer "
               style={{
                 backgroundImage: `url(${images.dashboardLastCardBG})`,
               }}

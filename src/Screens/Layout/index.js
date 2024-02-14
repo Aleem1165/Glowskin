@@ -6,13 +6,17 @@ import AuthModal from "../../component/AuthModal";
 import LiveDrops from "../../component/LiveDrops";
 import LiveChat from "../../component/LiveChat";
 import images from "../../utilities/images";
+import PaymentModal from "../../component/PaymentModal";
 
 const ModalContext = createContext();
 const SignInContext = createContext();
+const PaymentContext = createContext();
 
 const Layout = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [signin, setSignin] = useState(true);
+  const [signin, setSignin] = useState(false);
+  const [paymentModal, setPaymentModal] = useState(true);
+  const [deposit, setDeposit] = useState(true);
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -25,22 +29,25 @@ const Layout = () => {
     <>
       <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
         <SignInContext.Provider value={{ signin, setSignin }}>
-          <Header />
-          <LiveDrops />
-          <LiveChat />
-          <div
-            className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px]"
-            style={{
-              backgroundImage: `url(${images.BG})`,
-            }}
-          >
-            <div className="w-full pt-[65vh]">
-              <Outlet />
+          <PaymentContext.Provider value={{ paymentModal, setPaymentModal }}>
+            <Header />
+            <LiveDrops />
+            <LiveChat />
+            <div
+              className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px]"
+              style={{
+                backgroundImage: `url(${images.BG})`,
+              }}
+            >
+              <div className="w-full pt-[65vh]">
+                <Outlet />
+              </div>
+              {/* <LiveChat /> */}
+              <Footer />
             </div>
-            {/* <LiveChat /> */}
-            <Footer />
-          </div>
-          <AuthModal />
+            <AuthModal />
+            <PaymentModal deposit={deposit} setDeposit={setDeposit} />
+          </PaymentContext.Provider>
         </SignInContext.Provider>
       </ModalContext.Provider>
     </>
@@ -63,6 +70,14 @@ const useSignIn = () => {
   return context;
 };
 
-export { useSignIn, useModal, Layout as default };
+const usePayment = () => {
+  const context = useContext(PaymentContext);
+  if (!context) {
+    throw new Error("usePayment must be used within a SignInProvider");
+  }
+  return context;
+};
+
+export { usePayment, useSignIn, useModal, Layout as default };
 // export { useModal, Layout as default };
 // export default Layout;

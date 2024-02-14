@@ -5,11 +5,13 @@ import images from "../../utilities/images";
 import videos from "../../utilities/videos";
 // import AutoVideoPlayer from "../AutoVideoPlayer";
 import { useModal, useSignIn } from "../../Screens/Layout";
+import AutoVideoPlayer from "../AutoVideoPlayer";
+import Progress from "../ProgresBar";
 
 const HomeImage = () => {
   const { isModalOpen, setIsModalOpen } = useModal();
   const { signin, setSignin } = useSignIn();
-  // const [signin, setSignin] = useState(false);
+  const [progress, setProgress] = useState(40);
 
   return (
     <div className="mb-10 flex w-full flex-col lg:flex-row justify-center gap-4 mt-8 max-w-screen-xl mx-auto ">
@@ -20,12 +22,12 @@ const HomeImage = () => {
         }}
       >
         {signin ? (
-          <div className="flex flex-col items-end lg:mr-20p">
+          <div className="flex flex-col items-end lg:ml-5p">
             <div className=" text-white font-bold">
               Welcome Back,
-              <span className="text-yellow font-bold text-lg"> Jazzy 007</span>
+              <span className="text-yellow font-bold text-lg"> Anonymous</span>
             </div>
-            {/* <Progress progress={progress} /> */}
+            <Progress progress={progress} />
           </div>
         ) : (
           <div className="flex flex-col items-start lg:ml-5p">
@@ -49,15 +51,18 @@ const HomeImage = () => {
           </div>
         )}
         {/* <div
-          className=" bottom-0 absolute hidden lg:block"
-          style={{ right: "30px" }}
+        className=" bottom-0 absolute hidden lg:block"
+        style={{ right: "30px" }}
         >
           <AutoVideoPlayer src={videos.agent} />
         </div> */}
-        <img
+        <div className="h-[200px] right-[-5px] bottom-0  absolute hidden lg:block">
+          <AutoVideoPlayer src={videos.agent} />
+        </div>
+        {/* <img
           src={images.dashboardImg1}
           className="h-[185px] right-[-5px] bottom-0  absolute hidden lg:block"
-        />
+        /> */}
       </div>
       <div
         className="w-full lg:w-1/2 bg-contain bg-no-repeat h-40 bg-cover relative flex flex-col items-center lg:items-start justify-center"

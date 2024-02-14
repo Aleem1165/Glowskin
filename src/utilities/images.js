@@ -35,8 +35,14 @@ import transfer from "../assets/images/transfer.png";
 import user from "../assets/images/user.png";
 import notification from "../assets/images/notification.png";
 import coin from "../assets/images/coin.png";
+import progress from "../assets/images/progress.png";
+import crossWhite from "../assets/images/crossWhite.png";
+import infoSquare from "../assets/images/infoSquare.png";
 
 const images = {
+  infoSquare,
+  crossWhite,
+  progress,
   coin,
   transfer,
   user,
