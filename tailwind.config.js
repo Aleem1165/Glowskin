@@ -30,6 +30,9 @@ module.exports = {
         progressBlue: "#103A56",
         paymentModalBg: "#002C4C",
         paymentModalBg2: "#001F34",
+        paymentImgBg: "#00233B",
+        inputBG: "#154669",
+        red: "#EF4444",
       },
       width: {
         "5p": "5%",

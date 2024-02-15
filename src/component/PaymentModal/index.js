@@ -2,11 +2,14 @@ import React, { useEffect, useState } from "react";
 import { usePayment } from "../../Screens/Layout";
 import images from "../../utilities/images";
 import "../../App.css";
+import Visa from "../Visa";
+import ArkPay from "../ArkPay";
+import Zelle from "../Zelle";
 
 export default function PaymentModal({ deposit, setDeposit }) {
   const { paymentModal, setPaymentModal } = usePayment();
 
-  const [selectedDeposit, setSelectDeposit] = useState("");
+  const [selectedDeposit, setSelectDeposit] = useState("asd");
   const [selectedWidthdraw, setSelectedWidthdraw] = useState("");
 
   const closeModal = () => {
@@ -14,7 +17,7 @@ export default function PaymentModal({ deposit, setDeposit }) {
   };
 
   useEffect(() => {
-    setSelectDeposit("");
+    // setSelectDeposit("");
     setSelectedWidthdraw("");
     setPaymentModal(paymentModal);
     if (paymentModal) {
@@ -27,6 +30,11 @@ export default function PaymentModal({ deposit, setDeposit }) {
       document.body.style.overflow = "auto"; // Re-enable scrolling when unmounting
     };
   }, [paymentModal]);
+
+  const handleChangeSelectedDeposit = (name) => {
+    // visa; arkpay zelle
+    setSelectDeposit(name);
+  };
 
   return (
     <div
@@ -91,7 +99,7 @@ export default function PaymentModal({ deposit, setDeposit }) {
           </div>
           {deposit ? (
             <div className="bg-blue3 rounded-md mt-3 w-full h-full check overflow-y-scroll px-2 py-4">
-              {selectedDeposit === "" ? (
+              {selectedDeposit == "" ? (
                 <div>
                   <div className="text-white text-md font-bold mb-2">Skins</div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 mb-6">
@@ -114,24 +122,42 @@ export default function PaymentModal({ deposit, setDeposit }) {
                   </div>
                   <div className="text-white text-md font-bold mb-2">Cash</div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 mb-6">
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.visa} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("visa")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.visa}
+                        className="w-16 h-14 bg-paymentImgBg p-2 border border-yellow"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Credit Card</div>
                         <div className="text-yellow ">Zen Payments</div>
                         <div className="text-yellow">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.arkPay} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("arkpay")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.arkPay}
+                        className="w-16 h-14 px-[8px] py-[18px] bg-paymentImgBg border border-yellow"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Credit Card</div>
                         <div className="text-yellow ">ArkPay</div>
                         <div className="text-yellow">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.zelle} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("zelle")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.zelle}
+                        className="w-16 h-14 bg-paymentImgBg px-2 py-3"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Zelle</div>
                         <div className="text-white opacity-60 ">Zelle</div>
@@ -139,7 +165,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.pPay} className="w-16 h-14" />
+                      <img
+                        src={images.pPay}
+                        className="w-16 h-14 bg-paymentImgBg py-1 px-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Giftcard</div>
                         <div className="text-white opacity-60 ">
@@ -149,7 +178,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.visa2} className="w-16 h-14" />
+                      <img
+                        src={images.visa}
+                        className="w-16 h-14 bg-paymentImgBg px-2 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Trustly</div>
                         <div className="text-white opacity-60 ">
@@ -159,7 +191,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.webPay} className="w-16 h-14" />
+                      <img
+                        src={images.webPay}
+                        className="w-16 h-14 px-2 bg-paymentImgBg py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Credit Card</div>
                         <div className="text-white opacity-60 ">
@@ -169,7 +204,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.neteller} className="w-16 h-14" />
+                      <img
+                        src={images.neteller}
+                        className="w-16 h-14 bg-paymentImgBg px-2 py-5"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Credit Card</div>
                         <div className="text-white opacity-60 ">
@@ -179,7 +217,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.sofort} className="w-16 h-14" />
+                      <img
+                        src={images.sofort}
+                        className="w-16 h-14 bg-paymentImgBg px-2 py-3"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Sofort</div>
                         <div className="text-white opacity-60 ">
@@ -189,7 +230,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.neosurf} className="w-16 h-14" />
+                      <img
+                        src={images.neosurf}
+                        className="w-16 h-14 bg-paymentImgBg px-2 py-5"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Giftcard</div>
                         <div className="text-white opacity-60 ">
@@ -199,7 +243,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.unionPay} className="w-16 h-14" />
+                      <img
+                        src={images.unionPay}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-3"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Trustly</div>
                         <div className="text-white opacity-60 ">
@@ -209,7 +256,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.sofort2} className="w-16 h-14" />
+                      <img
+                        src={images.sofort2}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Sofort</div>
                         <div className="text-white opacity-60 ">
@@ -341,7 +391,23 @@ export default function PaymentModal({ deposit, setDeposit }) {
                   </div>
                 </div>
               ) : (
-                <div>deposit selected</div>
+                <div className="flex flex-col items-center justify-center">
+                  <div className="w-full">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("")}
+                      className="bg-lineBlue w-8 h-6 flex items-center justify-center rounded-md hover:opacity-80 cursor-pointer"
+                    >
+                      <img src={images.backArrow} className="w-4 h-3" />
+                    </div>
+                  </div>
+                  {selectedDeposit === "visa" ? (
+                    <Visa />
+                  ) : selectedDeposit === "arkpay" ? (
+                    <ArkPay />
+                  ) : (
+                    <Zelle />
+                  )}
+                </div>
               )}
             </div>
           ) : (

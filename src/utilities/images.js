@@ -67,8 +67,12 @@ import bitcoin from "../assets/images/bitcoin.png";
 import promotion from "../assets/images/promotion.png";
 import csgo2 from "../assets/images/csgo2.png";
 import wallet from "../assets/images/wallet.png";
+import backArrow from "../assets/images/backArrow.png";
+import dollar from "../assets/images/dollar.png";
 
 const images = {
+  dollar,
+  backArrow,
   csgo2,
   wallet,
   promotion,
