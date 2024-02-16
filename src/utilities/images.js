@@ -69,8 +69,14 @@ import csgo2 from "../assets/images/csgo2.png";
 import wallet from "../assets/images/wallet.png";
 import backArrow from "../assets/images/backArrow.png";
 import dollar from "../assets/images/dollar.png";
+import check from "../assets/images/check.png";
+import unCheck from "../assets/images/unCheck.png";
+import giftcard from "../assets/images/giftcard.png";
 
 const images = {
+  giftcard,
+  check,
+  unCheck,
   dollar,
   backArrow,
   csgo2,

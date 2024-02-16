@@ -5,6 +5,8 @@ import "../../App.css";
 import Visa from "../Visa";
 import ArkPay from "../ArkPay";
 import Zelle from "../Zelle";
+import Gifycard from "../Giftcard";
+import VisaTrustly from "../VisaTrustly";
 
 export default function PaymentModal({ deposit, setDeposit }) {
   const { paymentModal, setPaymentModal } = usePayment();
@@ -17,7 +19,7 @@ export default function PaymentModal({ deposit, setDeposit }) {
   };
 
   useEffect(() => {
-    // setSelectDeposit("");
+    setSelectDeposit("");
     setSelectedWidthdraw("");
     setPaymentModal(paymentModal);
     if (paymentModal) {
@@ -32,7 +34,7 @@ export default function PaymentModal({ deposit, setDeposit }) {
   }, [paymentModal]);
 
   const handleChangeSelectedDeposit = (name) => {
-    // visa; arkpay zelle
+    // visa; arkpay zelle giftcard visaTrustly webMoney neteller sofort neosurf unionPay sofort2
     setSelectDeposit(name);
   };
 
@@ -164,7 +166,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("giftcard")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.pPay}
                         className="w-16 h-14 bg-paymentImgBg py-1 px-2"
@@ -177,7 +182,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("visaTrustly")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.visa}
                         className="w-16 h-14 bg-paymentImgBg px-2 py-2"
@@ -190,7 +198,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("webMoney")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.webPay}
                         className="w-16 h-14 px-2 bg-paymentImgBg py-2"
@@ -203,7 +214,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("neteller")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.neteller}
                         className="w-16 h-14 bg-paymentImgBg px-2 py-5"
@@ -216,7 +230,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("sofort")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.sofort}
                         className="w-16 h-14 bg-paymentImgBg px-2 py-3"
@@ -229,7 +246,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("neosurf")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.neosurf}
                         className="w-16 h-14 bg-paymentImgBg px-2 py-5"
@@ -242,7 +262,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("unionPay")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.unionPay}
                         className="w-16 h-14 bg-paymentImgBg px-3 py-3"
@@ -255,7 +278,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("sofort2")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img
                         src={images.sofort2}
                         className="w-16 h-14 bg-paymentImgBg px-3 py-2"
@@ -400,12 +426,30 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       <img src={images.backArrow} className="w-4 h-3" />
                     </div>
                   </div>
+                  {/* visa; arkpay zelle giftcard visaTrustly webMoney neteller */}
+                  {/* sofort neosurf unionPay sofort2 */}
                   {selectedDeposit === "visa" ? (
                     <Visa />
                   ) : selectedDeposit === "arkpay" ? (
                     <ArkPay />
-                  ) : (
+                  ) : selectedDeposit === "zelle" ? (
                     <Zelle />
+                  ) : selectedDeposit === "giftcard" ? (
+                    <Gifycard />
+                  ) : selectedDeposit === "visaTrustly" ? (
+                    <VisaTrustly />
+                  ) : selectedDeposit === "webMoney" ? (
+                    <div>webMoney</div>
+                  ) : selectedDeposit === "neteller" ? (
+                    <div>neteller</div>
+                  ) : selectedDeposit === "sofort" ? (
+                    <div>sofort</div>
+                  ) : selectedDeposit === "neosurf" ? (
+                    <div>neosurf</div>
+                  ) : selectedDeposit === "unionPay" ? (
+                    <div>unionPay</div>
+                  ) : (
+                    selectedDeposit === "sofort2" && <div>sofort2</div>
                   )}
                 </div>
               )}

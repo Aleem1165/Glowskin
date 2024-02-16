@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import images from "../../utilities/images";
 import "../../App.css";
 
-export default function Zelle() {
+export default function VisaTrustly() {
   const [pay, setPay] = useState(5);
   const [received, setReceived] = useState(7.3);
-  const [check, setCheck] = useState(false);
 
   const handleInputChange = (e) => {
-    const value = parseFloat(e.target.value); // Ensure value is parsed as a float
+    const value = parseFloat(e.target.value);
     setPay(value);
     const receivedValue = value * 1.46;
     const formattedReceivedValue =
@@ -22,9 +21,9 @@ export default function Zelle() {
     <div className="-70p md:w-50p">
       <div className="w-full bg-paymentModalBg p-4">
         <div className="flex flex-row items-center ">
-          <img src={images.zelle} className="w-12 h-8 bg-transparent" />
+          <img src={images.visa} className="w-12 h-8 bg-transparent" />
           <div className="text-xs ml-2 font-semibold">
-            <div className="text-white text-sm">Zelle</div>
+            <div className="text-white text-sm">Trustly</div>
             <div className="text-lineBlue">1 USD = 1.46</div>
           </div>
         </div>
@@ -72,6 +71,30 @@ export default function Zelle() {
             </div>
           </div>
         </div>
+        <div className="w-full flex flex-row items-center justify-between gap-4 mt-6">
+          <div className="w-33p flex">
+            <input
+              type="number"
+              placeholder="Card Number"
+              className="w-80p focus:outline-none bg-transparent text-white border-b border-lineBlue border-opacity-50 pb-1 text-sm placeholder-white placeholder-opacity-50"
+            />
+          </div>
+          <div className="w-33p flex items-center justify-center">
+            <input
+              type="number"
+              placeholder="Expiry"
+              className="w-80p focus:outline-none bg-transparent text-white border-b border-lineBlue border-opacity-50 pb-1 text-sm placeholder-white placeholder-opacity-50"
+            />
+          </div>
+          <div className="w-33p flex">
+            <input
+              type="number"
+              placeholder="CVV"
+              className="w-80p focus:outline-none bg-transparent text-white border-b border-lineBlue border-opacity-50 pb-1 text-sm placeholder-white placeholder-opacity-50 ml-auto "
+            />
+          </div>
+        </div>
+
         <div className="w-full flex flex-row gap-4 mt-5">
           <div className="w-50p ">
             <input
@@ -98,55 +121,25 @@ export default function Zelle() {
         <div className="w-full flex flex-row gap-4 mt-5">
           <div className="w-50p ">
             <input
-              type="text"
-              placeholder="Country"
+              type="number"
+              placeholder="ZIP Code"
               className="w-80p focus:outline-none bg-transparent text-white border-b border-lineBlue border-opacity-50 pb-1 text-sm placeholder-white placeholder-opacity-50"
             />
           </div>
           <div className="w-50p">
             <input
               type="text"
-              placeholder="Phone"
+              placeholder="Country"
               className="w-80p focus:outline-none bg-transparent text-white border-b border-lineBlue border-opacity-50 pb-1 text-sm placeholder-white placeholder-opacity-50"
             />
           </div>
         </div>
-        <div className="flex flex-row items-center mt-5">
-          <img
-            src={check ? images.check : images.unCheck}
-            onClick={() => setCheck(!check)}
-            className="w-4 cursor-pointer"
-          />
-          <div className="text-white text-xs mb-1 font-semibold ml-2 mt-1">
-            Send SMS and E-mail Instructions
-          </div>
-        </div>
         <div className="w-80p bg-yellow mx-auto mt-4 flex items-center justify-center text-sm text-black font-bold py-2 rounded-md cursor-pointer active:opacity-70">
-          Pay With Zelle
+          Pay With Zen
         </div>
       </div>
       <div className="text-xs text-white mt-3">
-        <p className="border-l-2 border-yellow bg-paymentModalBg p-2">
-          You will be emailed and texted instructions on how to complete your
-          Zelle deposit. It is important to include the memo your receive in the
-          text and email. It may take up to 5-10 minutes for your deposit to
-          credit. A 8% fee is applied before the bonus.
-        </p>
-        <p className="mt-2 border-l-2 border-yellow bg-paymentModalBg p-2">
-          Following limits apply to Zelle deposits:
-          <div className="flex flex-row items-center ml-2">
-            <div className="w-[6px] h-[6px] bg-white rounded-full mt-[1px] mr-1"></div>
-            <div>Daily: $1,000 or 3 transactions</div>
-          </div>
-          <div className="flex flex-row items-center ml-2">
-            <div className="w-[6px] h-[6px] bg-white rounded-full mt-[1px] mr-1"></div>
-            <div>Weekly: $3,500 or 21 transactions</div>
-          </div>
-          <div className="flex flex-row items-center ml-2">
-            <div className="w-[6px] h-[6px] bg-white rounded-full mt-[1px] mr-1"></div>
-            <div>Monthly: $9,500 or 60 transactions</div>
-          </div>
-        </p>
+        <p>A 1.5% fee will be applied before receiving the bonus.</p>
       </div>
     </div>
   );
