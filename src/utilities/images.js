@@ -42,7 +42,7 @@ import visa from "../assets/images/visa.png";
 import unionPay from "../assets/images/unionPay.png";
 import sofort from "../assets/images/sofort.png";
 import neosurf from "../assets/images/neosurf.png";
-import sofort2 from "../assets/images/sofort2.png";
+import weChat from "../assets/images/weChat.png";
 import neteller from "../assets/images/neteller.png";
 import webPay from "../assets/images/webPay.png";
 import visa2 from "../assets/images/visa2.png";
@@ -100,7 +100,7 @@ const images = {
   unionPay,
   sofort,
   neosurf,
-  sofort2,
+  weChat,
   neteller,
   webPay,
   visa2,

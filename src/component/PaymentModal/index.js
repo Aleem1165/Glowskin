@@ -7,6 +7,12 @@ import ArkPay from "../ArkPay";
 import Zelle from "../Zelle";
 import Gifycard from "../Giftcard";
 import VisaTrustly from "../VisaTrustly";
+import WebMoney from "../WebMoney";
+import Neteller from "../Neteller";
+import Sofort from "../Sofort";
+import Neosurf from "../Neosurf";
+import UnionPay from "../UnionPay";
+import WeChat from "../WeChat";
 
 export default function PaymentModal({ deposit, setDeposit }) {
   const { paymentModal, setPaymentModal } = usePayment();
@@ -279,15 +285,15 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       </div>
                     </div>
                     <div
-                      onClick={() => handleChangeSelectedDeposit("sofort2")}
+                      onClick={() => handleChangeSelectedDeposit("weChat")}
                       className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
                     >
                       <img
-                        src={images.sofort2}
+                        src={images.weChat}
                         className="w-16 h-14 bg-paymentImgBg px-3 py-2"
                       />
                       <div className="text-xs ml-2 font-semibold">
-                        <div className="text-white text-sm">Sofort</div>
+                        <div className="text-white text-sm">WeChat</div>
                         <div className="text-white opacity-60 ">
                           Zen Payments
                         </div>
@@ -439,17 +445,17 @@ export default function PaymentModal({ deposit, setDeposit }) {
                   ) : selectedDeposit === "visaTrustly" ? (
                     <VisaTrustly />
                   ) : selectedDeposit === "webMoney" ? (
-                    <div>webMoney</div>
+                    <WebMoney />
                   ) : selectedDeposit === "neteller" ? (
-                    <div>neteller</div>
+                    <Neteller />
                   ) : selectedDeposit === "sofort" ? (
-                    <div>sofort</div>
+                    <Sofort />
                   ) : selectedDeposit === "neosurf" ? (
-                    <div>neosurf</div>
+                    <Neosurf />
                   ) : selectedDeposit === "unionPay" ? (
-                    <div>unionPay</div>
+                    <UnionPay />
                   ) : (
-                    selectedDeposit === "sofort2" && <div>sofort2</div>
+                    selectedDeposit === "weChat" && <WeChat />
                   )}
                 </div>
               )}
