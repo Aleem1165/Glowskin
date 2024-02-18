@@ -21,7 +21,7 @@ module.exports = {
         blue: "#60A5FA",
         blue2: "#01233D",
         blue3: "#003962",
-        blue4:"#033d5e",
+        blue4: "#033d5e",
         btnDark: "#05263F",
         btnLight: "#033B63",
         green: "#61C553",
@@ -34,8 +34,9 @@ module.exports = {
         paymentImgBg: "#00233B",
         inputBG: "#154669",
         red: "#EF4444",
-        lightGray:"#CBCACA",
-        disabledGray:"#A7A7A7"
+        lightGray: "#CBCACA",
+        disabledGray: "#A7A7A7",
+        disabledGray2: "#757575",
       },
       width: {
         "5p": "5%",
@@ -105,8 +106,8 @@ module.exports = {
       },
     },
     fontWeight: {
-      '600': 600,
-      '700': 700,
+      600: 600,
+      700: 700,
     },
   },
   plugins: [],

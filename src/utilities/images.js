@@ -80,6 +80,8 @@ import target from "../assets/images/target.png";
 import circle from "../assets/images/circle.png";
 import briefcase from "../assets/images/briefcase.png";
 import info from "../assets/images/info.png";
+import lock from "../assets/images/lock.png";
+import disabledCircle from "../assets/images/disabledCircle.png";
 
 const images = {
   giftcard,
@@ -163,7 +165,9 @@ const images = {
   target,
   circle,
   briefcase,
-  info
+  info,
+  lock,
+  disabledCircle
 };
 
 export default images;
