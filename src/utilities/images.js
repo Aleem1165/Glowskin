@@ -79,6 +79,7 @@ import Line from "../assets/images/Line.png";
 import target from "../assets/images/target.png";
 import circle from "../assets/images/circle.png";
 import briefcase from "../assets/images/briefcase.png";
+import info from "../assets/images/info.png";
 
 const images = {
   giftcard,
@@ -162,6 +163,7 @@ const images = {
   target,
   circle,
   briefcase,
+  info
 };
 
 export default images;

@@ -106,6 +106,7 @@ module.exports = {
     },
     fontWeight: {
       '600': 600,
+      '700': 700,
     },
   },
   plugins: [],

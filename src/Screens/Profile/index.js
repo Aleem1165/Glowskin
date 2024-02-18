@@ -2,6 +2,8 @@ import React from "react";
 import images from "../../utilities/images";
 export default function Profile() {
   return (
+    <div>
+
     <div
       className="mt-5p p-3 w-90p mx-auto "
       style={{
@@ -76,11 +78,7 @@ export default function Profile() {
           </div>
         </div>
       </div>
-      {/* <div>
-        <img src={images.target} className="ml-2 h-10" />
-        <div className="text-white text-sm ml-3">Mission Tree</div>
-
-      </div> */}
+    
 
       <div className="flex flex-row items-center mt-5 ml-5">
         <img src={images.target} className="h-5 w-5" />
@@ -105,13 +103,37 @@ export default function Profile() {
           ━━━ Earn commission with your custom cases
         </div>
       </div>
-      <div className="bg-blue4 w-18p ml-5 mt-5 rounded-t-md rounded-b-lg">
-        <div className="text-white font-600 mt-3 ml-5">Available Earnings</div>
-        <div className="flex flex-row mt-1 ml-5">
-          <img src={images.coin} className="w-5 h-5" />
-          <div className="text-white text-sm ml-3 pb-3">0.00</div>
+      <div className="flex items-center pb-20">
+        <div>
+          <div className="bg-blue4  ml-5 mt-5 rounded-t-md rounded-b-lg">
+            <div className="text-white font-600 mt-3 ml-5">
+              Available Earnings
+            </div>
+            <div className="flex flex-row mt-1 ml-5">
+              <img src={images.coin} className="w-5 h-5" />
+              <div className="text-white text-sm ml-3 pb-3">0.00</div>
+            </div>
+          </div>
+          <div className="bg-yellow p-3 ml-5 mt-3 cursor-pointer font-600 text-center">
+            Claim Earnings
+          </div>
+          <div className="bg-yellow p-3 ml-5 mt-3 cursor-pointer font-600 text-center">
+            Your Case Overview
+          </div>
+        </div>
+        <div className="mx-auto">
+          <div className="text-white font-600">
+            You don’t have any cases yet.
+          </div>
+          <div className="bg-yellow p-3 mt-3 cursor-pointer font-600 text-center flex items-center">
+            <img src={images.info} className="h-5 w-5"/>
+            <div className="mx-auto">Create Custom Case</div>
+          </div>
         </div>
       </div>
     </div>
+    <div className="pb-20"></div>
+    </div>
+
   );
 }
