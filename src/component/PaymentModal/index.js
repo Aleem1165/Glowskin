@@ -13,6 +13,19 @@ import Sofort from "../Sofort";
 import Neosurf from "../Neosurf";
 import UnionPay from "../UnionPay";
 import WeChat from "../WeChat";
+import Bitcoin from "../Bitcoin";
+import Etherum from "../Etherum";
+import Litecoin from "../Litecoin";
+import Dogecoin from "../Dogecoin";
+import UsdtTrx from "../UsdtTrx";
+import Usdc from "../Usdc";
+import Ripple from "../Ripple";
+import Chainlink from "../Chainlink";
+import Solana from "../Solana";
+import Ada from "../Ada";
+import Bnb from "../Bnb";
+import Trx from "../Trx";
+import Usdt from "../Usdt";
 
 export default function PaymentModal({ deposit, setDeposit }) {
   const { paymentModal, setPaymentModal } = usePayment();
@@ -41,6 +54,7 @@ export default function PaymentModal({ deposit, setDeposit }) {
 
   const handleChangeSelectedDeposit = (name) => {
     // visa; arkpay zelle giftcard visaTrustly webMoney neteller sofort neosurf unionPay sofort2
+    // bitcoin etherum litecoin dogecoin usdtTrx usdc ripple chainlink solana ada bnb trx usdt
     setSelectDeposit(name);
   };
 
@@ -305,104 +319,182 @@ export default function PaymentModal({ deposit, setDeposit }) {
                     Cryptocurrencies
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 mb-6">
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.bitcoin} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("bitcoin")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.bitcoin}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Bitcoin</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.etherum} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("etherum")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.etherum}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Etherum</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.litecoin} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("litecoin")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.litecoin}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Litecoin</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.dogecoin} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("dogecoin")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.dogecoin}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Dogecoin</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.usdt} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("usdtTrx")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.usdt}
+                        className="w-16 h-14 bg-paymentImgBg px-2 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">USDT (TRX)</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.usdc} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("usdc")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.usdc}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">USDC</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.ripple} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("ripple")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.ripple}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Ripple</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.chainlink} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("chainlink")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.chainlink}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Chainlink</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.solana} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("solana")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.solana}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Solana</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.solana2} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("ada")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.Ada}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
-                        <div className="text-white text-sm">Solana</div>
+                        <div className="text-white text-sm">Ada (Cardano)</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.bnb} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("bnb")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.bnb}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">BNB (BSC)</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.trx} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("trx")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.trx}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">TRX</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
                         <div className="text-lineBlue">1 USD = 1.46 gems</div>
                       </div>
                     </div>
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
-                      <img src={images.usdt2} className="w-16 h-14" />
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("usdt")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
+                      <img
+                        src={images.usdt2}
+                        className="w-16 h-14 bg-paymentImgBg px-3 py-2"
+                      />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">USDT (ERC20)</div>
                         <div className="text-white opacity-60 ">Glowskin</div>
@@ -432,8 +524,6 @@ export default function PaymentModal({ deposit, setDeposit }) {
                       <img src={images.backArrow} className="w-4 h-3" />
                     </div>
                   </div>
-                  {/* visa; arkpay zelle giftcard visaTrustly webMoney neteller */}
-                  {/* sofort neosurf unionPay sofort2 */}
                   {selectedDeposit === "visa" ? (
                     <Visa />
                   ) : selectedDeposit === "arkpay" ? (
@@ -454,8 +544,34 @@ export default function PaymentModal({ deposit, setDeposit }) {
                     <Neosurf />
                   ) : selectedDeposit === "unionPay" ? (
                     <UnionPay />
+                  ) : selectedDeposit === "weChat" ? (
+                    <WeChat />
+                  ) : selectedDeposit === "bitcoin" ? (
+                    <Bitcoin />
+                  ) : selectedDeposit === "etherum" ? (
+                    <Etherum />
+                  ) : selectedDeposit === "litecoin" ? (
+                    <Litecoin />
+                  ) : selectedDeposit === "dogecoin" ? (
+                    <Dogecoin />
+                  ) : selectedDeposit === "usdtTrx" ? (
+                    <UsdtTrx />
+                  ) : selectedDeposit === "usdc" ? (
+                    <Usdc />
+                  ) : selectedDeposit === "ripple" ? (
+                    <Ripple />
+                  ) : selectedDeposit === "chainlink" ? (
+                    <Chainlink />
+                  ) : selectedDeposit === "solana" ? (
+                    <Solana />
+                  ) : selectedDeposit === "ada" ? (
+                    <Ada />
+                  ) : selectedDeposit === "bnb" ? (
+                    <Bnb />
+                  ) : selectedDeposit === "trx" ? (
+                    <Trx />
                   ) : (
-                    selectedDeposit === "weChat" && <WeChat />
+                    selectedDeposit === "usdt" && <Usdt />
                   )}
                 </div>
               )}

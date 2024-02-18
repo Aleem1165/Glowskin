@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         headerBg: "#072740",
         yellow: "#FFAC0C",
+        yellowDis: "#AEA696",
         logoLine: "#D9D9D9",
         lineBlue: "#0CAAF3",
         //

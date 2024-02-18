@@ -54,7 +54,7 @@ import rust from "../assets/images/rust.png";
 import usdt2 from "../assets/images/usdt2.png";
 import trx from "../assets/images/trx.png";
 import bnb from "../assets/images/bnb.png";
-import solana2 from "../assets/images/solana2.png";
+import Ada from "../assets/images/Ada.png";
 import solana from "../assets/images/solana.png";
 import chainlink from "../assets/images/chainlink.png";
 import ripple from "../assets/images/ripple.png";
@@ -72,8 +72,12 @@ import dollar from "../assets/images/dollar.png";
 import check from "../assets/images/check.png";
 import unCheck from "../assets/images/unCheck.png";
 import giftcard from "../assets/images/giftcard.png";
+import copy from "../assets/images/copy.png";
+import done from "../assets/images/done.png";
 
 const images = {
+  copy,
+  done,
   giftcard,
   check,
   unCheck,
@@ -85,7 +89,7 @@ const images = {
   usdt2,
   trx,
   bnb,
-  solana2,
+  Ada,
   solana,
   chainlink,
   ripple,
