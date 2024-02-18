@@ -39,7 +39,8 @@ const Layout = () => {
                 backgroundImage: `url(${images.BG})`,
               }}
             >
-              <div className="w-full pt-[65vh]">
+              <div className="w-full ">
+              {/* <div className="w-full pt-[65vh]"> */}
                 <Outlet />
               </div>
               {/* <LiveChat /> */}

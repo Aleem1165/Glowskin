@@ -21,6 +21,7 @@ module.exports = {
         blue: "#60A5FA",
         blue2: "#01233D",
         blue3: "#003962",
+        blue4:"#033d5e",
         btnDark: "#05263F",
         btnLight: "#033B63",
         green: "#61C553",
@@ -33,10 +34,14 @@ module.exports = {
         paymentImgBg: "#00233B",
         inputBG: "#154669",
         red: "#EF4444",
+        lightGray:"#CBCACA",
+        disabledGray:"#A7A7A7"
       },
       width: {
         "5p": "5%",
         "10p": "10%",
+        "15p": "12%",
+        "18p": "18%",
         "20p": "20%",
         "25p": "25%",
         "29p": "29%",
@@ -73,6 +78,7 @@ module.exports = {
       },
       height: {
         49: "49%",
+        "5p": "5%",
         "10p": "10%",
         "43p": "43%",
         "30p": "50%",
@@ -97,6 +103,9 @@ module.exports = {
       fontFamily: {
         custom: ["YourCustomFont", "Puppies Play"],
       },
+    },
+    fontWeight: {
+      '600': 600,
     },
   },
   plugins: [],

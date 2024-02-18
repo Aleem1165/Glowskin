@@ -72,6 +72,13 @@ import dollar from "../assets/images/dollar.png";
 import check from "../assets/images/check.png";
 import unCheck from "../assets/images/unCheck.png";
 import giftcard from "../assets/images/giftcard.png";
+import profile from "../assets/images/profile.png";
+import userProfile from "../assets/images/userProfile.png";
+import profileBg from "../assets/images/profileBg.png";
+import Line from "../assets/images/Line.png";
+import target from "../assets/images/target.png";
+import circle from "../assets/images/circle.png";
+import briefcase from "../assets/images/briefcase.png";
 
 const images = {
   giftcard,
@@ -148,6 +155,13 @@ const images = {
   arrowDown,
   arrowUp,
   race,
+  profile,
+  userProfile,
+  profileBg,
+  Line,
+  target,
+  circle,
+  briefcase,
 };
 
 export default images;
