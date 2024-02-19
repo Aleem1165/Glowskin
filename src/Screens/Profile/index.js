@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import images from "../../utilities/images";
 import ProgressBar from "@ramonak/react-progress-bar";
+import SettingsModal from "../../component/SettingsModal";
 
 export default function Profile() {
+  
+  const [ isModalOpen, setIsModalOpen ] = useState(false)
+
   return (
     <div>
       <div
@@ -35,7 +39,9 @@ export default function Profile() {
             <div className="text-xs text-blue3 bg-white w-12p p-2 cursor-pointer p-1 font-600">
               Trade URL
             </div>
-            <div className="text-xs text-blue3 bg-white w-12p p-2 cursor-pointer p-1 ml-2 font-600">
+            <div 
+            onClick={() => setIsModalOpen(true)}
+            className="text-xs text-blue3 bg-white w-12p p-2 cursor-pointer p-1 ml-2 font-600">
               Settings
             </div>
             <div className="text-xs text-blue3 bg-white w-12p p-2 cursor-pointer p-1 ml-2 font-600">
@@ -244,6 +250,10 @@ export default function Profile() {
         </div>
       </div>
       <div className="pb-20"></div>
+      <SettingsModal 
+      isModalOpen={isModalOpen}
+      setIsModalOpen={setIsModalOpen}
+      />
     </div>
   );
 }

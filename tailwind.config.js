@@ -34,9 +34,12 @@ module.exports = {
         paymentImgBg: "#00233B",
         inputBG: "#154669",
         red: "#EF4444",
+        red2: "#FF3939",
         lightGray: "#CBCACA",
         disabledGray: "#A7A7A7",
         disabledGray2: "#757575",
+        steamBtn:'#334155',
+        btnBlue:'#2563EB',
       },
       width: {
         "5p": "5%",
@@ -105,10 +108,7 @@ module.exports = {
         custom: ["YourCustomFont", "Puppies Play"],
       },
     },
-    fontWeight: {
-      600: 600,
-      700: 700,
-    },
+  
   },
   plugins: [],
 };

@@ -100,11 +100,11 @@ export default function LiveDrops() {
                     backgroundImage: `url(${images.liveDropBG})`,
                   }}
                 >
-                  <div className="flex flex-col text-xs">
+                  <div className="flex flex-col text-xs text-white">
                     <span className="text-yellow">{item.name}</span>
                     {`${item.percent}.00`}
                   </div>
-                  <img src={item.image} className="w-20" />
+                  <img src={item.image} className="w-20 " />
                 </div>
               );
             })}

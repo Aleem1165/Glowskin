@@ -82,8 +82,20 @@ import briefcase from "../assets/images/briefcase.png";
 import info from "../assets/images/info.png";
 import lock from "../assets/images/lock.png";
 import disabledCircle from "../assets/images/disabledCircle.png";
+import steam from "../assets/images/steam.png";
+import game from "../assets/images/game.png";
+import google from "../assets/images/google.png";
+import simpleLock from "../assets/images/simpleLock.png";
+import signinOut from "../assets/images/signinOut.png";
+import cap from "../assets/images/cap.png";
 
 const images = {
+  cap,
+  simpleLock,
+  signinOut,
+  steam,
+  game,
+  google,
   giftcard,
   check,
   unCheck,
@@ -167,7 +179,7 @@ const images = {
   briefcase,
   info,
   lock,
-  disabledCircle
+  disabledCircle,
 };
 
 export default images;

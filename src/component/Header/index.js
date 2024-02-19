@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import images from "../../utilities/images";
 import { useModal, usePayment, useSignIn } from "../../Screens/Layout";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Header({ deposit, setDeposit }) {
+
+  const navigate = useNavigate()
+
   const { paymentModal, setPaymentModal } = usePayment();
   const { isModalOpen, setIsModalOpen } = useModal();
   const { signin, setSignin } = useSignIn();
@@ -14,12 +18,12 @@ export default function Header({ deposit, setDeposit }) {
 
   return (
     <div className="w-full bg-headerBg fixed top-0 flex flex-row items-center justify-between px-3 py-3 opacity-80 z-10">
-      <div className="text-white text-2xl font-extrabold flex flex items-center">
+      <Link to={'/'} className="text-white text-2xl font-extrabold flex flex items-center">
         GLOW SKIN
         <div className="w-[2px] h-10 bg-logoLine ml-10"></div>
-      </div>
+      </Link>
       <div className="hidden md:flex align-center justify-between text-white w-30p lg:w-20p xl:10p text-xs">
-        <div className="cursor-pointer">Home</div>
+        <Link to={'/'} className="cursor-pointer">Home</Link>
         <div
           className="relative cursor-pointer flex items-center"
           onClick={() => setIsOpen(!isOpen)}
@@ -93,6 +97,7 @@ export default function Header({ deposit, setDeposit }) {
             </div>
             <div className="relative">
               <div
+              onClick={() => navigate('/profile')}
                 className="h-7 bg-white flex items-center px-2 ml-2 cursor-pointer"
                 onMouseEnter={() => setHeaderRightSignin(true)}
                 onMouseLeave={() => setHeaderRightSignin(false)}

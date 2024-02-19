@@ -89,8 +89,6 @@ export default function PaymentModal({ deposit, setDeposit }) {
                 <input
                   type="text"
                   placeholder="Affiliate Code"
-                  // placeholder-white
-                  // bg-transparent
                   className="focus:outline-none text-sm p-1 bg-transparent text-white placeholder-white w-[160px]"
                 />
                 <img src={images.infoSquare} className="w-5 h-5" />
