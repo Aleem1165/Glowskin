@@ -61,7 +61,7 @@ export default function Footer() {
           Terms of Service
         </Link>
         <Link
-          //   to={"/privacy"}
+          to={"/privacy"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
         >
           Privacy Policy
@@ -69,7 +69,11 @@ export default function Footer() {
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
           Legal Opinion
         </div>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+
+        <Link
+          to={"/aml"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           AML Policy
         </Link>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5">

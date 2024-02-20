@@ -6,6 +6,8 @@ import Profile from "../../Screens/Profile";
 import Fairness from "../../Screens/Fairness";
 import Questions from "../../Screens/Questions";
 import TermsOfService from "../../Screens/TermsOfService";
+import PrivacyPolicy from "../../Screens/PrivacyPolicy";
+import AMLPolicy from "../../Screens/AMLPolicy";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
       {
         path: "/tos",
         element: <TermsOfService />,
+      },
+      {
+        path: "/privacy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "/aml",
+        element: <AMLPolicy />,
       },
     ],
   },
