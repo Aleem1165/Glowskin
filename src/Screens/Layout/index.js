@@ -34,7 +34,7 @@ const Layout = () => {
             <LiveDrops />
             <LiveChat />
             <div
-              className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px]"
+              className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
               style={{
                 backgroundImage: `url(${images.BG})`,
               }}
@@ -43,7 +43,6 @@ const Layout = () => {
               {/* <div className="w-full pt-[65vh]"> */}
                 <Outlet />
               </div>
-              {/* <LiveChat /> */}
               <Footer />
             </div>
             <AuthModal />

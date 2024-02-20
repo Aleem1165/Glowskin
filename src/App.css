@@ -62,6 +62,25 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.container {
+  overflow-x: auto;
+  /* Set a fixed height and width for the container */
+  height: 100px;
+  width: 100%; /* Or any other appropriate width */
+}
+
+.child {
+  /* Set width using calc() to subtract scrollbar width */
+  width: calc(200px - 17px); /* Adjust 17px according to your browser's scrollbar width */
+  height: 100px;
+  background-color: red;
+  margin-left: 2px;
+}
+
+.slider{
+  background-color: red;
+}
+
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
