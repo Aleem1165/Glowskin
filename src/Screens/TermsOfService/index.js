@@ -27,24 +27,24 @@ export default function TermsOfService() {
               Date Last Modified: December 20, 2023
             </p> */}
             <p className="text-white text-opacity-50 w-full mt-2 ">
-              Glowskins.gg is owned and operated by Rust Glowskins Entertainment
-              Ltd, registration number HE439425, located at Thermistokli Dervi,
-              48, 3rd Floor, Office 306, 1065, Nicosia, Cyprus.
+              Glowskin is owned and operated by Rust Glowskin Entertainment Ltd,
+              registration number HE439425, located at Thermistokli Dervi, 48,
+              3rd Floor, Office 306, 1065, Nicosia, Cyprus.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Payments may be handled on behalf of Rust Glowskins Entertainment
+              Payments may be handled on behalf of Rust Glowskin Entertainment
               Ltd, registration number HE439425, located at Thermistokli Dervi,
               48, 3rd Floor, Office 306, 1065, Nicosia, Cyprus.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Thank you for reviewing these Terms and Conditions of Use (the
-              “Terms of Use,” “Terms,” or “Agreement”). Glowskins.gg Holdings
-              (”Glowskins.gg,” “We,” “Us,” or “Our”) makes
-              https://glowskins.gg/, (“Website”), its mobile application
-              (“App”), and any other services (collectively “Services) available
-              for your (“You,” “Your,” “User,” or “Users”) use subject to this
-              Agreement. This Agreement spells out what Users can expect from
-              Glowskins.gg and what Glowskins.gg expects from its Users.
+              “Terms of Use,” “Terms,” or “Agreement”). Glowskin Holdings
+              (”Glowskin,” “We,” “Us,” or “Our”) makes https://glowskin/,
+              (“Website”), its mobile application (“App”), and any other
+              services (collectively “Services) available for your (“You,”
+              “Your,” “User,” or “Users”) use subject to this Agreement. This
+              Agreement spells out what Users can expect from Glowskin and what
+              Glowskin expects from its Users.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               You acknowledge and agree that by browsing or using the content,
@@ -68,23 +68,23 @@ export default function TermsOfService() {
               entitle you to an item offered on the Site.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              The Glowskins.gg Privacy Policy is an integral part of this
-              Agreement and is expressly incorporated by reference. The
-              Glowskins.gg Privacy Policy explains how Glowskins.gg collects and
-              protects information about Users who use Glowskins.gg and can be
-              viewed at https://glowskins.gg//privacy.
+              The Glowskin Privacy Policy is an integral part of this Agreement
+              and is expressly incorporated by reference. The Glowskin Privacy
+              Policy explains how Glowskin collects and protects information
+              about Users who use Glowskin and can be viewed at
+              https://glowskin//privacy.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Please read this Agreement carefully before creating a
-              Glowskins.gg account (“Account”), downloading the App, using the
-              Website, or participating in Glowskins.gg. Any questions regarding
-              the Terms or the Privacy Policy should be directed to
-              officialrustGlowskins@gmail.com.
+              Please read this Agreement carefully before creating a Glowskin
+              account (“Account”), downloading the App, using the Website, or
+              participating in Glowskin. Any questions regarding the Terms or
+              the Privacy Policy should be directed to
+              officialrustGlowskin@gmail.com.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Please note the arbitration provision set forth below, which
               requires, except where and to the extent prohibited by law, you to
-              arbitrate any claims you may have against Glowskins.gg on an
+              arbitrate any claims you may have against Glowskin on an
               individual basis. arbitration on an individual basis means that
               you will not have, and you waive, the right for a judge or jury to
               decide your claims, and that you may not proceed in a class,
@@ -98,33 +98,33 @@ export default function TermsOfService() {
             </div>
             <p className="text-white text-opacity-50 w-full  ">
               By downloading the App, using the Website, or participating in
-              Glowskins.gg, including, without limitation, participating in its
+              Glowskin, including, without limitation, participating in its
               games and contests (each a “Contest”), Users: (i) acknowledge that
               they have read and agree to be bound to and abide by these Terms;
               (ii) accept and agree to all obligations, rules and scoring
               systems for each Contest in which they participate; and (iii)
               represent and warrant that they are authorized and able to accept
-              these Terms. Glowskins.gg may also issue additional terms, rules
-              and conditions of participation in particular Contests, which are
+              these Terms. Glowskin may also issue additional terms, rules and
+              conditions of participation in particular Contests, which are
               expressly incorporated by reference. Users agree to be subject to
               them if they participate in such Contests. If a User does not wish
               to be bound by the Terms, the User must not download, access or
-              use Service Glowskins.gg By declining to accept these Terms, the
-              User will be unable to participate in Glowskins.gg, including
-              participating on the activities offered through the Website.
+              use Service Glowskin By declining to accept these Terms, the User
+              will be unable to participate in Glowskin, including participating
+              on the activities offered through the Website.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg reserves the right to change these Terms at any time
+              Glowskin reserves the right to change these Terms at any time
               without prior notice to Users. If We modify these Terms, we will
               update the “Date Last Modified” and such changes will be effective
               upon posting. If We make what we determine to be material changes
               to these Terms, we will notify Users by prominently posting a
               notice on the Website and/or App or by sending a notice to the
-              e-mail addresses on file. Users continued use of Glowskins.gg
+              e-mail addresses on file. Users continued use of Glowskin
               following such changes constitutes acceptance of such changes. If
               Users do not agree to the changes, their sole remedy is to cease
-              using Glowskins.gg. If Users breach any of the Terms, their
-              authorization to use Glowskins.gg automatically terminates.
+              using Glowskin. If Users breach any of the Terms, their
+              authorization to use Glowskin automatically terminates.
             </p>
           </div>
 
@@ -134,9 +134,9 @@ export default function TermsOfService() {
             </div>
             <p className="text-white text-opacity-50 w-full  ">
               No individual under the age of eighteen (18), or under the age of
-              majority in your jurisdiction, may use Glowskins.gg, regardless of
-              any consent from a parent or guardian to use Glowskins.gg. You
-              need a supported Web browser to access Glowskins.gg.
+              majority in your jurisdiction, may use Glowskin, regardless of any
+              consent from a parent or guardian to use Glowskin. You need a
+              supported Web browser to access Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               We offer our Services in the United States, with the exception of
@@ -146,38 +146,37 @@ export default function TermsOfService() {
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               You are subject to the laws of the jurisdiction in which you
-              reside and/or from which you access Glowskins.gg. Void where
+              reside and/or from which you access Glowskin. Void where
               prohibited or restricted by law. To be eligible to enter any
               contest or receive any prize, you may be required to provide
-              Glowskins.gg with additional documentation and/or information to
+              Glowskin with additional documentation and/or information to
               verify your identity and to provide proof that all eligibility
               requirements are met. In the event of a dispute as to the identity
-              or eligibility of a user, Glowskins.gg will, in its sole and
-              absolute discretion, utilize certain information collected by
-              Glowskins.gg to assist in verifying the identity and/or
-              eligibility of such user.
+              or eligibility of a user, Glowskin will, in its sole and absolute
+              discretion, utilize certain information collected by Glowskin to
+              assist in verifying the identity and/or eligibility of such user.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg makes no representations or warranties, implicit or
-              explicit, as to your legal right to participate in the
-              Glowskins.gg or that the contests provided through Glowskins.gg
-              are appropriate or available for use in the jurisdiction in which
-              you are located, nor shall any person affiliated, or claiming
-              affiliation, with Glowskins.gg have authority to make any such
-              representations or warranties. We do not intend for Glowskins.gg
-              or any offerings made available thereon to be used by persons
-              present in jurisdictions in which participation may be prohibited
-              or restricted. You agree that the availability of Glowskins.gg
-              does not constitute an offer, solicitation or invitation by us for
-              the use of the Glowskins.gg in any jurisdiction in which such
-              activities are prohibited or restricted. If you choose to access
-              our Service, you do so at your own risk. You hereby agree that
-              Glowskins.gg cannot be held liable if laws applicable to you
-              restrict or prohibit your participation. If you open an Account
-              and/or participate in contests made available by Glowskins.gg
-              while located in a jurisdiction that prohibits such activities,
-              you will be in violation of the law of such jurisdiction and these
-              Terms, and subject to having Your Account suspended or terminated.
+              Glowskin makes no representations or warranties, implicit or
+              explicit, as to your legal right to participate in the Glowskin or
+              that the contests provided through Glowskin are appropriate or
+              available for use in the jurisdiction in which you are located,
+              nor shall any person affiliated, or claiming affiliation, with
+              Glowskin have authority to make any such representations or
+              warranties. We do not intend for Glowskin or any offerings made
+              available thereon to be used by persons present in jurisdictions
+              in which participation may be prohibited or restricted. You agree
+              that the availability of Glowskin does not constitute an offer,
+              solicitation or invitation by us for the use of the Glowskin in
+              any jurisdiction in which such activities are prohibited or
+              restricted. If you choose to access our Service, you do so at your
+              own risk. You hereby agree that Glowskin cannot be held liable if
+              laws applicable to you restrict or prohibit your participation. If
+              you open an Account and/or participate in contests made available
+              by Glowskin while located in a jurisdiction that prohibits such
+              activities, you will be in violation of the law of such
+              jurisdiction and these Terms, and subject to having Your Account
+              suspended or terminated.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               By inputting a payment method to participate in the contests, you
@@ -187,8 +186,8 @@ export default function TermsOfService() {
               any payment method that is not owned by the user.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg reserves the right to deny access to Glowskins.gg to
-              anyone at our sole discretion
+              Glowskin reserves the right to deny access to Glowskin to anyone
+              at our sole discretion
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -197,12 +196,12 @@ export default function TermsOfService() {
             </div>
             <p className="text-white text-opacity-50 w-full  ">
               Only one (1) Account is allowed per person. In the event that
-              Glowskins.gg determines that You have registered more than one (1)
+              Glowskin determines that You have registered more than one (1)
               Account, then You acknowledge and agree that, in addition to any
-              other rights that Glowskins.gg may have, Glowskins.gg has the
-              right to suspend or terminate Your Account(s), refuse any and all
-              current or future use of Glowskins.gg, and withhold or revoke the
-              awarding of any prizes.
+              other rights that Glowskin may have, Glowskin has the right to
+              suspend or terminate Your Account(s), refuse any and all current
+              or future use of Glowskin, and withhold or revoke the awarding of
+              any prizes.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               You are responsible for maintaining the confidentiality of your
@@ -229,18 +228,17 @@ export default function TermsOfService() {
               standards or laws in any jurisdiction where You are located and/or
               are a resident, or where such other person is located and/or is a
               resident. You accept full responsibility for any unauthorized use
-              of Glowskins.gg and for any use of Your Account by any other
-              person or third-party in connection with Your Account. Any person
-              found to have violated this section may be reported to the
-              relevant authorities and will forfeit their Account. Glowskins.gg
-              will not be liable for any loss that You may incur as a result of
-              someone else using Your Account, either with or without Your
-              knowledge, unless You have previously notified Glowskins.gg as
-              provided herein that Your Identifiers are no longer secure and
-              confidential. In the absence of prior notification to Glowskins.gg
-              that Your Identifiers are no longer secure and confidential, you
-              will be liable for losses incurred due to someone else using Your
-              Account.
+              of Glowskin and for any use of Your Account by any other person or
+              third-party in connection with Your Account. Any person found to
+              have violated this section may be reported to the relevant
+              authorities and will forfeit their Account. Glowskin will not be
+              liable for any loss that You may incur as a result of someone else
+              using Your Account, either with or without Your knowledge, unless
+              You have previously notified Glowskin as provided herein that Your
+              Identifiers are no longer secure and confidential. In the absence
+              of prior notification to Glowskin that Your Identifiers are no
+              longer secure and confidential, you will be liable for losses
+              incurred due to someone else using Your Account.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -253,7 +251,7 @@ export default function TermsOfService() {
               on the Website. We do not issue refunds for virtual products once
               the order is confirmed and the product is sent. If you experience
               any issues receiving or downloading any products purchased on the
-              Website, please contact us at officialrustGlowskins@gmail.com.
+              Website, please contact us at officialrustGlowskin@gmail.com.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               The Website is not a banking institution. Replenishment of funds
@@ -273,14 +271,14 @@ export default function TermsOfService() {
               or applicable to a specific portion of the Website or for any
               service offered on or through the Website, the latter terms shall
               control with respect to your use of that portion of the Website or
-              the specific service. Glowskins.gg may make changes to the
-              Website, Services and related, or to the applicable prices for any
-              such products or services, at any time.
+              the specific service. Glowskin may make changes to the Website,
+              Services and related, or to the applicable prices for any such
+              products or services, at any time.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Please note: you are able to replenish your Wallet with certain
-              free credits if you are a verified Glowskins.gg user. We offer
-              free credits through claiming our Rain bonus, or claiming our free
+              free credits if you are a verified Glowskin user. We offer free
+              credits through claiming our Rain bonus, or claiming our free
               daily case.
             </p>
           </div>
@@ -289,23 +287,23 @@ export default function TermsOfService() {
               6. Browsers/Equipment
             </div>
             <p className="text-white text-opacity-50 w-full  ">
-              You acknowledge and agree that Glowskins.gg may cease to support a
-              given Web browser and that your continuous use of Glowskins.gg
-              will require you to download a supported Web browser. You also
-              acknowledge and agree that the performance of Glowskins.gg is
+              You acknowledge and agree that Glowskin may cease to support a
+              given Web browser and that your continuous use of Glowskin will
+              require you to download a supported Web browser. You also
+              acknowledge and agree that the performance of Glowskin is
               incumbent on the performance of your computer equipment and your
               Internet connection. You are responsible for any fees, including
               but not limited to, Internet connection or data usage fees that
-              You incur when accessing Glowskins.gg.
+              You incur when accessing Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              You agree to sign on and register for Glowskins.gg through your
-              Steam account provided by Valve Corporation. You are solely
-              responsible for managing your account and password and for keeping
-              your password confidential. You are also solely responsible for
+              You agree to sign on and register for Glowskin through your Steam
+              account provided by Valve Corporation. You are solely responsible
+              for managing your account and password and for keeping your
+              password confidential. You are also solely responsible for
               restricting access to your account. If You believe your account
               password has become compromised, you must notify us immediately at
-              officialglowskins@gmail.com.
+              officialglowskin@gmail.com.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               You agree that you are responsible for all activities that occur
@@ -336,12 +334,12 @@ export default function TermsOfService() {
               then-current rules for the contest(s) in which You participate
               will result in Your immediate and automatic forfeiture of the
               contest(s), and We reserve the right to immediately suspend or
-              terminate Your access to Glowskins.gg.
+              terminate Your access to Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Winners are determined by the applicable documentation associated
-              with the contest. Glowskins.gg may not be used for any form of
-              illicit gambling.
+              with the contest. Glowskin may not be used for any form of illicit
+              gambling.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               You may make monetary deposits on the site and receive credits to
@@ -376,7 +374,7 @@ export default function TermsOfService() {
               for players to collect while they are actively playing on the site
               as part of our free to play system. Abusing Rain contrary to its
               intended purpose, may result in the termination of your account at
-              the sole discretion of the Glowskins team.
+              the sole discretion of the Glowskin team.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -389,49 +387,48 @@ export default function TermsOfService() {
               reserve the right to make adjustments based on errors or
               irregularities in Our calculation of results. We also may make
               adjustments in the event of noncompliance with the Terms. Any
-              decision by Glowskins.gg as to the winner(s) of a contest shall
-              stand as a final and binding decision. Glowskins.gg has no
-              obligation to delay the awarding of a prize in anticipation of any
-              adjustment, but We reserve the right to reverse prizes in the
-              event of any adjustment. By registering an Account and/or
-              participating in any contest, you unconditionally agree that
-              Glowskins.gg shall serve as the sole judge and arbiter as to the
-              determination of a winner(s) in all contests in the event a
-              dispute arises and agree to cooperate with Our efforts to reverse
-              prizing, as necessary.
+              decision by Glowskin as to the winner(s) of a contest shall stand
+              as a final and binding decision. Glowskin has no obligation to
+              delay the awarding of a prize in anticipation of any adjustment,
+              but We reserve the right to reverse prizes in the event of any
+              adjustment. By registering an Account and/or participating in any
+              contest, you unconditionally agree that Glowskin shall serve as
+              the sole judge and arbiter as to the determination of a winner(s)
+              in all contests in the event a dispute arises and agree to
+              cooperate with Our efforts to reverse prizing, as necessary.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               We reserve the right, in our sole and absolute discretion, to deny
               any contestant the ability to participate in any contests for any
-              reason whatsoever. Further, Glowskins.gg may, in its sole and
-              absolute discretion, invalidate any contest result for the
-              purposes of preventing abusive and/or any unfair or potentially
-              unlawful activity, or in the event that there is a risk of any
-              such abusive, illegal, or unfair activity.
+              reason whatsoever. Further, Glowskin may, in its sole and absolute
+              discretion, invalidate any contest result for the purposes of
+              preventing abusive and/or any unfair or potentially unlawful
+              activity, or in the event that there is a risk of any such
+              abusive, illegal, or unfair activity.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg also reserves the right to cancel contests, in our
-              sole discretion, without any restrictions. Glowskins.gg, in its
-              sole discretion, may disqualify you from a contest or the entire
+              Glowskin also reserves the right to cancel contests, in our sole
+              discretion, without any restrictions. Glowskin, in its sole
+              discretion, may disqualify you from a contest or the entire
               Service, refuse to award prizes and require the return of any
               prizes, or suspend, limit, or terminate your account if you engage
-              in conduct Glowskins.gg deems, in its sole discretion, to be
-              improper, unfair, fraudulent or otherwise adverse to the operation
-              of the Service or in any way detrimental to other users. Improper
-              conduct includes, but is not limited to: falsifying personal
-              information, including payment information, required to use the
-              Service or claim a prize; violating eligible payment method terms,
-              violating any of these rules, accumulating points or prizes
-              through unauthorized methods such as unauthorized scripts or other
+              in conduct Glowskin deems, in its sole discretion, to be improper,
+              unfair, fraudulent or otherwise adverse to the operation of the
+              Service or in any way detrimental to other users. Improper conduct
+              includes, but is not limited to: falsifying personal information,
+              including payment information, required to use the Service or
+              claim a prize; violating eligible payment method terms, violating
+              any of these rules, accumulating points or prizes through
+              unauthorized methods such as unauthorized scripts or other
               automated means; tampering with the administration of the Service
               or trying to in any way tamper with the computer programs
               associated with the Service; obtaining other entrants’ information
               and spamming or being abusive or harassing to other entrants; and
               abusing the Service in any way; or otherwise violating these Terms
               of Use. You acknowledge that the forfeiture and/or return of any
-              prize shall in no way prevent Glowskins.gg from informing the
-              relevant authorities, and/or pursuing criminal or civil
-              proceedings in connection with such conduct.
+              prize shall in no way prevent Glowskin from informing the relevant
+              authorities, and/or pursuing criminal or civil proceedings in
+              connection with such conduct.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               If for any reason the Service is not running as originally planned
@@ -439,10 +436,10 @@ export default function TermsOfService() {
               usage and processing of entries in accordance with the rules, or
               if infection by a computer virus, bugs, tampering, unauthorized
               intervention, actions by entrants, fraud, technical failures, or
-              any other causes of any kind, in the sole opinion of Glowskins.gg
+              any other causes of any kind, in the sole opinion of Glowskin
               corrupts or affects the administration, security, fairness,
-              integrity or proper conduct of the Service), Glowskins.gg reserves
-              the right, in its sole discretion, to disqualify any individual
+              integrity or proper conduct of the Service), Glowskin reserves the
+              right, in its sole discretion, to disqualify any individual
               implicated in or relating to the cause and/or to cancel,
               terminate, extend, modify or suspend the Service, and select the
               winner(s) from all eligible entries received. If such
@@ -450,10 +447,10 @@ export default function TermsOfService() {
               notification may be posted on the Website.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              The failure of Glowskins.gg to comply with any provision of these
+              The failure of Glowskin to comply with any provision of these
               Terms due to an act of God, for example hurricane, war, fire,
               riot, earthquake, terrorism, act of public enemies, actions of
-              governmental authorities outside of the control of Glowskins.gg
+              governmental authorities outside of the control of Glowskin
               (excepting compliance with applicable codes and regulations) or
               other force majeure event will not be considered a breach of these
               Terms.
@@ -471,13 +468,13 @@ export default function TermsOfService() {
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               No substitution or transfer of any prize is permitted except at
-              Glowskins.gg's sole discretion. All prizes are awarded AS IS and
-              WITHOUT WARRANTY OF ANY KIND, express or implied, (including,
-              without limitation, any implied warranty of merchantability or
-              fitness for a particular purpose) by Glowskins.gg. If any legal
-              authority challenges the award and/or Your receipt of a prize for
-              winning a contest, we reserve the right to revoke, cancel,
-              suspend, substitute, or modify the award of such prize.
+              Glowskin sole discretion. All prizes are awarded AS IS and WITHOUT
+              WARRANTY OF ANY KIND, express or implied, (including, without
+              limitation, any implied warranty of merchantability or fitness for
+              a particular purpose) by Glowskin. If any legal authority
+              challenges the award and/or Your receipt of a prize for winning a
+              contest, we reserve the right to revoke, cancel, suspend,
+              substitute, or modify the award of such prize.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Any prizes that are mistakenly credited as winnings to Your User
@@ -526,7 +523,7 @@ export default function TermsOfService() {
               11. Prohibited Conduct
             </div>
             <p className="text-white text-opacity-50 w-full  ">
-              As a condition to your use of Glowskins.gg, you agree not to:
+              As a condition to your use of Glowskin, you agree not to:
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               (a) falsify personal information required to open an account,
@@ -552,55 +549,53 @@ export default function TermsOfService() {
               or entity;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              (g) access, tamper with, or use any non-public areas of
-              Glowskins.gg or Glowskins.gg’s computer systems;
+              (g) access, tamper with, or use any non-public areas of Glowskin
+              or Glowskin’s computer systems;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              (h) attempt to probe, scan, or test the vulnerability of
-              Glowskins.gg or any related system or network or breach any
-              security or authentication measures used in connection with
-              Glowskins.gg and such systems and networks;
+              (h) attempt to probe, scan, or test the vulnerability of Glowskin
+              or any related system or network or breach any security or
+              authentication measures used in connection with Glowskin and such
+              systems and networks;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               (i) attempt to decipher, decompile, disassemble, reverse engineer
               or otherwise investigate any of the software or components used to
-              provide Glowskins.gg;
+              provide Glowskin;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               (j) harm or threaten to harm other users in any way or interfere
               with, or attempt to interfere with, the access of any user, host
               or network, including without limitation, by sending a virus,
-              overloading, flooding, spamming, or mail-bombing Glowskins.gg;
+              overloading, flooding, spamming, or mail-bombing Glowskin;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               (k) provide payment information belonging to a third party;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              (l) use Glowskins.gg in an abusive way contrary to its intended
-              use, to Glowskins.gg policies and instructions and to any
-              applicable law;
+              (l) use Glowskin in an abusive way contrary to its intended use,
+              to Glowskin policies and instructions and to any applicable law;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              (m) systematically retrieve data or other content from
-              Glowskins.gg to create or compile, directly or indirectly, in
-              single or multiple downloads, a collection, compilation, database,
-              directory or the like, whether by manual methods, through the use
-              of bots, crawlers, or spiders, or otherwise;
+              (m) systematically retrieve data or other content from Glowskin to
+              create or compile, directly or indirectly, in single or multiple
+              downloads, a collection, compilation, database, directory or the
+              like, whether by manual methods, through the use of bots,
+              crawlers, or spiders, or otherwise;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               (n) infringe third party intellectual property rights when using
-              or accessing Glowskins.gg, including but not limited to in making
-              available virtual items by using Glowskins.gg; and (j) make use
-              of, promote, link to or provide access to materials deemed by
-              Glowskins.gg at its sole discretion to be offensive or cause harm
-              to Glowskins.gg’s reputation, including, but not limited to,
-              illegal content and pornographic content and content deemed
-              offensive or injurious to Glowskins.gg (such as Warez sites, IRC
-              bots and BitTorrent sites).
+              or accessing Glowskin, including but not limited to in making
+              available virtual items by using Glowskin; and (j) make use of,
+              promote, link to or provide access to materials deemed by Glowskin
+              at its sole discretion to be offensive or cause harm to Glowskin’s
+              reputation, including, but not limited to, illegal content and
+              pornographic content and content deemed offensive or injurious to
+              Glowskin (such as Warez sites, IRC bots and BitTorrent sites).
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              (o) the use of the Glowskins.gg onsite shop to trade skins for
-              other skins without playing the games.
+              (o) the use of the Glowskin onsite shop to trade skins for other
+              skins without playing the games.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               (p) tampering with the administration of a contest or trying in
@@ -635,24 +630,23 @@ export default function TermsOfService() {
               without limitation if you breach the Terms of Service.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Upon termination, your right to use Glowskins.gg will immediately
-              cease. Glowskins.gg also reserves the right to suspend or
-              terminate Accounts that have been inactive for one hundred eighty
-              (180) days or longer. In the event that a User’s Account is
-              terminated or canceled, the User will have no further access to
-              their Account or anything associated with it. Users can lose their
-              username in Glowskins.gg as a result of Account termination or
-              cancellation. If Your Account is suspended or terminated by Us for
-              a violation of the Terms, we reserve the right to determine
-              whether to funds to defray the costs of administration and
-              enforcement of the Terms. If Your Account is subject to a
-              suspension or termination, you must respect the restrictions and
-              limitations imposed on Your Account as part of the suspension or
-              termination.
+              Upon termination, your right to use Glowskin will immediately
+              cease. Glowskin also reserves the right to suspend or terminate
+              Accounts that have been inactive for one hundred eighty (180) days
+              or longer. In the event that a User’s Account is terminated or
+              canceled, the User will have no further access to their Account or
+              anything associated with it. Users can lose their username in
+              Glowskin as a result of Account termination or cancellation. If
+              Your Account is suspended or terminated by Us for a violation of
+              the Terms, we reserve the right to determine whether to funds to
+              defray the costs of administration and enforcement of the Terms.
+              If Your Account is subject to a suspension or termination, you
+              must respect the restrictions and limitations imposed on Your
+              Account as part of the suspension or termination.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               If you wish to terminate your account, you may contact us at
-              officialglowskins@gmail.com.
+              officialglowskin@gmail.com.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -661,8 +655,8 @@ export default function TermsOfService() {
               Monitoring and Copyright Complaints
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              You agree that Glowskins.gg has the right, but not the obligation,
-              to monitor, edit, disclose, refuse to post, or remove at any time,
+              You agree that Glowskin has the right, but not the obligation, to
+              monitor, edit, disclose, refuse to post, or remove at any time,
               for any reason in our sole discretion, any content anywhere on
               this Website. Notwithstanding this right, we do not and cannot
               review all content submitted to this Website. If notified, we may
@@ -726,7 +720,7 @@ export default function TermsOfService() {
               email and regular to:
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Email address: officialglowskins@gmail.com
+              Email address: officialglowskin@gmail.com
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               E-mail Subject: “DMCA Request”
@@ -738,17 +732,16 @@ export default function TermsOfService() {
             </div>
             <p className="text-white text-opacity-50 w-full  ">
               Our Service may contain links to third-party web sites or services
-              that are not owned or controlled by Glowskins.gg.
+              that are not owned or controlled by Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg has no control over, and assumes no responsibility
-              for, the content, privacy policies, or practices of any
-              third-party web sites or services. You further acknowledge and
-              agree that Glowskins.gg shall not be responsible or liable,
-              directly or indirectly, for any damage or loss caused or alleged
-              to be caused by or in connection with use of or reliance on any
-              such content, goods or services available on or through any such
-              web sites or services.
+              Glowskin has no control over, and assumes no responsibility for,
+              the content, privacy policies, or practices of any third-party web
+              sites or services. You further acknowledge and agree that Glowskin
+              shall not be responsible or liable, directly or indirectly, for
+              any damage or loss caused or alleged to be caused by or in
+              connection with use of or reliance on any such content, goods or
+              services available on or through any such web sites or services.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               We strongly advise you to read the terms and conditions and
@@ -781,7 +774,7 @@ export default function TermsOfService() {
               information from a child under 13 without verification of parental
               consent, we will delete that information. If you believe we might
               have any information from or about a child under 13, please
-              contact us at officialrustGlowskins@gmail.com.
+              contact us at officialrustGlowskin@gmail.com.
             </p>
           </div>
 
@@ -791,10 +784,10 @@ export default function TermsOfService() {
             </div>
             <p className="text-white text-opacity-50 w-full  ">
               This website is provided “as is” without any representations or
-              warranties, express or implied. Glowskins makes no representations
+              warranties, express or implied. Glowskin makes no representations
               or warranties in relation to this website or the information and
               materials provided on this website. Without prejudice to the
-              generality of the foregoing paragraph, Glowskins does not warrant
+              generality of the foregoing paragraph, Glowskin does not warrant
               that: this website will be constantly available, or available at
               all; or the information on this website is complete, true,
               accurate or non-misleading. Nothing on this website constitutes,
@@ -815,12 +808,12 @@ export default function TermsOfService() {
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
             <div className="text-white text-2xl font-bold pt-2 ">
-              18. Glowskins.gg Wallet
+              18. Glowskin Wallet
             </div>
             <p className="text-white text-opacity-50 w-full  ">
-              By topping up an amount to your Glowskins.gg wallet, you accept
-              that the credits received (labeled by the $-sign) are not worth
-              real money and not subject to any refunds.
+              By topping up an amount to your Glowskin wallet, you accept that
+              the credits received (labeled by the $-sign) are not worth real
+              money and not subject to any refunds.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -831,8 +824,7 @@ export default function TermsOfService() {
               We do not issue refunds for digital products once the order is
               confirmed and the product is sent. We recommend contacting us for
               assistance if you experience any issues receiving or downloading
-              our products. You may reach us via
-              officialrustGlowskins@gmail.com.
+              our products. You may reach us via officialrustGlowskin@gmail.com.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -868,7 +860,7 @@ export default function TermsOfService() {
               listened to for moderation purposes. The only time recordings will
               be revisited is strictly for legal purposes and to enforce our
               rights under these Terms and Conditions. Recordings will not be
-              shared with anyone outside of the Glowskins.gg team, with the
+              shared with anyone outside of the Glowskin team, with the
               exception of legal purposes, such as in response to a subpoena.
             </p>
           </div>
@@ -888,58 +880,57 @@ export default function TermsOfService() {
             </div>
             <p className="text-white text-opacity-50 w-full  ">
               We grant all Users a limited, nonexclusive, nontransferable
-              personal license to access and use only Glowskins.gg for private,
+              personal license to access and use only Glowskin for private,
               non-commercial purposes on a single computer or mobile device. We
               also grant you a limited, nonexclusive, nontransferable personal
-              license to access Glowskins.gg, as limited by your additional
-              purchase of certain paid features and upgrades. This paid license
-              is for private, non-commercial purposes on a single computer or
-              mobile device. Your license to access Glowskins.gg is not a
-              transfer of title. Glowskins.gg and its licensors and service
-              providers reserve and shall retain their entire right, title and
-              interest in and Glowskins.gg, including all copyrights, trademarks
-              and other intellectual property rights therein or relating
-              thereto, except as expressly granted to users in this Agreement.
+              license to access Glowskin, as limited by your additional purchase
+              of certain paid features and upgrades. This paid license is for
+              private, non-commercial purposes on a single computer or mobile
+              device. Your license to access Glowskin is not a transfer of
+              title. Glowskin and its licensors and service providers reserve
+              and shall retain their entire right, title and interest in and
+              Glowskin, including all copyrights, trademarks and other
+              intellectual property rights therein or relating thereto, except
+              as expressly granted to users in this Agreement.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              You will not copy or redistribute any materials from Glowskins.gg,
-              and you will prevent others from unauthorized access, use of, or
+              You will not copy or redistribute any materials from Glowskin, and
+              you will prevent others from unauthorized access, use of, or
               copying. Users acknowledge and agree that they may not:
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              o Copy Glowskins.gg, except as expressly permitted by this
-              license;
+              o Copy Glowskin, except as expressly permitted by this license;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               o Modify, translate, adapt or otherwise create derivative works or
-              improvements, whether or not patentable, of Glowskins.gg;
+              improvements, whether or not patentable, of Glowskin;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               o Reverse engineer, disassemble, decompile, decode or otherwise
-              attempt to derive or gain access to the source code of
-              Glowskins.gg or any part thereof;
+              attempt to derive or gain access to the source code of Glowskin or
+              any part thereof;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               o Remove, delete, alter or obscure any trademarks or any
               copyright, trademark, patent or other intellectual property or
-              proprietary rights notices from Glowskins.gg, including any copy
+              proprietary rights notices from Glowskin, including any copy
               thereof;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               o Rent, lease, lend, sell, sublicense, assign, distribute,
-              publish, transfer or otherwise make available Glowskins.gg or any
-              features or functionality of Glowskins.gg, to any third-party for
-              any reason, including by making Glowskins.gg available on a
-              network where it is capable of being accessed by more than one
-              device at any time;
+              publish, transfer or otherwise make available Glowskin or any
+              features or functionality of Glowskin, to any third-party for any
+              reason, including by making Glowskin available on a network where
+              it is capable of being accessed by more than one device at any
+              time;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               o Remove, disable, circumvent or otherwise create or implement any
               workaround to any copy protection, rights management or security
-              features in or protecting Glowskins.gg; or
+              features in or protecting Glowskin; or
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              o Use Glowskins.gg in a manner prohibited by applicable laws or
+              o Use Glowskin in a manner prohibited by applicable laws or
               regulations, including, without limitation, in connection with any
               form of unlawful gambling.
             </p>
@@ -952,12 +943,12 @@ export default function TermsOfService() {
               Copyright Information and Personal & Non-Commercial Use Limitation
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Content within Glowskins.gg, including, without limitation, any
+              Content within Glowskin, including, without limitation, any
               technology, software products, accounts, names, logos, graphics,
-              music, and virtual goods are owned and/or licensed by Glowskins.gg
-              and are protected by copyright, trade dress, patent, and trademark
+              music, and virtual goods are owned and/or licensed by Glowskin and
+              are protected by copyright, trade dress, patent, and trademark
               laws, international conventions, and other laws protecting
-              intellectual property and related proprietary rights. Glowskins.gg
+              intellectual property and related proprietary rights. Glowskin
               does not claim ownership of intellectual property owned by third
               parties.
             </p>
@@ -965,47 +956,47 @@ export default function TermsOfService() {
               Except as expressly permitted by this Agreement, Users must not
               reproduce, distribute, modify, create derivative works of,
               publicly display, publicly perform, republish, download, store or
-              transmit any material available through Glowskins.gg. In addition,
+              transmit any material available through Glowskin. In addition,
               Users must not:
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              • Modify copies of any materials available through Glowskins.gg;
+              • Modify copies of any materials available through Glowskin;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Reprint or electronically reproduce any content available
-              through Glowskins.gg, in whole or in part;
+              through Glowskin, in whole or in part;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              • Provide copyrighted or other proprietary content to Glowskins.gg
-              or make such content available through Glowskins.gg without
-              permission from the owner of such material or rights;
+              • Provide copyrighted or other proprietary content to Glowskin or
+              make such content available through Glowskin without permission
+              from the owner of such material or rights;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Delete or alter any copyright, trademark or other proprietary
               rights notices from copies of materials available through
-              Glowskins.gg; or
+              Glowskin; or
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Access or use for any commercial purposes any part of or
-              materials available through Glowskins.gg.
+              materials available through Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Printing, copying, modifying, downloading, or otherwise using or
-              providing any other person with access to any part of Glowskins.gg
-              in breach of this Agreement may result in the termination of a
-              User’s Account, prohibition from using Glowskins.gg, and/or legal
-              action. Content owners may take criminal or civil action against
-              Users for unauthorized use of intellectual property. Users agree
-              to indemnify and hold Glowskins.gg from any unauthorized or
-              illegal conduct by Users or through the use of a User’s Account,
-              via Glowskins.gg.
+              providing any other person with access to any part of Glowskin in
+              breach of this Agreement may result in the termination of a User’s
+              Account, prohibition from using Glowskin, and/or legal action.
+              Content owners may take criminal or civil action against Users for
+              unauthorized use of intellectual property. Users agree to
+              indemnify and hold Glowskin from any unauthorized or illegal
+              conduct by Users or through the use of a User’s Account, via
+              Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">• Trademarks</p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg owns has/may register trademarks for its many goods
-              and services, including, without limitation, the associated
-              graphics, logos and service marks and they may not be used without
-              prior written consent of Glowskins.gg.
+              Glowskin owns has/may register trademarks for its many goods and
+              services, including, without limitation, the associated graphics,
+              logos and service marks and they may not be used without prior
+              written consent of Glowskin.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -1013,32 +1004,30 @@ export default function TermsOfService() {
               26. Rights of Publicity
             </div>
             <p className="text-white text-opacity-50 w-full  ">
-              By participating in Glowskins.gg, you agree to the use by
-              Glowskins.gg of Your username, statements, biographical
-              information, and city and state address for advertising and
-              promotional purposes of Glowskins.gg, including, without
-              limitation, the Glowskins.gg contests, worldwide, and in
-              perpetuity, in any and all forms of media, now known or hereafter
-              devised without compensation, review or approval rights,
-              notification or permission, except where prohibited by law.
-              Glowskins.gg reserves the right to make public statements about
-              the entrants and winner(s), on the Internet, in promotional
-              materials or otherwise, prior to, during, or following a Contest.
-              You agree that We may announce any winner’s name on Glowskins.gg
-              at any time in connection with the marketing and promotion of
-              Glowskins.gg.
+              By participating in Glowskin, you agree to the use by Glowskin of
+              Your username, statements, biographical information, and city and
+              state address for advertising and promotional purposes of
+              Glowskin, including, without limitation, the Glowskin contests,
+              worldwide, and in perpetuity, in any and all forms of media, now
+              known or hereafter devised without compensation, review or
+              approval rights, notification or permission, except where
+              prohibited by law. Glowskin reserves the right to make public
+              statements about the entrants and winner(s), on the Internet, in
+              promotional materials or otherwise, prior to, during, or following
+              a Contest. You agree that We may announce any winner’s name on
+              Glowskin at any time in connection with the marketing and
+              promotion of Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Ideas and Inventions
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               All comments, feedback, suggestions, ideas, and other submissions
-              (“Ideas”) disclosed, submitted, or offered to Glowskins.gg in
-              connection with Your use of Glowskins.gg shall be the exclusive
-              property of Glowskins.gg. You agree that unless otherwise
-              prohibited by law Glowskins.gg may use, sell, exploit and disclose
-              the Ideas in any manner, without restriction and without
-              compensation to You.
+              (“Ideas”) disclosed, submitted, or offered to Glowskin in
+              connection with Your use of Glowskin shall be the exclusive
+              property of Glowskin. You agree that unless otherwise prohibited
+              by law Glowskin may use, sell, exploit and disclose the Ideas in
+              any manner, without restriction and without compensation to You.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -1046,9 +1035,9 @@ export default function TermsOfService() {
               27. Conduct on Service
             </div>
             <p className="text-white text-opacity-50 w-full  ">
-              Users agree not to use Glowskins.gg for any unlawful purpose or
-              for any purpose that is prohibited by this Agreement. Users
-              further agree not to:
+              Users agree not to use Glowskin for any unlawful purpose or for
+              any purpose that is prohibited by this Agreement. Users further
+              agree not to:
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Engage in any illegal activity, including gambling, or the
@@ -1058,7 +1047,7 @@ export default function TermsOfService() {
               • Post or transmit, or cause to be posted or transmitted, any
               content that is infringing, libelous, defamatory, abusive,
               offensive, obscene, pornographic or otherwise violates the law or
-              the rights of Glowskins.gg its Users, or any third-party;
+              the rights of Glowskin its Users, or any third-party;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Threaten, harass, abuse, or otherwise intimidate any User(s);
@@ -1072,25 +1061,25 @@ export default function TermsOfService() {
               software viruses or any other code designed to interrupt, destroy,
               limit, or otherwise affect the functionality of any software or
               hardware or telecommunications equipment associated directly or
-              indirectly with Glowskins.gg;
+              indirectly with Glowskin;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Employ any automated means, including, without limitation, bots,
-              scrapers, or spiders to access or participate in Glowskins.gg for
-              any purpose;
+              scrapers, or spiders to access or participate in Glowskin for any
+              purpose;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Using any artificial means to alter a User’s position in the
               Contests;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              • Improperly using support or complaint features of Glowskins.gg
-              or making false reports to Glowskins.gg ;
+              • Improperly using support or complaint features of Glowskin or
+              making false reports to Glowskin ;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              • Use Glowskins.gg for any purpose other than that which is
-              authorized in this Agreement or in a manner that violates any laws
-              including intellectual property laws;
+              • Use Glowskin for any purpose other than that which is authorized
+              in this Agreement or in a manner that violates any laws including
+              intellectual property laws;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Seek to or in any way assist others in obtaining Account,
@@ -1109,18 +1098,17 @@ export default function TermsOfService() {
               thereto; or
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              • Engaging in any other activity deemed by Glowskins.gg to be in
+              • Engaging in any other activity deemed by Glowskin to be in
               conflict with the spirit or intent of this Agreement.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • post or transmit, or cause to be posted or transmitted, any
               communication or solicitation designed or intended to obtain
-              password, account, or private information from any Glowskins.gg
-              user;
+              password, account, or private information from any Glowskin user;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              • create or submit unwanted email (“Spam”) to any other
-              Glowskins.gg users;
+              • create or submit unwanted email (“Spam”) to any other Glowskin
+              users;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • submit comments linking to affiliate programs, multi-level
@@ -1136,7 +1124,7 @@ export default function TermsOfService() {
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • use any robot, spider, scraper, sniping software or other
-              automated means to access Glowskins.gg for any purpose without our
+              automated means to access Glowskin for any purpose without our
               express written permission. Additionally, you agree that you will
               not: (1) take any action that imposes, or may impose in our sole
               discretion an unreasonable or disproportionately large load on our
@@ -1147,9 +1135,9 @@ export default function TermsOfService() {
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • use artificial means, including creating multiple user accounts,
-              to inflate your position and standing with the Glowskins.gg
-              community; use unauthorized scripts; all authorized scripts will
-              be made available through the Service prior to game entry;
+              to inflate your position and standing with the Glowskin community;
+              use unauthorized scripts; all authorized scripts will be made
+              available through the Service prior to game entry;
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • advertise to, or solicit, any user to buy or sell any products
@@ -1161,17 +1149,17 @@ export default function TermsOfService() {
               • sell or otherwise transfer your profile; or
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Any use of Glowskins.gg in violation of the foregoing constitutes
-              a breach of this Agreement and may result in, among other things,
+              Any use of Glowskin in violation of the foregoing constitutes a
+              breach of this Agreement and may result in, among other things,
               Account suspension and/or termination, prohibition from using
-              Glowskins.gg, and/or legal action. Users understand that any
-              attempt to deliberately damage Glowskins.gg or undermine any
-              Contest may also be a violation of criminal and/or civil laws and
-              Glowskins.gg reserves the right to seek damages and other remedies
-              from any such person to the fullest extent permitted by law. If
-              Users wish to report any abuses, inappropriate online conduct, or
-              a violation of this Agreement, please forward all evidence of the
-              same to officialglowskins@gmail.com.
+              Glowskin, and/or legal action. Users understand that any attempt
+              to deliberately damage Glowskin or undermine any Contest may also
+              be a violation of criminal and/or civil laws and Glowskin reserves
+              the right to seek damages and other remedies from any such person
+              to the fullest extent permitted by law. If Users wish to report
+              any abuses, inappropriate online conduct, or a violation of this
+              Agreement, please forward all evidence of the same to
+              officialglowskin@gmail.com.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -1182,73 +1170,71 @@ export default function TermsOfService() {
               • Disclaimer of Warranties
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              USERS EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF Glowskins.gg IS
-              AT THEIR SOLE RISK. USERS FURTHER ACKNOWLEDGE AND AGREE THAT
-              Glowskins.gg IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS.
-              NEITHER Glowskins.gg NOR ANY OF ITS PARENTS, SUBSIDIARIES,
-              AFFILIATES, LICENSEES, LICENSORS, CONTRACTORS, AGENTS, CONTENT
-              PROVIDERS, VENDORS, COMPONENT SUPPLIERS (BOTH HARDWARE AND
-              SOFTWARE), AND/OR ANY THIRD-PARTY WHO PROVIDES PRODUCTS OR
-              SERVICES PURCHASED FROM OR DISTRIBUTED BY Glowskins.gg AS WELL
-              THEIR RESPECTIVE OFFICERS, DIRECTORS, MEMBERS, MANAGERS,
-              REPRESENTATIVES, EMPLOYEES, INVESTORS OR THE LIKE (COLLECTIVELY
-              “PROVIDERS”), WARRANT THAT SERVICES AFFILIATED WITH Glowskins.gg,
-              INCLUDING, BUT NOT LIMITED TO, THE WEBSITE, AND THE CONTESTS AND
-              SERVICES OFFERED THEREON, WILL BE UNINTERRUPTED, ERROR-FREE, OR
-              FREE OF VIRUSES, WORMS, TROJAN HORSES, KEYBOARD LOGGERS, SPYWARE,
-              ADWARE, MALWARE, HARMFUL OR MALICIOUS CODE, OR OTHER DEFECTS.
+              USERS EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF Glowskin IS AT
+              THEIR SOLE RISK. USERS FURTHER ACKNOWLEDGE AND AGREE THAT Glowskin
+              IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. NEITHER
+              Glowskin NOR ANY OF ITS PARENTS, SUBSIDIARIES, AFFILIATES,
+              LICENSEES, LICENSORS, CONTRACTORS, AGENTS, CONTENT PROVIDERS,
+              VENDORS, COMPONENT SUPPLIERS (BOTH HARDWARE AND SOFTWARE), AND/OR
+              ANY THIRD-PARTY WHO PROVIDES PRODUCTS OR SERVICES PURCHASED FROM
+              OR DISTRIBUTED BY Glowskin AS WELL THEIR RESPECTIVE OFFICERS,
+              DIRECTORS, MEMBERS, MANAGERS, REPRESENTATIVES, EMPLOYEES,
+              INVESTORS OR THE LIKE (COLLECTIVELY “PROVIDERS”), WARRANT THAT
+              SERVICES AFFILIATED WITH Glowskin, INCLUDING, BUT NOT LIMITED TO,
+              THE WEBSITE, AND THE CONTESTS AND SERVICES OFFERED THEREON, WILL
+              BE UNINTERRUPTED, ERROR-FREE, OR FREE OF VIRUSES, WORMS, TROJAN
+              HORSES, KEYBOARD LOGGERS, SPYWARE, ADWARE, MALWARE, HARMFUL OR
+              MALICIOUS CODE, OR OTHER DEFECTS.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, Glowskins.gg
+              TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, Glowskin
               DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION,
               IMPLIED AND STATUTORY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
               PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS.
-              Glowskins.gg MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND,
-              EXPRESS OR IMPLIED, AS TO THE OPERATION OF Glowskins.gg, SECURITY
-              OF Glowskins.gg, AVAILABILITY OF ANY GOODS, SERVICES OR OFFERINGS
-              OFFERED ON OR THROUGH Glowskins.gg, OR THE INFORMATION, CONTENT,
-              SERVICES, MATERIALS OR PRODUCTS, INCLUDED ON OR THROUGH
-              Glowskins.gg.
+              Glowskin MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND,
+              EXPRESS OR IMPLIED, AS TO THE OPERATION OF Glowskin, SECURITY OF
+              Glowskin, AVAILABILITY OF ANY GOODS, SERVICES OR OFFERINGS OFFERED
+              ON OR THROUGH Glowskin, OR THE INFORMATION, CONTENT, SERVICES,
+              MATERIALS OR PRODUCTS, INCLUDED ON OR THROUGH Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              NEITHER Glowskins.gg NOR ANY PROVIDER MAKES A WARRANTY AS TO THE
-              RESULTS THAT MAY BE OBTAINED FROM THE USE OF Glowskins.gg OR AS TO
-              THE ACCURACY, RELIABILITY, OR CURRENCY OF ANY INFORMATION,
-              CONTENT, OR SERVICES, PROVIDED ON OR THROUGH Glowskins.gg. THE
-              INFORMATION, PRODUCTS, AND SERVICES PUBLISHED ON OR THROUGH
-              Glowskins.gg MAY CONTAIN INACCURACIES OR TYPOGRAPHICAL ERRORS.
-              NEITHER Glowskins.gg NOR ANY PROVIDER SHALL BE RESPONSIBLE FOR ANY
-              OPINIONS, VIEWS, ADVICE, STATEMENTS, OR USER CONTRIBUTIONS POSTED
-              ON OR THROUGH THE Glowskins.gg (INCLUDING, WITHOUT LIMITATION, IN
-              ANY INTERACTIVE AREAS OF Glowskins.gg) BY ANY PERSON OR ENTITY
-              OTHER THAN AN AUTHORIZED Glowskins.gg REPRESENTATIVE.
+              NEITHER Glowskin NOR ANY PROVIDER MAKES A WARRANTY AS TO THE
+              RESULTS THAT MAY BE OBTAINED FROM THE USE OF Glowskin OR AS TO THE
+              ACCURACY, RELIABILITY, OR CURRENCY OF ANY INFORMATION, CONTENT, OR
+              SERVICES, PROVIDED ON OR THROUGH Glowskin. THE INFORMATION,
+              PRODUCTS, AND SERVICES PUBLISHED ON OR THROUGH Glowskin MAY
+              CONTAIN INACCURACIES OR TYPOGRAPHICAL ERRORS. NEITHER Glowskin NOR
+              ANY PROVIDER SHALL BE RESPONSIBLE FOR ANY OPINIONS, VIEWS, ADVICE,
+              STATEMENTS, OR USER CONTRIBUTIONS POSTED ON OR THROUGH THE
+              Glowskin (INCLUDING, WITHOUT LIMITATION, IN ANY INTERACTIVE AREAS
+              OF Glowskin) BY ANY PERSON OR ENTITY OTHER THAN AN AUTHORIZED
+              Glowskin REPRESENTATIVE.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Limitations on Liability
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Neither Glowskins.gg nor the providers guarantee the continuous,
-              uninterrupted, or secure access to Glowskins.gg or any aspect
-              thereof. the operation of Glowskins.gg may be interfered with by
-              numerous factors outside the control of Glowskins.gg. you
-              understand and agree that neither Glowskins.gg nor the providers
-              shall be liable to users for any indirect, incidental, special,
-              consequential, or exemplary damages, including, without
-              limitation, damages for loss of profits, goodwill, use, data or
-              other intangible losses (even if Glowskins.gg or the providers had
-              been advised of the possibility of such damages), resulting from:
-              (i) the use or the inability to use Glowskins.gg; (ii)
-              unauthorized access to or alteration of user transmissions or
-              data; (iii) opinions, views, advice, statements, or user
-              contributions posted on or through Glowskins.gg; or (iv) any other
-              matter relating to Glowskins.gg. notwithstanding anything to the
+              Neither Glowskin nor the providers guarantee the continuous,
+              uninterrupted, or secure access to Glowskin or any aspect thereof.
+              the operation of Glowskin may be interfered with by numerous
+              factors outside the control of Glowskin. you understand and agree
+              that neither Glowskin nor the providers shall be liable to users
+              for any indirect, incidental, special, consequential, or exemplary
+              damages, including, without limitation, damages for loss of
+              profits, goodwill, use, data or other intangible losses (even if
+              Glowskin or the providers had been advised of the possibility of
+              such damages), resulting from: (i) the use or the inability to use
+              Glowskin; (ii) unauthorized access to or alteration of user
+              transmissions or data; (iii) opinions, views, advice, statements,
+              or user contributions posted on or through Glowskin; or (iv) any
+              other matter relating to Glowskin. notwithstanding anything to the
               contrary contained herein and regardless of the form of the
-              action, Glowskins.gg’s liability to users for any cause whatsoever
+              action, Glowskin’s liability to users for any cause whatsoever
               will at all times be limited to the amount paid, if any, by such
-              user to Glowskins.gg for use of Glowskins.gg during the term of
-              their registration, not including any fees paid for services
-              and/or products rendered prior to the circumstances giving rise to
-              the claim.
+              user to Glowskin for use of Glowskin during the term of their
+              registration, not including any fees paid for services and/or
+              products rendered prior to the circumstances giving rise to the
+              claim.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               in the event that a user resides in a jurisdiction that does not
@@ -1262,23 +1248,23 @@ export default function TermsOfService() {
               29. Service and Maintenance
             </div>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg conducts maintenance work on its systems from time to
+              Glowskin conducts maintenance work on its systems from time to
               time primarily for the purpose of ensuring security and integrity.
-              A portion, or sometimes all, of the features of Glowskins.gg may
-              not be available during maintenance periods. Users will generally
-              be notified of maintenance periods in advance; however, Users
-              hereby agree that Glowskins.gg may update Glowskins.gg with or
-              without notifying Users. Glowskins.gg also reserves the right to
-              modify or discontinue operation of any aspect of Glowskins.gg at
-              any time, including, without limitation, the availability of the
-              Website, or any features or content thereon, including without
-              limitation the offering of the contests. Glowskins.gg may also
-              impose limits on certain features and offerings or restrict access
-              to parts or all of Glowskins.gg with or without notice to Users
-              and without liability to Users or any third-party. All problems
-              encountered during the use of Glowskins.gg, including those with
-              regard to User Accounts, etc., can be reported to Glowskins.gg at
-              officialrustGlowskins@gmail.com.
+              A portion, or sometimes all, of the features of Glowskin may not
+              be available during maintenance periods. Users will generally be
+              notified of maintenance periods in advance; however, Users hereby
+              agree that Glowskin may update Glowskin with or without notifying
+              Users. Glowskin also reserves the right to modify or discontinue
+              operation of any aspect of Glowskin at any time, including,
+              without limitation, the availability of the Website, or any
+              features or content thereon, including without limitation the
+              offering of the contests. Glowskin may also impose limits on
+              certain features and offerings or restrict access to parts or all
+              of Glowskin with or without notice to Users and without liability
+              to Users or any third-party. All problems encountered during the
+              use of Glowskin, including those with regard to User Accounts,
+              etc., can be reported to Glowskin at
+              officialrustGlowskin@gmail.com.
             </p>
           </div>
           <div className="bg-btnDark opacity-90 mt-5 px-4 py-2 rounded-md">
@@ -1286,13 +1272,13 @@ export default function TermsOfService() {
               30. Disputes
             </div>
             <p className="text-white text-opacity-50 w-full  ">
-              In the event of any dispute arising between Rust Glowskins
+              In the event of any dispute arising between Rust Glowskin
               Entertainment and you, the parties will make best efforts to solve
               such dispute in good faith within a reasonable time. In case that
-              you and Glowskins.gg will not reach an amicable solution within a
+              you and Glowskin will not reach an amicable solution within a
               reasonable period (of no less than 30 days as of the commencement
-              of the amicable dispute resolution process), you or Glowskins.gg
-              may seek legal resolution with the competent courts situated in
+              of the amicable dispute resolution process), you or Glowskin may
+              seek legal resolution with the competent courts situated in
               Cyprus, and such courts shall have sole and exclusive jurisdiction
               to resolve such dispute[1] [2] [3] .
             </p>
@@ -1303,12 +1289,12 @@ export default function TermsOfService() {
               Dispute Resolution; Arbitration and Governing Law
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              In case of any dispute arising between Glowskins.gg and you, the
-              party raising the dispute shall issue a written notice to the
-              other party. In case the notice is to be issued to you, sending
-              the notice to the email address registered with Glowskins.gg shall
-              constitute delivery. A notice to be issued to Glowskins.gg is to
-              be served on officialglowskins.com.
+              In case of any dispute arising between Glowskin and you, the party
+              raising the dispute shall issue a written notice to the other
+              party. In case the notice is to be issued to you, sending the
+              notice to the email address registered with Glowskin shall
+              constitute delivery. A notice to be issued to Glowskin is to be
+              served on officialglowskin.com.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               On receipt of the said notice, the parties shall first try to
@@ -1320,19 +1306,18 @@ export default function TermsOfService() {
             <p className="text-white text-opacity-50 w-full  ">
               If the dispute cannot be resolved amicably, you agree to finally
               settle all disputes only through arbitration; provided, however,
-              that Glowskins.gg shall be entitled to seek injunctive or
-              equitable relief in the state and federal courts in Cyprus and any
-              other court with jurisdiction over the parties. The pursuit of
-              such equitable or injunctive relief shall not constitute a waiver
-              on the part of Glowskins.gg to pursue any remedy for monetary
-              damages.
+              that Glowskin shall be entitled to seek injunctive or equitable
+              relief in the state and federal courts in Cyprus and any other
+              court with jurisdiction over the parties. The pursuit of such
+              equitable or injunctive relief shall not constitute a waiver on
+              the part of Glowskin to pursue any remedy for monetary damages.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               With respect to any dispute arising out of or related to these
-              terms, including without limitation disputes related to
-              Glowskins.gg: (i) you hereby expressly give up your right to have
-              a trial by jury; and (ii) you hereby expressly give up your right
-              to participate as a member of a class of claimants in any lawsuit,
+              terms, including without limitation disputes related to Glowskin:
+              (i) you hereby expressly give up your right to have a trial by
+              jury; and (ii) you hereby expressly give up your right to
+              participate as a member of a class of claimants in any lawsuit,
               including but not limited to class action lawsuits involving any
               such dispute.
             </p>
@@ -1342,8 +1327,8 @@ export default function TermsOfService() {
               limited exceptions, and judgment on the award may be entered in
               any court with jurisdiction. The parties agree that, except as set
               forth above, any claim, suit, action or proceeding arising out of
-              or relating to Glowskins.gg, or these terms, shall be resolved
-              solely by binding arbitration before a sole arbitrator under the
+              or relating to Glowskin, or these terms, shall be resolved solely
+              by binding arbitration before a sole arbitrator under the
               streamlined Arbitration Rules Procedures of JAMS Inc. (“JAMS”) or
               any successor to JAMS. In the event JAMS is unwilling or unable to
               set a hearing date within fourteen (14) days of the filing of a
@@ -1360,7 +1345,7 @@ export default function TermsOfService() {
               arbitrator holds that this restriction is unconscionable or
               unenforceable, then the agreement to arbitrate doesn’t apply and
               the dispute must be brought in a court of competent jurisdiction
-              in New York County, New York. Glowskins.gg agrees to pay the
+              in New York County, New York. Glowskin agrees to pay the
               administrative and arbitrator’s fees in order to conduct the
               arbitration (but specifically excluding any travel or other costs
               of participant to attend the arbitration hearing). Either party
@@ -1377,18 +1362,17 @@ export default function TermsOfService() {
               York. You hereby waive any rights or claims to attorney's fees,
               indirect, special, punitive, incidental or consequential damages,
               whether foreseeable or not and whether based on negligence or
-              otherwise. In no event will Glowskins.gg be liable to any person
-              or entity for any direct, special incidental, exemplary, punitive
-              or consequential damages (including loss of use, data, business or
+              otherwise. In no event will Glowskin be liable to any person or
+              entity for any direct, special incidental, exemplary, punitive or
+              consequential damages (including loss of use, data, business or
               profits) arising out of or in connection with any person or
-              entity’s use or inability to use Glowskins.gg whether such
-              liability arises from any claim based upon contract, warranty,
-              tort (including negligence), strict liability or otherwise, and
-              whether or not Glowskins.gg has been advised of the possibility of
-              such loss or damage. Some jurisdictions do not allow the
-              limitation or exclusion of liability for incidental or
-              consequential damages, so the above limitation or exclusion may
-              not apply to you.
+              entity’s use or inability to use Glowskin whether such liability
+              arises from any claim based upon contract, warranty, tort
+              (including negligence), strict liability or otherwise, and whether
+              or not Glowskin has been advised of the possibility of such loss
+              or damage. Some jurisdictions do not allow the limitation or
+              exclusion of liability for incidental or consequential damages, so
+              the above limitation or exclusion may not apply to you.
             </p>
           </div>
 
@@ -1413,66 +1397,63 @@ export default function TermsOfService() {
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Users agree that no joint venture, partnership, employment, or
-              agency relationship exists between Users and Glowskins.gg as a
-              result of this Agreement or their use of Glowskins.gg. Users agree
-              not to hold themselves out as representatives, agents, operators,
-              distributors, or employees of Glowskins.gg and Glowskins.gg shall
-              not be liable for any of their representations, acts, or
-              omissions. Users also agree that, except as otherwise expressly
-              provided in this Agreement, there shall be no third-party
-              beneficiaries to this Agreement.
+              agency relationship exists between Users and Glowskin as a result
+              of this Agreement or their use of Glowskin. Users agree not to
+              hold themselves out as representatives, agents, operators,
+              distributors, or employees of Glowskin and Glowskin shall not be
+              liable for any of their representations, acts, or omissions. Users
+              also agree that, except as otherwise expressly provided in this
+              Agreement, there shall be no third-party beneficiaries to this
+              Agreement.
             </p>
             <p className="text-white text-opacity-50 w-full  ">• Assignment</p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg may assign its rights and obligations under this
-              Agreement and/or the Glowskins.gg Privacy Policy, in whole or in
-              part, to any person or entity at any time with or without the
-              Users’ consent. Upon such assignment, Glowskins.gg may be relieved
-              of any further obligation hereunder. Users may not assign or
-              delegate any rights or obligations under this Agreement or the
-              Privacy Policy without Glowskins.gg’s prior written consent, and
-              any unauthorized assignment and delegation by Users is void and
-              ineffective.
+              Glowskin may assign its rights and obligations under this
+              Agreement and/or the Glowskin Privacy Policy, in whole or in part,
+              to any person or entity at any time with or without the Users’
+              consent. Upon such assignment, Glowskin may be relieved of any
+              further obligation hereunder. Users may not assign or delegate any
+              rights or obligations under this Agreement or the Privacy Policy
+              without Glowskin’s prior written consent, and any unauthorized
+              assignment and delegation by Users is void and ineffective.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Circumvention/Indemnification
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               Users agree that they shall not circumvent or attempt to
-              circumvent these Terms or Glowskins.gg or otherwise interrupt or
-              attempt to interrupt the operations of Glowskins.gg (collectively,
-              a “Circumvention Act”). If Glowskins.gg determines, at its sole
+              circumvent these Terms or Glowskin or otherwise interrupt or
+              attempt to interrupt the operations of Glowskin (collectively, a
+              “Circumvention Act”). If Glowskin determines, at its sole
               discretion, that Users have engaged, or attempted to engage, in
               any Circumvention Act, or to otherwise commit fraud with regard to
-              Glowskins.gg, then, in such an event, Glowskins.gg reserves the
-              right to institute civil or criminal proceedings against such
-              Users and to report such Users to the relevant regulatory
-              authorities.
+              Glowskin, then, in such an event, Glowskin reserves the right to
+              institute civil or criminal proceedings against such Users and to
+              report such Users to the relevant regulatory authorities.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Users further agree to indemnify, save, and hold harmless
-              Glowskins.gg and the Providers from any claims, losses, damages,
-              liabilities, including legal fees and expenses, arising out of
-              their use or misuse of Glowskins.gg, any violation by Users of
-              this Agreement, or any breach of the representations, warranties,
-              and covenants made by Users herein. Glowskins.gg reserves the
-              right, at the Users’ expense, to assume the exclusive defense and
-              control of any matter for which the Users are required to
-              indemnify Glowskins.gg, and Users agree to cooperate with
-              Glowskins.gg’s defense of these claims. Glowskins.gg will use
-              reasonable efforts to notify Users of any such claim, action, or
-              proceeding upon becoming aware of it. Users agree that the
-              provisions in this paragraph will survive any termination of their
-              Glowskins.gg Account or of Glowskins.gg.
+              Users further agree to indemnify, save, and hold harmless Glowskin
+              and the Providers from any claims, losses, damages, liabilities,
+              including legal fees and expenses, arising out of their use or
+              misuse of Glowskin, any violation by Users of this Agreement, or
+              any breach of the representations, warranties, and covenants made
+              by Users herein. Glowskin reserves the right, at the Users’
+              expense, to assume the exclusive defense and control of any matter
+              for which the Users are required to indemnify Glowskin, and Users
+              agree to cooperate with Glowskin’s defense of these claims.
+              Glowskin will use reasonable efforts to notify Users of any such
+              claim, action, or proceeding upon becoming aware of it. Users
+              agree that the provisions in this paragraph will survive any
+              termination of their Glowskin Account or of Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Force Majeure
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              Glowskins.gg shall not be liable for any delay or failure to
-              perform resulting from unforeseen circumstances or causes outside
-              its reasonable control, including, without limitation, acts of
-              God, war, terrorism, riots, embargoes, acts of civil or military
+              Glowskin shall not be liable for any delay or failure to perform
+              resulting from unforeseen circumstances or causes outside its
+              reasonable control, including, without limitation, acts of God,
+              war, terrorism, riots, embargoes, acts of civil or military
               authorities, fire, floods, accidents, network infrastructure
               failures, strikes, or shortages of transportation facilities,
               fuel, energy, labor or materials.
@@ -1481,7 +1462,7 @@ export default function TermsOfService() {
               • Waiver/Severability
             </p>
             <p className="text-white text-opacity-50 w-full  ">
-              No failure or forbearance on Glowskins.gg’s part to exercise its
+              No failure or forbearance on Glowskin’s part to exercise its
               rights or insist upon performance of obligations hereunder is to
               be construed as a waiver or relinquishment of those or any other
               rights or obligations in that or any other instance; rather, the
@@ -1502,18 +1483,18 @@ export default function TermsOfService() {
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               These Terms constitute the entire agreement between Users and
-              Glowskins.gg with respect to the subject matter hereof and
-              supersedes and replaces all prior or contemporaneous
-              understandings or agreements, written or oral, regarding such
-              subject matter. Any waiver of any provision of these Terms or the
-              Glowskins.gg Privacy Policy will be effective only if in writing
-              and signed by Glowskins.gg.
+              Glowskin with respect to the subject matter hereof and supersedes
+              and replaces all prior or contemporaneous understandings or
+              agreements, written or oral, regarding such subject matter. Any
+              waiver of any provision of these Terms or the Glowskin Privacy
+              Policy will be effective only if in writing and signed by
+              Glowskin.
             </p>
             <p className="text-white text-opacity-50 w-full  ">
               • Supplemental Policies
             </p>
             <p className="text-white text-opacity-50 w-full ">
-              Glowskins.gg may publish additional policies related to specific
+              Glowskin may publish additional policies related to specific
               services such as contests, tournaments, or promotions. Your right
               to use such services is subject to those specific policies and
               these Terms.
