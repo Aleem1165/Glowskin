@@ -91,7 +91,10 @@ export default function Footer() {
         >
           Contact Us
         </Link>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        <Link
+          to={"/disclaimer"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Disclaimer
         </Link>
         <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
