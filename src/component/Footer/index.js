@@ -85,7 +85,10 @@ export default function Footer() {
         >
           About Us
         </Link>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        <Link
+          to={"/contact"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Contact Us
         </Link>
         <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">

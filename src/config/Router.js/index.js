@@ -9,6 +9,7 @@ import TermsOfService from "../../Screens/TermsOfService";
 import PrivacyPolicy from "../../Screens/PrivacyPolicy";
 import AMLPolicy from "../../Screens/AMLPolicy";
 import AboutUs from "../../Screens/AboutUs";
+import ContactUs from "../../Screens/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutUs />,
+      },
+      {
+        path: "/contact",
+        element: <ContactUs />,
       },
     ],
   },
