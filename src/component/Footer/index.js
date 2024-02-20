@@ -1,5 +1,6 @@
 import React from "react";
 import images from "../../utilities/images";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -41,54 +42,67 @@ export default function Footer() {
         <div className="text-yellow  text-md font-semibold mt-2 mb-5">
           INFORMATION
         </div>
-        <div
-          //   to={"/fairness"}
+        <Link
+          to={"/fairness"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  "
         >
           Fairness
-        </div>
-        <div
-          //   to={"/questions"}
+        </Link>
+        <Link
+          to={"/questions"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5"
         >
           Questions
-        </div>
-        <div
-          //   to={"/tos"}
+        </Link>
+        <Link
+          to={"/tos"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5"
         >
           Terms of Service
-        </div>
-        <div
-          //   to={"/privacy"}
+        </Link>
+        <Link
+          to={"/privacy"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
         >
           Privacy Policy
-        </div>
+        </Link>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
           Legal Opinion
         </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+
+        <Link
+          to={"/aml"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           AML Policy
-        </div>
+        </Link>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5">
           Meet the Team
         </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        <Link
+          to={"/about"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           About Us
-        </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        </Link>
+        <Link
+          to={"/contact"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Contact Us
-        </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        </Link>
+        <Link
+          to={"/disclaimer"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Disclaimer
-        </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        </Link>
+        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
           Code of Ethics
-        </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        </Link>
+        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
           Editorial Policy
-        </div>
+        </Link>
       </div>
       <div className="flex flex-col items-start">
         <div className="text-yellow text-md font-semibold mt-2 mb-5">GAMES</div>
@@ -136,26 +150,26 @@ export default function Footer() {
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Free to Play
         </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Blog
-        </div>
+        </Link>
       </div>
       <div className="flex flex-col items-start w-15p">
         <div className="text-yellow text-md font-semibold mt-2 mb-5">
           ARTICLES
         </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           <span className="block">M9 Bayonet:</span>A Detailed Analysis of One
           of CS:GO's Most Iconic Weapons
-        </div>
-        <div className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
+        </Link>
+        <Link className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
           <span className="block">Karambit:</span>Unveiling the Secrets Behind
           the Most Sought-After Knife in CS:GO
-        </div>
-        <div className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
+        </Link>
+        <Link className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
           <span className="block">Huntsman Knife: </span>Learn Elite Details and
           Performance Insights for Blade Mastery
-        </div>
+        </Link>
       </div>
     </div>
   );

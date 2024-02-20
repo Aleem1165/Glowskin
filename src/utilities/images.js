@@ -88,9 +88,13 @@ import google from "../assets/images/google.png";
 import simpleLock from "../assets/images/simpleLock.png";
 import signinOut from "../assets/images/signinOut.png";
 import cap from "../assets/images/cap.png";
+<<<<<<< HEAD
 import mines1 from "../assets/images/mines1.png";
 import mines2 from "../assets/images/mines2.png";
 import minesCard from "../assets/images/minesCard.png";
+=======
+import dashboardBackground from "../assets/images/dashboardBackground.png";
+>>>>>>> 328da499d24077d9bad6378ba5f612252846e56c
 
 const images = {
   minesCard,
@@ -186,6 +190,7 @@ const images = {
   info,
   lock,
   disabledCircle,
+  dashboardBackground
 };
 
 export default images;
