@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import images from "../../utilities/images";
 import "../../App.css";
 
-export default function LiveDrops() {
+export default function LiveDrops({ showLiveDrops }) {
   const [tab, setTab] = useState("top");
   const [top, setTop] = useState([
     { name: "Budget Baller", percent: "90", image: images.liveDropImg },
@@ -38,7 +38,18 @@ export default function LiveDrops() {
   };
 
   return (
-    <div className="w-[200px] pl-3 h-[88vh] fixed top-[12vh]">
+    <div
+      className={`w-[200px] pl-3 h-[88vh] fixed top-[12vh] ${
+        showLiveDrops
+          ? "transition duration-500 ease-in transform translate-x-0 opacity-100"
+          : "transition duration-500 ease-out transform -translate-x-full opacity-0 hidden"
+      }`}
+      // className={
+      //   showLiveDrops
+      //     ? "w-[200px] pl-3 h-[88vh] fixed top-[12vh]"
+      //     : "w-[200px] pl-3 h-[88vh] fixed top-[12vh] hidden"
+      // }
+    >
       <div className="flex items-center justify-between text-xs font-semibold">
         <div className="flex items-center justify-center">
           <div className="w-2 h-2 bg-yellow rounded-full"></div>

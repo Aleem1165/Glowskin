@@ -17,6 +17,7 @@ const Layout = () => {
   const [signin, setSignin] = useState(true);
   const [paymentModal, setPaymentModal] = useState(false);
   const [deposit, setDeposit] = useState(true);
+  const [showLiveDrops, setShowLiveDrops] = useState(true);
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -31,16 +32,31 @@ const Layout = () => {
         <SignInContext.Provider value={{ signin, setSignin }}>
           <PaymentContext.Provider value={{ paymentModal, setPaymentModal }}>
             <Header deposit={deposit} setDeposit={setDeposit} />
-            <LiveDrops />
+            <LiveDrops showLiveDrops={showLiveDrops} />
             <LiveChat />
+            <img
+              onClick={() => setShowLiveDrops(!showLiveDrops)}
+              src={showLiveDrops ? images.hideLiveDrops : images.showLiveDrops}
+              // className="fixed top-[50vh] left-[200px] z-10"
+              className={
+                showLiveDrops
+                  ? "fixed top-[50vh] left-[200px] z-10 w-5 cursor-pointer"
+                  : "fixed top-[50vh] z-10 w-5 cursor-pointer"
+              }
+            />
             <div
-              className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+              className={
+                showLiveDrops
+                  ? "flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+                  : "flex flex-col pt-16 bg-cover 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+              }
+              // className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
               style={{
                 backgroundImage: `url(${images.BG})`,
               }}
             >
               <div className="w-full ">
-              {/* <div className="w-full pt-[65vh]"> */}
+                {/* <div className="w-full pt-[65vh]"> */}
                 <Outlet />
               </div>
               <Footer />

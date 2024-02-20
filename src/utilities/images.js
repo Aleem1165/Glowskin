@@ -94,8 +94,12 @@ import dashboardBackground from "../assets/images/dashboardBackground.png";
 import minesCard from "../assets/images/minesCard.png";
 import mines1 from "../assets/images/mines1.png";
 import mines2 from "../assets/images/mines2.png";
+import showLiveDrops from "../assets/images/showLiveDrops.png";
+import hideLiveDrops from "../assets/images/hideLiveDrops.png";
 
 const images = {
+  showLiveDrops,
+  hideLiveDrops,
   minesCard,
   mines1,
   mines2,
