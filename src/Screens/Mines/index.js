@@ -3,6 +3,7 @@ import "../../App.css";
 import images from "../../utilities/images";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
+import MinesGame from "../../component/MinesGame";
 
 export default function Mines() {
   const [amount, setAmount] = useState(0.01);
@@ -185,10 +186,10 @@ export default function Mines() {
           </div>
         </div>
       </div>
-      <div className="mt-10 flex flex-row items-start justify-start bg-red w-full ">
-        <div className="w-[365px] bg-paymentModalBg px-4 pt-6 flex-grow">
+      <div className="mt-10 flex md:flex-row bg-paymentModalBg flex-col-reverse items-start justify-between w-full h-full">
+        <div className="flex-grow bg-paymentModalBg px-4 pt-6 pb-10">
           <div className="text-white text-sm mb-1">Amount</div>
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex flex-row items-center justify-between w-[250px]">
             <div className="flex flex-row items-center">
               <img src={images.coin} className="w-4" />
               <input
@@ -230,7 +231,24 @@ export default function Mines() {
             />
           </div>
         </div>
-        <div className="bg-green w-full px-5 py-5 grid grid-cols-5 gap-3">
+        <div className="bg-blue3 grid grid-cols-5 gap-3 px-2 lg:px-[5%] xl:px-[10%] py-5">
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
+          <img src={images.minesCard} />
           <img src={images.minesCard} />
           <img src={images.minesCard} />
           <img src={images.minesCard} />
@@ -240,6 +258,10 @@ export default function Mines() {
           <img src={images.minesCard} />
           <img src={images.minesCard} />
         </div>
+      </div>
+      <div className="text-xs text-white flex flex-row items-center mt-5 mb-10">
+        Max Win: <img src={images.coin} className="w-3 ml-2 mr-1" />
+        10,0000
       </div>
     </div>
   );

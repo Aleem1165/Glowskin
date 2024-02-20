@@ -1,6 +1,7 @@
 import React from "react";
 import images from "../../utilities/images";
 import { Link } from "react-router-dom";
+import ScrollToTopLink from "../ScrollToTopLink";
 
 export default function Footer() {
   return (
@@ -42,67 +43,67 @@ export default function Footer() {
         <div className="text-yellow  text-md font-semibold mt-2 mb-5">
           INFORMATION
         </div>
-        <Link
+        <ScrollToTopLink
           to={"/fairness"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  "
         >
           Fairness
-        </Link>
-        <Link
+        </ScrollToTopLink>
+        <ScrollToTopLink
           to={"/questions"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5"
         >
           Questions
-        </Link>
-        <Link
+        </ScrollToTopLink>
+        <ScrollToTopLink
           to={"/tos"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5"
         >
           Terms of Service
-        </Link>
-        <Link
+        </ScrollToTopLink>
+        <ScrollToTopLink
           to={"/privacy"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
         >
           Privacy Policy
-        </Link>
+        </ScrollToTopLink>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
           Legal Opinion
         </div>
 
-        <Link
+        <ScrollToTopLink
           to={"/aml"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
         >
           AML Policy
-        </Link>
+        </ScrollToTopLink>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5">
           Meet the Team
         </div>
-        <Link
+        <ScrollToTopLink
           to={"/about"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
         >
           About Us
-        </Link>
-        <Link
+        </ScrollToTopLink>
+        <ScrollToTopLink
           to={"/contact"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
         >
           Contact Us
-        </Link>
-        <Link
+        </ScrollToTopLink>
+        <ScrollToTopLink
           to={"/disclaimer"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
         >
           Disclaimer
-        </Link>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        </ScrollToTopLink>
+        <ScrollToTopLink className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
           Code of Ethics
-        </Link>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        </ScrollToTopLink>
+        <ScrollToTopLink className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
           Editorial Policy
-        </Link>
+        </ScrollToTopLink>
       </div>
       <div className="flex flex-col items-start">
         <div className="text-yellow text-md font-semibold mt-2 mb-5">GAMES</div>
@@ -118,9 +119,12 @@ export default function Footer() {
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Roulette
         </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+        <ScrollToTopLink
+          to={"/mines"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50  "
+        >
           Mines
-        </div>
+        </ScrollToTopLink>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Crash
         </div>
