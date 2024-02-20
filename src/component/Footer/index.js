@@ -79,7 +79,10 @@ export default function Footer() {
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5">
           Meet the Team
         </div>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        <Link
+          to={"/about"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           About Us
         </Link>
         <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">

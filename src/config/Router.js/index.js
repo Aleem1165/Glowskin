@@ -8,6 +8,7 @@ import Questions from "../../Screens/Questions";
 import TermsOfService from "../../Screens/TermsOfService";
 import PrivacyPolicy from "../../Screens/PrivacyPolicy";
 import AMLPolicy from "../../Screens/AMLPolicy";
+import AboutUs from "../../Screens/AboutUs";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/aml",
         element: <AMLPolicy />,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
       },
     ],
   },
