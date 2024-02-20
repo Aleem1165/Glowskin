@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "../../Screens/Layout";
 import Home from "../../Screens/Home";
 import Profile from "../../Screens/Profile";
+import Fairness from "../../Screens/Fairness";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path:"/profile",
         element: <Profile />,
+      },
+      {
+        path:"/fairness",
+        element: <Fairness />,
       },
       
     ],
