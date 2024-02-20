@@ -49,13 +49,13 @@ export default function Footer() {
           Fairness
         </Link>
         <Link
-            to={"/questions"}
+          to={"/questions"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5"
         >
           Questions
         </Link>
         <Link
-          //   to={"/tos"}
+          to={"/tos"}
           className="text-white text-sm  cursor-pointer hover:text-opacity-50  mt-0.5"
         >
           Terms of Service

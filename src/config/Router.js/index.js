@@ -5,6 +5,7 @@ import Home from "../../Screens/Home";
 import Profile from "../../Screens/Profile";
 import Fairness from "../../Screens/Fairness";
 import Questions from "../../Screens/Questions";
+import TermsOfService from "../../Screens/TermsOfService";
 
 const router = createBrowserRouter([
   {
@@ -16,17 +17,21 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path:"/profile",
+        path: "/profile",
         element: <Profile />,
       },
       {
-        path:"/fairness",
+        path: "/fairness",
         element: <Fairness />,
       },
       {
-        path:"/questions",
+        path: "/questions",
         element: <Questions />,
-      },      
+      },
+      {
+        path: "/tos",
+        element: <TermsOfService />,
+      },
     ],
   },
 ]);
