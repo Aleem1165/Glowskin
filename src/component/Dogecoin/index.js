@@ -26,7 +26,7 @@ export default function Dogecoin() {
     <div className="w-80p lg:w-65p xl:w-60p">
       <div className="w-full bg-paymentModalBg p-4">
         <div className="flex flex-row items-center ">
-          <img src={images.litecoin} className="w-10 h-10 bg-transparent" />
+          <img src={images.dogecoin} className="w-10 h-10 bg-transparent" />
           <div className="text-xs ml-2 font-semibold">
             <div className="text-white text-sm">Dogecoin</div>
             <div className="text-lineBlue">1 USD = 1.46</div>
@@ -37,7 +37,7 @@ export default function Dogecoin() {
             {loader ? (
               <BarLoader color={"#0CAAF3"} />
             ) : (
-              <img src={images.etherum} className="h-full w-full" />
+              <img src={images.dogecoin} className="h-full w-full" />
             )}
           </div>
           <div className="w-full ml-4 ">

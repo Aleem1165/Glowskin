@@ -37,7 +37,7 @@ export default function Litecoin() {
             {loader ? (
               <BarLoader color={"#0CAAF3"} />
             ) : (
-              <img src={images.etherum} className="h-full w-full" />
+              <img src={images.litecoin} className="h-full w-full" />
             )}
           </div>
           <div className="w-full ml-4 ">

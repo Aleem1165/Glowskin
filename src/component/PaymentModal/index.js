@@ -26,6 +26,7 @@ import Ada from "../Ada";
 import Bnb from "../Bnb";
 import Trx from "../Trx";
 import Usdt from "../Usdt";
+import Promotion from "../Promotion";
 
 export default function PaymentModal({ deposit, setDeposit }) {
   const { paymentModal, setPaymentModal } = usePayment();
@@ -55,6 +56,7 @@ export default function PaymentModal({ deposit, setDeposit }) {
   const handleChangeSelectedDeposit = (name) => {
     // visa; arkpay zelle giftcard visaTrustly webMoney neteller sofort neosurf unionPay sofort2
     // bitcoin etherum litecoin dogecoin usdtTrx usdc ripple chainlink solana ada bnb trx usdt
+    // promotion;
     setSelectDeposit(name);
   };
 
@@ -103,8 +105,6 @@ export default function PaymentModal({ deposit, setDeposit }) {
                 <input
                   type="text"
                   placeholder="Affiliate Code"
-                  // placeholder-white
-                  // bg-transparent
                   className="focus:outline-none text-sm p-1 bg-transparent text-white placeholder-white w-[160px]"
                 />
                 <img src={images.infoSquare} className="w-5 h-5" />
@@ -504,7 +504,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                   </div>
                   <div className="text-white text-md font-bold mb-2">Free</div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
-                    <div className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80">
+                    <div
+                      onClick={() => handleChangeSelectedDeposit("promotion")}
+                      className="flex flex-row items-center bg-paymentModalBg p-2 cursor-pointer hover:bg-paymentModalBg2 active:opacity-80"
+                    >
                       <img src={images.promotion} className="w-16 h-14" />
                       <div className="text-xs ml-2 font-semibold">
                         <div className="text-white text-sm">Promotion</div>
@@ -570,8 +573,10 @@ export default function PaymentModal({ deposit, setDeposit }) {
                     <Bnb />
                   ) : selectedDeposit === "trx" ? (
                     <Trx />
+                  ) : selectedDeposit === "usdt" ? (
+                    <Usdt />
                   ) : (
-                    selectedDeposit === "usdt" && <Usdt />
+                    selectedDeposit === "promotion" && <Promotion />
                   )}
                 </div>
               )}

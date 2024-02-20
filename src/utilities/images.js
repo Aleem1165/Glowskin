@@ -74,10 +74,32 @@ import unCheck from "../assets/images/unCheck.png";
 import giftcard from "../assets/images/giftcard.png";
 import copy from "../assets/images/copy.png";
 import done from "../assets/images/done.png";
+import profile from "../assets/images/profile.png";
+import userProfile from "../assets/images/userProfile.png";
+import profileBg from "../assets/images/profileBg.png";
+import Line from "../assets/images/Line.png";
+import target from "../assets/images/target.png";
+import circle from "../assets/images/circle.png";
+import briefcase from "../assets/images/briefcase.png";
+import info from "../assets/images/info.png";
+import lock from "../assets/images/lock.png";
+import disabledCircle from "../assets/images/disabledCircle.png";
+import steam from "../assets/images/steam.png";
+import game from "../assets/images/game.png";
+import google from "../assets/images/google.png";
+import simpleLock from "../assets/images/simpleLock.png";
+import signinOut from "../assets/images/signinOut.png";
+import cap from "../assets/images/cap.png";
 
 const images = {
   copy,
   done,
+  cap,
+  simpleLock,
+  signinOut,
+  steam,
+  game,
+  google,
   giftcard,
   check,
   unCheck,
@@ -152,6 +174,16 @@ const images = {
   arrowDown,
   arrowUp,
   race,
+  profile,
+  userProfile,
+  profileBg,
+  Line,
+  target,
+  circle,
+  briefcase,
+  info,
+  lock,
+  disabledCircle,
 };
 
 export default images;
