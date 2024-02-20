@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "../../Screens/Layout";
 import Home from "../../Screens/Home";
 import Profile from "../../Screens/Profile";
+import Mines from "../../Screens/Mines";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +12,8 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        // element: <Home />,
+        element: <Mines/>,
       },
       {
         path:"/profile",
