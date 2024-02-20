@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
   background-color: transparent;
   resize: none;
   overflow: auto;
-  height: 65px;
+  /* height: 65px; */
 
 }
 
@@ -66,18 +66,20 @@ body::-webkit-scrollbar {
   overflow-x: auto;
   /* Set a fixed height and width for the container */
   height: 100px;
-  width: 100%; /* Or any other appropriate width */
+  width: 100%;
+  /* Or any other appropriate width */
 }
 
 .child {
   /* Set width using calc() to subtract scrollbar width */
-  width: calc(200px - 17px); /* Adjust 17px according to your browser's scrollbar width */
+  width: calc(200px - 17px);
+  /* Adjust 17px according to your browser's scrollbar width */
   height: 100px;
   background-color: red;
   margin-left: 2px;
 }
 
-.slider{
+.slider {
   background-color: red;
 }
 
