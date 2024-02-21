@@ -98,13 +98,16 @@ export default function Footer() {
         >
           Disclaimer
         </ScrollToTopLink>
-        <ScrollToTopLink 
+        <ScrollToTopLink
           to={"/code-of-ethics"}
-        
-        className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Code of Ethics
         </ScrollToTopLink>
-        <ScrollToTopLink className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        <ScrollToTopLink
+          to={"/editorial-policy"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Editorial Policy
         </ScrollToTopLink>
       </div>

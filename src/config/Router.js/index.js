@@ -13,6 +13,7 @@ import AboutUs from "../../Screens/AboutUs";
 import ContactUs from "../../Screens/ContactUs";
 import Disclaimer from "../../Screens/Disclaimer";
 import CodeOfEthics from "../../Screens/CodeOfEthics";
+import EditorialPolicy from "../../Screens/EditorialPolicy";
 
 const router = createBrowserRouter([
   {
@@ -68,6 +69,11 @@ const router = createBrowserRouter([
         path: "/code-of-ethics",
         element: <CodeOfEthics />,
       },
+      {
+        path: "/editorial-policy",
+        element: <EditorialPolicy />,
+      },
+      
     ],
   },
 ]);
