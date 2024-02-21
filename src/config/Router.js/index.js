@@ -12,6 +12,7 @@ import AMLPolicy from "../../Screens/AMLPolicy";
 import AboutUs from "../../Screens/AboutUs";
 import ContactUs from "../../Screens/ContactUs";
 import Disclaimer from "../../Screens/Disclaimer";
+import CodeOfEthics from "../../Screens/CodeOfEthics";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path: "/mines",
         element: <Mines />,
+      },
+      {
+        path: "/code-of-ethics",
+        element: <CodeOfEthics />,
       },
     ],
   },
