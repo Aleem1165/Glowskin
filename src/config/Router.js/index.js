@@ -16,6 +16,7 @@ import CodeOfEthics from "../../Screens/CodeOfEthics";
 import EditorialPolicy from "../../Screens/EditorialPolicy";
 import Blog from "../../Screens/Blog";
 import M9Bayonet from "../../Screens/M9Bayonet";
+import Karambit from "../../Screens/Karambit";
 
 const router = createBrowserRouter([
   {
@@ -83,6 +84,11 @@ const router = createBrowserRouter([
         path: "/M9Bayonet",
         element: <M9Bayonet />,
       },
+      {
+        path: "/Karambit",
+        element: <Karambit />,
+      },
+      
       
     ],
   },

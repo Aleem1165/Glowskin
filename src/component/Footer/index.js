@@ -178,7 +178,10 @@ export default function Footer() {
           <span className="block">M9 Bayonet:</span>A Detailed Analysis of One
           of CS:GO's Most Iconic Weapons
         </ScrollToTopLink>
-        <ScrollToTopLink className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
+        <ScrollToTopLink
+          to={"/Karambit"}
+          className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  "
+        >
           <span className="block">Karambit:</span>Unveiling the Secrets Behind
           the Most Sought-After Knife in CS:GO
         </ScrollToTopLink>
