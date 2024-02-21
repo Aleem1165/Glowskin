@@ -17,6 +17,7 @@ import EditorialPolicy from "../../Screens/EditorialPolicy";
 import Blog from "../../Screens/Blog";
 import M9Bayonet from "../../Screens/M9Bayonet";
 import Karambit from "../../Screens/Karambit";
+import Huntsman from "../../Screens/Huntsman";
 
 const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ const router = createBrowserRouter([
       {
         path: "/Karambit",
         element: <Karambit />,
+      },
+      {
+        path: "/Huntsman",
+        element: <Huntsman />,
       },
       
       

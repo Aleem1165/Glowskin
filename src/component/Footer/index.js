@@ -185,7 +185,10 @@ export default function Footer() {
           <span className="block">Karambit:</span>Unveiling the Secrets Behind
           the Most Sought-After Knife in CS:GO
         </ScrollToTopLink>
-        <ScrollToTopLink className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
+        <ScrollToTopLink
+          to={"/Huntsman"}
+          className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  "
+        >
           <span className="block">Huntsman Knife: </span>Learn Elite Details and
           Performance Insights for Blade Mastery
         </ScrollToTopLink>
