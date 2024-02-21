@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import images from "../../utilities/images";
-// import Progress from "../ProgressBar";
-// import VideoPlayer from "../VideoPlayer";
 import videos from "../../utilities/videos";
-// import AutoVideoPlayer from "../AutoVideoPlayer";
 import { useModal, useSignIn } from "../../Screens/Layout";
 import AutoVideoPlayer from "../AutoVideoPlayer";
 import Progress from "../ProgresBar";
@@ -15,14 +12,9 @@ const HomeImage = () => {
 
   return (
     <div className="mb-10 flex w-full flex-col lg:flex-row justify-center gap-4 mt-8 max-w-screen-xl mx-auto ">
-      <div
-        className="w-full lg:w-1/2 bg-cover bg-contain bg-no-repeat relative flex flex-col items-center lg:items-start justify-center"
-        style={{
-          backgroundImage: `url(${images.dashboardImg})`,
-        }}
-      >
+      <div className="w-full bg-darkBlue2 border-t border-l px-[10%] lg:px-4 border-r border-lineBlue h-[160px] lg:w-1/2 relative flex flex-col items-center sm:items-start justify-center">
         {signin ? (
-          <div className="flex flex-col items-end lg:ml-5p">
+          <div className="flex flex-col items-end ">
             <div className=" text-white font-bold">
               Welcome Back,
               <span className="text-yellow font-bold text-lg"> Anonymous</span>
@@ -30,15 +22,15 @@ const HomeImage = () => {
             <Progress progress={progress} />
           </div>
         ) : (
-          <div className="flex flex-col items-start lg:ml-5p">
-            <div className="text-textDissable text-sm mb-4">
+          <div className="flex flex-col items-center sm:items-start ">
+            <div className="text-textDissable text-sm mb-4 text-center sm:text-start">
               Sign in with
               <span className="text-base font-bold text-lineBlue">
                 {" "}
                 Google, Email
               </span>{" "}
               to
-              <span className="lg:block">access.logo</span>
+              <span className="block">access.logo</span>
             </div>
             <div
               onClick={() => {
@@ -50,36 +42,21 @@ const HomeImage = () => {
             </div>
           </div>
         )}
-        {/* <div
-        className=" bottom-0 absolute hidden lg:block"
-        style={{ right: "30px" }}
-        >
-          <AutoVideoPlayer src={videos.agent} />
-        </div> */}
-        <div className="h-[200px] right-[-5px] bottom-0  absolute hidden lg:block">
+
+        <div className="h-[200px] right-[-5px] bottom-0  absolute hidden sm:block">
           <AutoVideoPlayer src={videos.agent} />
         </div>
-        {/* <img
-          src={images.dashboardImg1}
-          className="h-[185px] right-[-5px] bottom-0  absolute hidden lg:block"
-        /> */}
       </div>
-      <div
-        className="w-full lg:w-1/2 bg-contain bg-no-repeat h-40 bg-cover relative flex flex-col items-center lg:items-start justify-center"
-        // className=" w-full lg:w-49 h-48 bg-cover bg-center relative flex flex-col items-center lg:items-end justify-center rounded-lg"
-        style={{
-          backgroundImage: `url(${images.dashboardImg})`,
-        }}
-      >
+      <div className="w-full bg-darkBlue2 border-t border-l px-[10%] lg:px-4 mt-5 lg:mt-0 border-r border-lineBlue h-[160px] lg:w-1/2 relative flex flex-col items-center sm:items-start justify-center ">
         {signin ? (
-          <div className="flex flex-col items-start lg:ml-5p">
+          <div className="flex flex-col items-center sm:items-start text-center">
             <div className="text-headerBorder font-bold text-lg">
               Free Rewards
             </div>
             <div className="text-white text-sm">
               Explore all rewards Glowskins.gg has to offer.
             </div>
-            <div className="text-white text-sm w-80p">
+            <div className="text-white text-sm w-full">
               Claim{" "}
               <span className="text-headerBorder font-semibold">
                 Daily Cases
@@ -93,7 +70,7 @@ const HomeImage = () => {
             </div>
           </div>
         ) : (
-          <div className="flex flex-col items-start lg:ml-5p w-1/2">
+          <div className="flex flex-col items-center sm:items-start">
             <div className="text-headerBorder font-bold text-sm">
               Free Rewards
             </div>
@@ -116,7 +93,7 @@ const HomeImage = () => {
         )}
         <img
           src={images.dashboardImg2}
-          className="h-[185px] bottom-0 right-3 absolute hidden lg:block"
+          className="h-[185px] bottom-0 right-3 absolute hidden sm:block"
         />
       </div>
     </div>

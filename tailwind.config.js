@@ -10,7 +10,7 @@ module.exports = {
         logoLine: "#D9D9D9",
         lineBlue: "#0CAAF3",
         //
-        // headerBg: "#12101B",
+        darkBlue2: "#12101B",
         headerBorder: "#0CAAF3",
         headerBorder2: "#2A304A",
         // yellow: "#FFAC0C",
@@ -39,13 +39,13 @@ module.exports = {
         lightGray: "#CBCACA",
         disabledGray: "#A7A7A7",
         disabledGray2: "#757575",
-        steamBtn:'#334155',
-        btnBlue:'#2563EB',
-        pink:'#3F1A48',
-        pink2:'#C50CF3',
-        darkBlue:'#07496C',
-        gold:"#3F2E0D",
-        red2:'#3D1725'
+        steamBtn: "#334155",
+        btnBlue: "#2563EB",
+        pink: "#3F1A48",
+        pink2: "#C50CF3",
+        darkBlue: "#07496C",
+        gold: "#3F2E0D",
+        red2: "#3D1725",
       },
       width: {
         "5p": "5%",
@@ -114,7 +114,6 @@ module.exports = {
         custom: ["YourCustomFont", "Puppies Play"],
       },
     },
-  
   },
   plugins: [],
 };

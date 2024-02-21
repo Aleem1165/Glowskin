@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import Header from "../../component/Header";
 import Footer from "../../component/Footer";
@@ -17,8 +17,17 @@ const Layout = () => {
   const [signin, setSignin] = useState(true);
   const [paymentModal, setPaymentModal] = useState(false);
   const [deposit, setDeposit] = useState(true);
-  const [showLiveDrops, setShowLiveDrops] = useState(true);
+  const [showLiveDrops, setShowLiveDrops] = useState(false);
   const [showChat, setShowChat] = useState(false);
+
+  useEffect(() => {
+    // Condition based on screen width
+    if (window.innerWidth < 1020) {
+      setShowLiveDrops(false);
+    } else {
+      setShowLiveDrops(true);
+    }
+  }, []);
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -50,19 +59,18 @@ const Layout = () => {
               className={
                 showChat
                   ? "fixed top-[50vh] right-[210px] z-10 w-4 cursor-pointer hidden 2xl:block"
-                  :
-                  "fixed top-[50vh] z-10 w-4 right-0 cursor-pointer hidden 2xl:block"
+                  : "fixed top-[50vh] z-10 w-4 right-0 cursor-pointer hidden 2xl:block"
               }
             />
             <div
               className={
                 showLiveDrops
                   ? showChat
-                    ? "flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
-                    : "flex flex-col pt-16 bg-cover pl-[200px] min-h-[100vh] items-center justify-between"
+                    ? "flex flex-col pt-16 bg-cover lg:pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+                    : "flex flex-col pt-16 bg-cover lg:pl-[200px] min-h-[100vh] items-center justify-between"
                   : showChat
-                    ? "flex flex-col pt-16 bg-cover 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
-                    : "flex flex-col pt-16 bg-cover min-h-[100vh] items-center justify-between"
+                  ? "flex flex-col pt-16 bg-cover 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+                  : "flex flex-col pt-16 bg-cover min-h-[100vh] items-center justify-between"
               }
               style={{
                 backgroundImage: `url(${images.BG})`,
@@ -71,7 +79,7 @@ const Layout = () => {
               <div className="w-full ">
                 <Outlet />
               </div>
-              <Footer />
+              {/* <Footer /> */}
             </div>
             <AuthModal />
             <PaymentModal deposit={deposit} setDeposit={setDeposit} />

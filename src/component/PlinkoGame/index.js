@@ -1,6 +1,3 @@
-
-
-
 // import React from 'react';
 // export default function PlinkoGame() {
 //     const rows = [];
@@ -18,95 +15,234 @@
 //     );
 // }
 
-import React from 'react';
+import React from "react";
 export default function PlinkoGame() {
-
-    return (
-        <div className='w-full px-10'>
-            {/* <div className='w-full flex  justify-center mt-4'>
-                {[...Array(3)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-                        <div className='w-full flex  justify-center mt-4'>
-                {[...Array(4)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(5)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(6)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(7)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(8)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(9)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(10)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(11)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(12)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(13)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(14)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(15)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(16)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div>
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(17)].map((_, index) => (
-                    <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
-                ))}
-            </div> */}
-            <div className='w-full flex  justify-center mt-4'>
-                {[...Array(18)].map((_, index) => (
-                    <div key={index} className='w-[10px] h-[10px] rounded-full bg-white mx-[8px]'></div>
-                ))}
-            </div>
-        </div>
-    );
+  return (
+    // <div className="w-full grid grid-cols-1 bg-red sm:bg-yellow">
+    //   <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(3)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //                     <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(4)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(5)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(6)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(7)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(8)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(9)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(10)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(11)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(12)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(13)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(14)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(15)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(16)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //         <div className='w-full flex  justify-center mt-4'>
+    //             {[...Array(17)].map((_, index) => (
+    //                 <div key={index} className='w-2 h-2 rounded-full bg-white mx-2'></div>
+    //             ))}
+    //         </div>
+    //   <div className="w-full flex  justify-center mt-4">
+    //     {[...Array(18)].map((_, index) => (
+    //       <div
+    //         key={index}
+    //         className="w-[10px] h-[10px] rounded-full bg-white mx-[10px] "
+    //       ></div>
+    //     ))}
+    //   </div>
+    // </div>
+    <div class="w-full flex flex-col h-full justify-between bg-blue4 py-10">
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(3)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(4)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(5)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(6)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(7)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(8)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(9)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(10)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(11)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(12)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(13)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(14)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(15)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(16)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(17)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      <div class="w-full max-w-screen-lg flex items-center justify-center ">
+        {[...Array(18)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 h-2 rounded-full bg-white mx-[5px] sm:mx-2 xl:mx-3"
+          ></div>
+        ))}
+      </div>
+      {/* <div class="w-full max-w-screen-lg flex justify-between items-center bg-red   lg:px-[14%]">
+        {[...Array(18)].map((_, index) => (
+          <div
+            key={index}
+            className="w-2 sm:w-3 h-2 sm:h-3 md:w-3 md:h-3 rounded-full bg-white"
+          ></div>
+        ))}
+      </div> */}
+    </div>
+  );
 }
-
 
 // import React, { useState, useEffect } from 'react';
 // import '../../App.css'; // Import CSS file for styling

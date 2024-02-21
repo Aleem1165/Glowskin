@@ -95,8 +95,15 @@ input[type="number"] {
   /* Firefox */
 }
 
-.liveDrops{
+.liveDrops {
   transition: 5s;
+}
+
+.game-check {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  margin-left: 10%;
 }
 
 
@@ -108,12 +115,14 @@ input[type="number"] {
   position: relative;
   width: 100%;
 }
+
 .balls-container {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1; /* Ensure balls are rendered above pegs */
+  z-index: 1;
+  /* Ensure balls are rendered above pegs */
 }
 
 .ball {
@@ -124,11 +133,14 @@ input[type="number"] {
   position: absolute;
   animation: fall 3s linear infinite;
 }
+
 @keyframes fall {
   0% {
-      top: 0;
+    top: 0;
   }
+
   100% {
-      top: calc(100% - 80px); /* Adjust this value to change the animation endpoint */
+    top: calc(100% - 80px);
+    /* Adjust this value to change the animation endpoint */
   }
 }

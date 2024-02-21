@@ -4,7 +4,7 @@ import images from "../../utilities/images";
 export default function CheckItOut() {
   return (
     <div
-      className="flex pb-3 mt-16 flex-col relative items-center justify-end w-full max-w-screen-xl mx-auto h-[180px] bg-cover bg-contain bg-no-repeat"
+      className="flex pb-3 mt-16 flex-col bg-black border-r border-l border-t border-lineBlue relative items-center justify-end w-full max-w-screen-xl mx-auto h-[180px] bg-cover bg-contain bg-no-repeat"
       style={{
         backgroundImage: `url(${images.checkItOutBG})`,
       }}

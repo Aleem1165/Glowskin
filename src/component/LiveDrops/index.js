@@ -46,7 +46,7 @@ export default function LiveDrops({ showLiveDrops }) {
       // }`}
       className={
         showLiveDrops
-          ? "w-[200px] pl-3 h-[88vh] fixed top-[12vh] liveDrops"
+          ? "w-[200px] pl-3 h-[92vh] fixed top-[8vh] pt-2 bg-paymentModalBg lg:bg-transparent z-20"
           : "w-[200px] pl-3 h-[88vh] fixed top-[12vh] hidden liveDrops"
       }
     >
@@ -79,7 +79,7 @@ export default function LiveDrops({ showLiveDrops }) {
         </div>
       </div>
       {tab === "top" ? (
-        <div className="mt-2 h-[84vh] check overflow-y-scroll">
+        <div className="mt-2 h-[89vh] check overflow-y-scroll">
           {top &&
             top.map((item, index) => {
               return (
@@ -100,7 +100,7 @@ export default function LiveDrops({ showLiveDrops }) {
             })}
         </div>
       ) : (
-        <div className="mt-2 h-[84vh] check overflow-y-scroll">
+        <div className="mt-2 h-[89vh] check overflow-y-scroll">
           {all &&
             all.map((item, index) => {
               return (

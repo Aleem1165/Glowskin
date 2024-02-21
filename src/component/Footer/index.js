@@ -6,7 +6,7 @@ import ScrollToTopLink from "../ScrollToTopLink";
 export default function Footer() {
   return (
     <div
-      className="bg-cover w-full bg-center p-10 flex flex-row items-start justify-between  border-t-2 border-lineBlue"
+      className="bg-cover w-full mt-20 bg-center p-10 flex flex-row items-start justify-between  border-t-2 border-lineBlue"
       style={{
         backgroundImage: `url(${images.footerBG})`,
       }}
@@ -132,8 +132,9 @@ export default function Footer() {
           Mines
         </ScrollToTopLink>
         <ScrollToTopLink
-        to={'/plinko'}
-        className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+          to={"/plinko"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50  "
+        >
           Plinko
         </ScrollToTopLink>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
