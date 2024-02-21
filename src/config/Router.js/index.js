@@ -4,6 +4,7 @@ import Layout from "../../Screens/Layout";
 import Home from "../../Screens/Home";
 import Profile from "../../Screens/Profile";
 import Fairness from "../../Screens/Fairness";
+import Questions from "../../Screens/Questions";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,10 @@ const router = createBrowserRouter([
         path:"/fairness",
         element: <Fairness />,
       },
-      
+      {
+        path:"/questions",
+        element: <Questions />,
+      },      
     ],
   },
 ]);

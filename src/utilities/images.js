@@ -88,6 +88,7 @@ import google from "../assets/images/google.png";
 import simpleLock from "../assets/images/simpleLock.png";
 import signinOut from "../assets/images/signinOut.png";
 import cap from "../assets/images/cap.png";
+import dashboardBackground from "../assets/images/dashboardBackground.png";
 
 const images = {
   cap,
@@ -180,6 +181,7 @@ const images = {
   info,
   lock,
   disabledCircle,
+  dashboardBackground
 };
 
 export default images;

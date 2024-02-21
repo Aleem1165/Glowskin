@@ -14,7 +14,7 @@ export default function Fairness() {
         <div
           className="p-4 bg-cover bg-center "
           style={{
-            backgroundImage: `url(${images.dashboardBackground})`,
+            // backgroundImage: `url(${images.dashboardBackground})`,
           }}
         >
           <div className=" flex  flex-row mt-5">
@@ -97,7 +97,7 @@ export default function Fairness() {
           />
           {tabName === "How it works" && (
             <div>
-              <div className="bg-btnDark  p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   What is Provably Fair?
                 </div>
@@ -110,7 +110,7 @@ export default function Fairness() {
                   inputs, thus proving that the game was fair.
                 </p>
               </div>
-              <div className="bg-btnDark  p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90  p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   Server Seed
                 </div>
@@ -129,7 +129,7 @@ export default function Fairness() {
                 <p className="text-white text-opacity-50 pb-2">Server Hash</p>
                 <input className="w-60p p-2 input" />
               </div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   Client Seed
                 </div>
@@ -162,7 +162,7 @@ export default function Fairness() {
           )}
           {tabName === "Random.org" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Random.org works
                 </div>
@@ -184,7 +184,7 @@ export default function Fairness() {
                   and unbiased.
                 </p>
               </div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   Random.org Serial Verifier
                 </div>
@@ -211,7 +211,7 @@ export default function Fairness() {
           )}
           {tabName === "Battles" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Case Battle Results Are Generated
                 </div>
@@ -223,7 +223,7 @@ export default function Fairness() {
                   case outcomes. Check the Cases tab to learn more.
                 </p>
               </div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Ties Are Resolved
                 </div>
@@ -242,7 +242,7 @@ export default function Fairness() {
                 </p>
               </div>
 
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Double Down Works
                 </div>
@@ -265,7 +265,7 @@ export default function Fairness() {
                   </div>
                 </div>
               </div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   Case Battle Verifier
                 </div>
@@ -283,7 +283,7 @@ export default function Fairness() {
                 </div>
               </div>
               {/* outcome */}
-              {/* <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              {/* <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   Outcome Verifier
                 </div>
@@ -302,7 +302,7 @@ export default function Fairness() {
           )}
           {tabName === "Upgrader" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Upgrader Results Are Generated
                 </div>
@@ -334,7 +334,7 @@ export default function Fairness() {
           )}
           {tabName === "Jackpot" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Jackpot Results Are Generated
                 </div>
@@ -363,7 +363,7 @@ export default function Fairness() {
                   ticket range
                 </p>
               </div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   Random.org Serial Verifier
                 </div>
@@ -390,7 +390,7 @@ export default function Fairness() {
           )}
           {tabName === "Plinko" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Plinko Results Are Generated
                 </div>
@@ -420,7 +420,7 @@ export default function Fairness() {
           )}
           {tabName === "Roulette" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Roulette Results Are Generated
                 </div>
@@ -446,7 +446,7 @@ export default function Fairness() {
                   on this page.
                 </p>
               </div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   Random.org Serial Verifier
                 </div>
@@ -473,7 +473,7 @@ export default function Fairness() {
           )}
           {tabName === "Mines" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Mines Results Are Generated
                 </div>
@@ -507,7 +507,7 @@ export default function Fairness() {
           )}
           {tabName === "Cases" && (
             <div>
-              <div className="bg-btnDark p-5 mt-5 w-full rounded-xl ">
+              <div className="bg-btnDark  opacity-90 p-5 mt-5 w-full rounded-xl ">
                 <div className="text-white text-xl font-bold pt-2 pb-2">
                   How Case Results Are Generated
                 </div>
