@@ -39,16 +39,16 @@ export default function LiveDrops({ showLiveDrops }) {
 
   return (
     <div
-      className={`w-[200px] pl-3 h-[88vh] fixed top-[12vh] ${
-        showLiveDrops
-          ? "transition duration-500 ease-in transform translate-x-0 opacity-100"
-          : "transition duration-500 ease-out transform -translate-x-full opacity-0 hidden"
-      }`}
-      // className={
+      // className={`w-[200px] pl-3 h-[88vh] fixed top-[12vh] liveDrops ${
       //   showLiveDrops
-      //     ? "w-[200px] pl-3 h-[88vh] fixed top-[12vh]"
-      //     : "w-[200px] pl-3 h-[88vh] fixed top-[12vh] hidden"
-      // }
+      //     ? "transition duration-500 ease-in transform translate-x-0 opacity-100"
+      //     : "transition duration-500 ease-out transform -translate-x-full opacity-0 hidden"
+      // }`}
+      className={
+        showLiveDrops
+          ? "w-[200px] pl-3 h-[88vh] fixed top-[12vh] liveDrops"
+          : "w-[200px] pl-3 h-[88vh] fixed top-[12vh] hidden liveDrops"
+      }
     >
       <div className="flex items-center justify-between text-xs font-semibold">
         <div className="flex items-center justify-center">

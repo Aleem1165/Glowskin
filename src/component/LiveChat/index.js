@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import images from "../../utilities/images";
 import "../../App.css";
 
-export default function LiveChat() {
+export default function LiveChat({ showChat }) {
   const [message, setMessage] = useState([
     {
       image: images.liveChatUser,
@@ -90,7 +90,13 @@ export default function LiveChat() {
     },
   ]);
   return (
-    <div className="border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0 hidden 2xl:block">
+    <div
+      className={
+        showChat ? "border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0 hidden 2xl:block"
+          : "border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0  hidden"
+      }
+    // className="border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0 hidden 2xl:block"
+    >
       <div className="flex items-end justify-between h-[7vh] pr-2 border-b border-lineBlue pb-3">
         <div className="text-sm font-semibold text-white ml-4">
           <div>

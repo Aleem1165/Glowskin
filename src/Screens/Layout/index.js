@@ -18,6 +18,7 @@ const Layout = () => {
   const [paymentModal, setPaymentModal] = useState(false);
   const [deposit, setDeposit] = useState(true);
   const [showLiveDrops, setShowLiveDrops] = useState(true);
+  const [showChat, setShowChat] = useState(false);
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -33,30 +34,41 @@ const Layout = () => {
           <PaymentContext.Provider value={{ paymentModal, setPaymentModal }}>
             <Header deposit={deposit} setDeposit={setDeposit} />
             <LiveDrops showLiveDrops={showLiveDrops} />
-            <LiveChat />
+            <LiveChat showChat={showChat} />
             <img
               onClick={() => setShowLiveDrops(!showLiveDrops)}
               src={showLiveDrops ? images.hideLiveDrops : images.showLiveDrops}
-              // className="fixed top-[50vh] left-[200px] z-10"
               className={
                 showLiveDrops
-                  ? "fixed top-[50vh] left-[200px] z-10 w-5 cursor-pointer"
-                  : "fixed top-[50vh] z-10 w-5 cursor-pointer"
+                  ? "fixed top-[50vh] left-[200px] z-10 w-4 cursor-pointer"
+                  : "fixed top-[50vh] z-10 w-4 cursor-pointer"
+              }
+            />
+            <img
+              onClick={() => setShowChat(!showChat)}
+              src={showChat ? images.closeChat : images.openChat}
+              className={
+                showChat
+                  ? "fixed top-[50vh] right-[210px] z-10 w-4 cursor-pointer hidden 2xl:block"
+                  :
+                  "fixed top-[50vh] z-10 w-4 right-0 cursor-pointer hidden 2xl:block"
               }
             />
             <div
               className={
                 showLiveDrops
-                  ? "flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
-                  : "flex flex-col pt-16 bg-cover 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+                  ? showChat
+                    ? "flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+                    : "flex flex-col pt-16 bg-cover pl-[200px] min-h-[100vh] items-center justify-between"
+                  : showChat
+                    ? "flex flex-col pt-16 bg-cover 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+                    : "flex flex-col pt-16 bg-cover min-h-[100vh] items-center justify-between"
               }
-              // className="flex flex-col pt-16 bg-cover pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
               style={{
                 backgroundImage: `url(${images.BG})`,
               }}
             >
               <div className="w-full ">
-                {/* <div className="w-full pt-[65vh]"> */}
                 <Outlet />
               </div>
               <Footer />

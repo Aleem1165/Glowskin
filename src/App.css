@@ -94,3 +94,41 @@ input[type="number"] {
   -moz-appearance: textfield;
   /* Firefox */
 }
+
+.liveDrops{
+  transition: 5s;
+}
+
+
+
+/* //////////////////// */
+
+
+.plinko-board {
+  position: relative;
+  width: 100%;
+}
+.balls-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Ensure balls are rendered above pegs */
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  animation: fall 3s linear infinite;
+}
+@keyframes fall {
+  0% {
+      top: 0;
+  }
+  100% {
+      top: calc(100% - 80px); /* Adjust this value to change the animation endpoint */
+  }
+}

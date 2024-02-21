@@ -22,7 +22,7 @@ export default function Mines() {
             <img src={images.mines1} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -43,7 +43,7 @@ export default function Mines() {
             <img src={images.mines2} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Mines() {
             <img src={images.mines1} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -85,7 +85,7 @@ export default function Mines() {
             <img src={images.mines2} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function Mines() {
             <img src={images.mines1} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function Mines() {
             <img src={images.mines2} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -148,7 +148,7 @@ export default function Mines() {
             <img src={images.mines1} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function Mines() {
             <img src={images.mines2} className="w-14" />
             <div className="flex flex-col ml-2">
               <div className="text-sm text-white">15 Mine</div>
-              <div className="text-sm text-white bg-blue3 flex items-cenetr justify-center">
+              <div className="text-sm text-white bg-blue3 flex items-center justify-center">
                 x0.00
               </div>
             </div>
@@ -229,6 +229,11 @@ export default function Mines() {
               onChange={(newValue) => setMines(newValue)}
               trackStyle={{ backgroundColor: "#0CAAF3" }}
             />
+          </div>
+          <div className="flex items-center justify-center mt-10">
+            <div className="bg-yellow px-6 py-2 text-sm font-semibold cursor-pointer active:opacity-80">
+              Start
+            </div>
           </div>
         </div>
         <div className="bg-blue3 grid grid-cols-5 gap-3 px-2 lg:px-[5%] xl:px-[10%] py-5">

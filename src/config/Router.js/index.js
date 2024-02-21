@@ -12,6 +12,8 @@ import AMLPolicy from "../../Screens/AMLPolicy";
 import AboutUs from "../../Screens/AboutUs";
 import ContactUs from "../../Screens/ContactUs";
 import Disclaimer from "../../Screens/Disclaimer";
+import Plinko from "../../Screens/Plinko";
+import PlinkoGame from "../../component/PlinkoGame";
 
 const router = createBrowserRouter([
   {
@@ -58,10 +60,14 @@ const router = createBrowserRouter([
         path: "/disclaimer",
         element: <Disclaimer />,
       },
-      ,
       {
         path: "/mines",
         element: <Mines />,
+      },
+      {
+        path: "/plinko",
+        element: <Plinko />,
+        // element: <PlinkoGame />,
       },
     ],
   },

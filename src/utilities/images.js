@@ -96,8 +96,20 @@ import mines1 from "../assets/images/mines1.png";
 import mines2 from "../assets/images/mines2.png";
 import showLiveDrops from "../assets/images/showLiveDrops.png";
 import hideLiveDrops from "../assets/images/hideLiveDrops.png";
+import openChat from "../assets/images/openChat.png";
+import closeChat from "../assets/images/closeChat.png";
+import plinkoBlue from "../assets/images/plinkoBlue.png";
+import plinkoPink from "../assets/images/plinkoPink.png";
+import plinkoRed from "../assets/images/plinkoRed.png";
+import plinkoYellow from "../assets/images/plinkoYellow.png";
 
 const images = {
+  plinkoBlue,
+  plinkoPink,
+  plinkoRed,
+  plinkoYellow,
+  openChat,
+  closeChat,
   showLiveDrops,
   hideLiveDrops,
   minesCard,

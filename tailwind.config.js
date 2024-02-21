@@ -41,6 +41,11 @@ module.exports = {
         disabledGray2: "#757575",
         steamBtn:'#334155',
         btnBlue:'#2563EB',
+        pink:'#3F1A48',
+        pink2:'#C50CF3',
+        darkBlue:'#07496C',
+        gold:"#3F2E0D",
+        red2:'#3D1725'
       },
       width: {
         "5p": "5%",
