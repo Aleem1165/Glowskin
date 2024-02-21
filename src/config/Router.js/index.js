@@ -13,7 +13,12 @@ import AboutUs from "../../Screens/AboutUs";
 import ContactUs from "../../Screens/ContactUs";
 import Disclaimer from "../../Screens/Disclaimer";
 import Plinko from "../../Screens/Plinko";
-import PlinkoGame from "../../component/PlinkoGame";
+import CodeOfEthics from "../../Screens/CodeOfEthics";
+import EditorialPolicy from "../../Screens/EditorialPolicy";
+import Blog from "../../Screens/Blog";
+import M9Bayonet from "../../Screens/M9Bayonet";
+import Karambit from "../../Screens/Karambit";
+import Huntsman from "../../Screens/Huntsman";
 
 const router = createBrowserRouter([
   {
@@ -67,8 +72,33 @@ const router = createBrowserRouter([
       {
         path: "/plinko",
         element: <Plinko />,
-        // element: <PlinkoGame />,
       },
+      {
+        path: "/code-of-ethics",
+        element: <CodeOfEthics />,
+      },
+      {
+        path: "/editorial-policy",
+        element: <EditorialPolicy />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/M9Bayonet",
+        element: <M9Bayonet />,
+      },
+      {
+        path: "/Karambit",
+        element: <Karambit />,
+      },
+      {
+        path: "/Huntsman",
+        element: <Huntsman />,
+      },
+
+
     ],
   },
 ]);

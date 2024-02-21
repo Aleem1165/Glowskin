@@ -98,10 +98,16 @@ export default function Footer() {
         >
           Disclaimer
         </ScrollToTopLink>
-        <ScrollToTopLink className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        <ScrollToTopLink
+          to={"/code-of-ethics"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Code of Ethics
         </ScrollToTopLink>
-        <ScrollToTopLink className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 ">
+        <ScrollToTopLink
+          to={"/editorial-policy"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50 mt-0.5 "
+        >
           Editorial Policy
         </ScrollToTopLink>
       </div>
@@ -156,26 +162,38 @@ export default function Footer() {
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Free to Play
         </div>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+        <ScrollToTopLink
+          to={"/blog"}
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50  "
+        >
           Blog
-        </Link>
+        </ScrollToTopLink>
       </div>
       <div className="flex flex-col items-start w-15p">
         <div className="text-yellow text-md font-semibold mt-2 mb-5">
           ARTICLES
         </div>
-        <Link className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+        <ScrollToTopLink
+          className="text-white text-sm  cursor-pointer hover:text-opacity-50  "
+          to={"/M9Bayonet"}
+        >
           <span className="block">M9 Bayonet:</span>A Detailed Analysis of One
           of CS:GO's Most Iconic Weapons
-        </Link>
-        <Link className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
+        </ScrollToTopLink>
+        <ScrollToTopLink
+          to={"/Karambit"}
+          className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  "
+        >
           <span className="block">Karambit:</span>Unveiling the Secrets Behind
           the Most Sought-After Knife in CS:GO
-        </Link>
-        <Link className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  ">
+        </ScrollToTopLink>
+        <ScrollToTopLink
+          to={"/Huntsman"}
+          className="text-white text-sm  mt-4  cursor-pointer hover:text-opacity-50  "
+        >
           <span className="block">Huntsman Knife: </span>Learn Elite Details and
           Performance Insights for Blade Mastery
-        </Link>
+        </ScrollToTopLink>
       </div>
     </div>
   );

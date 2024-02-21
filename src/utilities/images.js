@@ -96,12 +96,17 @@ import mines1 from "../assets/images/mines1.png";
 import mines2 from "../assets/images/mines2.png";
 import showLiveDrops from "../assets/images/showLiveDrops.png";
 import hideLiveDrops from "../assets/images/hideLiveDrops.png";
+<<<<<<< HEAD
 import openChat from "../assets/images/openChat.png";
 import closeChat from "../assets/images/closeChat.png";
 import plinkoBlue from "../assets/images/plinkoBlue.png";
 import plinkoPink from "../assets/images/plinkoPink.png";
 import plinkoRed from "../assets/images/plinkoRed.png";
 import plinkoYellow from "../assets/images/plinkoYellow.png";
+=======
+import dashboardGame11 from "../assets/images/dashboardGame11.png";
+import blogBg from "../assets/images/blogBg.png";
+>>>>>>> a0c3b469ba64704fa0bbabf3c49f28b5180fefd2
 
 const images = {
   plinkoBlue,
@@ -206,6 +211,8 @@ const images = {
   lock,
   disabledCircle,
   dashboardBackground,
+  dashboardGame11,
+  blogBg,
 };
 
 export default images;

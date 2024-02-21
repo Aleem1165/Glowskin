@@ -61,7 +61,7 @@ const SettingsModal = ({ isModalOpen, setIsModalOpen }) => {
 
             <div className="text-md text-grayText mt-6">
               Trade URL
-              <span className="text-yellow"> (Find)</span>
+              <span className="text-yellow cursor-pointer active:opacity-80"> (Find)</span>
             </div>
             <input
               type="text"
@@ -71,7 +71,7 @@ const SettingsModal = ({ isModalOpen, setIsModalOpen }) => {
 
             <div className="text-md text-grayText mt-6">
               API Key
-              <span className="text-yellow"> (Find)</span>
+              <span className="text-yellow cursor-pointer active:opacity-80"> (Find)</span>
             </div>
             <input
               type="text"
@@ -81,7 +81,7 @@ const SettingsModal = ({ isModalOpen, setIsModalOpen }) => {
 
             <div className="text-md text-grayText mt-6">
               Client Seed
-              <span className="text-yellow"> (Randomize)</span>
+              <span className="text-yellow cursor-pointer active:opacity-80"> (Randomize)</span>
             </div>
             <input
               type="text"
@@ -141,7 +141,7 @@ const SettingsModal = ({ isModalOpen, setIsModalOpen }) => {
                 </div>
               </div>
             </div>
-            <div className="text-lg mt-5 text-white font-semibold underline">Enroll As Trader</div>
+            <div className="text-lg mt-5 text-white font-semibold underline cursor-pointer active:opacity-80">Enroll As Trader</div>
             <div className="w-full flex items-center justify-center">
             <div onClick={closeModal} className="mt-5 bg-yellow font-bold text-sm px-7 py-2 rounded-md cursor-pointer active:opacity-80">Save</div>
             </div>
