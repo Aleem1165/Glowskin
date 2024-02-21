@@ -96,6 +96,8 @@ import mines1 from "../assets/images/mines1.png";
 import mines2 from "../assets/images/mines2.png";
 import showLiveDrops from "../assets/images/showLiveDrops.png";
 import hideLiveDrops from "../assets/images/hideLiveDrops.png";
+import dashboardGame11 from "../assets/images/dashboardGame11.png";
+import blogBg from "../assets/images/blogBg.png";
 
 const images = {
   showLiveDrops,
@@ -194,6 +196,8 @@ const images = {
   lock,
   disabledCircle,
   dashboardBackground,
+  dashboardGame11,
+  blogBg,
 };
 
 export default images;
