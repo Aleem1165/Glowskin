@@ -17,7 +17,7 @@ export default function Header({ deposit, setDeposit }) {
   const [headerRightSignin, setHeaderRightSignin] = useState(false);
 
   return (
-    <div className="w-full bg-headerBg fixed top-0 flex flex-row items-center justify-between px-3 py-3 opacity-80 z-10">
+    <div className="w-full bg-headerBg fixed top-0 flex flex-row items-center justify-between px-3  h-[7vh] opacity-80 z-10">
       <Link to={'/'} className="text-white text-2xl font-extrabold flex flex items-center">
         GLOW SKIN
         <div className="w-[2px] h-10 bg-logoLine ml-10"></div>

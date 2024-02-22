@@ -103,7 +103,7 @@ export default function PlinkoGame() {
     //     ))}
     //   </div>
     // </div>
-    <div class="w-full flex flex-col h-full justify-between bg-blue4 py-10">
+    <div class="w-full flex flex-col h-[500px] md:h-full justify-between bg-blue4 py-10">
       <div class="w-full max-w-screen-lg flex items-center justify-center ">
         {[...Array(3)].map((_, index) => (
           <div

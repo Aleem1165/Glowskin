@@ -104,8 +104,15 @@ import plinkoRed from "../assets/images/plinkoRed.png";
 import plinkoYellow from "../assets/images/plinkoYellow.png";
 import dashboardGame11 from "../assets/images/dashboardGame11.png";
 import blogBg from "../assets/images/blogBg.png";
-
+import jackpotPurple from "../assets/images/jackpotPurple.png"
+import jackpotBlue from "../assets/images/jackpotBlue.png"
+import jackpotRed from "../assets/images/jackpotRed.png"
+import jackpotDisable from "../assets/images/jackpotDisable.png"
 const images = {
+  jackpotPurple,
+  jackpotBlue,
+  jackpotRed,
+  jackpotDisable,
   plinkoBlue,
   plinkoPink,
   plinkoRed,

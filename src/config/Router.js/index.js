@@ -19,6 +19,7 @@ import Blog from "../../Screens/Blog";
 import M9Bayonet from "../../Screens/M9Bayonet";
 import Karambit from "../../Screens/Karambit";
 import Huntsman from "../../Screens/Huntsman";
+import Jackpot from "../../Screens/Jackpot";
 
 const router = createBrowserRouter([
   {
@@ -97,8 +98,11 @@ const router = createBrowserRouter([
         path: "/Huntsman",
         element: <Huntsman />,
       },
-
-
+      ,
+      {
+        path: "/jackpot",
+        element: <Jackpot />,
+      },
     ],
   },
 ]);

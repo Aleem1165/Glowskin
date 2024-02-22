@@ -119,9 +119,11 @@ export default function Footer() {
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Upgrader
         </div>
-        <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+        <ScrollToTopLink
+        to={'/jackpot'}
+        className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Jackpot
-        </div>
+        </ScrollToTopLink>
         <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
           Roulette
         </div>

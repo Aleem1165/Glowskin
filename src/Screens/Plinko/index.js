@@ -134,9 +134,8 @@ export default function Plinko() {
           </div>
         </div>
       </div>
-      {/* paymentModalBg */}
-      <div className="bg-paymentModalBg w-full h-[120vh] md:h-[90vh] flex flex-col-reverse md:flex-row items-start mt-10">
-        <div className="w-full md:w-[300px]">
+      <div className="bg-paymentModalBg w-full md:h-[600px] flex flex-col-reverse md:flex-row items-start mt-10">
+        <div className="w-full md:w-[300px] h-[550px] md:h-full">
           <div className="md:w-[300px] w-full flex flex-col px-5 py-10">
             <div className="flex felx-row items-center">
               <img

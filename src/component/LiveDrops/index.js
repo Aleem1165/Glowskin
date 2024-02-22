@@ -17,8 +17,32 @@ export default function LiveDrops({ showLiveDrops }) {
     { name: "Budget Baller4", percent: "60", image: images.liveDropImg },
     { name: "Budget Baller5", percent: "65", image: images.liveDropImg },
     { name: "Budget Baller6", percent: "50", image: images.liveDropImg },
+    { name: "Budget Baller", percent: "90", image: images.liveDropImg },
+    { name: "Budget Baller2", percent: "80", image: images.liveDropImg },
+    { name: "Budget Baller3", percent: "70", image: images.liveDropImg },
+    { name: "Budget Baller4", percent: "60", image: images.liveDropImg },
+    { name: "Budget Baller5", percent: "65", image: images.liveDropImg },
+    { name: "Budget Baller6", percent: "50", image: images.liveDropImg },
+    { name: "Budget Baller", percent: "90", image: images.liveDropImg },
+    { name: "Budget Baller2", percent: "80", image: images.liveDropImg },
+    { name: "Budget Baller3", percent: "70", image: images.liveDropImg },
+    { name: "Budget Baller4", percent: "60", image: images.liveDropImg },
+    { name: "Budget Baller5", percent: "65", image: images.liveDropImg },
+    { name: "Budget Baller6", percent: "50", image: images.liveDropImg },
   ]);
   const [all, setAll] = useState([
+    { name: "Budget Baller", percent: "90", image: images.liveDropImg2 },
+    { name: "Budget Baller2", percent: "80", image: images.liveDropImg2 },
+    { name: "Budget Baller3", percent: "70", image: images.liveDropImg2 },
+    { name: "Budget Baller4", percent: "60", image: images.liveDropImg2 },
+    { name: "Budget Baller5", percent: "65", image: images.liveDropImg2 },
+    { name: "Budget Baller6", percent: "50", image: images.liveDropImg2 },
+    { name: "Budget Baller", percent: "90", image: images.liveDropImg2 },
+    { name: "Budget Baller2", percent: "80", image: images.liveDropImg2 },
+    { name: "Budget Baller3", percent: "70", image: images.liveDropImg2 },
+    { name: "Budget Baller4", percent: "60", image: images.liveDropImg2 },
+    { name: "Budget Baller5", percent: "65", image: images.liveDropImg2 },
+    { name: "Budget Baller6", percent: "50", image: images.liveDropImg2 },
     { name: "Budget Baller", percent: "90", image: images.liveDropImg2 },
     { name: "Budget Baller2", percent: "80", image: images.liveDropImg2 },
     { name: "Budget Baller3", percent: "70", image: images.liveDropImg2 },
@@ -46,7 +70,7 @@ export default function LiveDrops({ showLiveDrops }) {
       // }`}
       className={
         showLiveDrops
-          ? "w-[200px] pl-3 h-[92vh] fixed top-[8vh] pt-2 bg-paymentModalBg lg:bg-transparent z-20"
+          ? "w-[200px] pl-3 h-[92vh] fixed top-[7vh] pt-2 bg-paymentModalBg lg:bg-transparent z-20"
           : "w-[200px] pl-3 h-[88vh] fixed top-[12vh] hidden liveDrops"
       }
     >

@@ -113,6 +113,10 @@ module.exports = {
       fontFamily: {
         custom: ["YourCustomFont", "Puppies Play"],
       },
+      fontSize: {
+        'xxs': '0.5rem', 
+        'xxxs': '0.4rem', 
+      }
     },
   },
   plugins: [],
