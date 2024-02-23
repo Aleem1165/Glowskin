@@ -6,7 +6,6 @@ import Register from "../Register";
 
 const AuthModal = () => {
   const { isModalOpen, setIsModalOpen } = useModal();
-  //   const { signin, setSignin } = useSignIn();
   const [modalOpen, setModalOpen] = useState(false);
   const [tabname, setTabname] = useState("login");
 
@@ -44,7 +43,7 @@ const AuthModal = () => {
     >
       <div className="w-full bg-transparent h-full flex items-center justify-center max-w-screen-xl">
         <div
-          className=" shadow-lg shadow-white-900 bg-cover bg-center  border-2 border-headerBorder rounded-lg px-4 lg:pr-8 pt-4 pb-4 w-50p flex flex-row items-center justify-end relative"
+          className=" shadow-lg shadow-white-900 bg-cover bg-center  border-2 border-headerBorder rounded-lg px-4 lg:pr-8 pt-4 pb-4 md:w-[50%] sm:w-[70%]  w-[96%] flex flex-row items-center justify-end relative"
           onClick={(e) => {
             e.stopPropagation();
           }}
@@ -81,11 +80,10 @@ const AuthModal = () => {
             </div>
             {tabname === "login" ? (
               <Login
-              // onClose={onClose}
+              
               />
             ) : (
               <Register
-              // onClose={onClose}
               />
             )}
           </div>

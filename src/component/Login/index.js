@@ -1,22 +1,24 @@
 import React from "react";
 // import Line from "../HomeLine";
 import images from "../../utilities/images";
-import { useModal } from "../../Screens/Layout";
+import { useHamberg, useModal, useSignIn } from "../../Screens/Layout";
 
 export default function Login({ onClose }) {
-  //   const { signin, setSignin } = useSignIn();
   const { isModalOpen, setIsModalOpen } = useModal();
+  const { signin, setSignin } = useSignIn();
+  const { hamberg, setHamberg } = useHamberg()
 
   const handleClick = (e) => {
     e.stopPropagation(); // Prevent the click event from reaching the parent div
   };
 
   const handleSignIn = async () => {
-    // setSignin(true);
+    setSignin(true);
     setIsModalOpen(false);
+    setHamberg(false)
   };
   return (
-    <div className=" w-full flex flex-col mt-5 " onClick={handleClick}>
+    <div className="w-full flex flex-col mt-5 " onClick={handleClick}>
       <input
         placeholder="Email"
         className="focus:outline-none border-b-2 border-lineColor pl-1 text-sm bg-transparent text-white text-opacity-50 placeholder-white placeholder-opacity-50 pb-1 mt-2"

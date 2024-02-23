@@ -109,7 +109,48 @@ import jackpotBlue from "../assets/images/jackpotBlue.png";
 import jackpotRed from "../assets/images/jackpotRed.png";
 import jackpotDisable from "../assets/images/jackpotDisable.png";
 import gameShadow from "../assets/images/gameShadow.png";
+import gameYellow from "../assets/images/gameYellow.png";
+import battles from "../assets/images/battles.png";
+import upgrader from "../assets/images/upgrader.png";
+import jackpot from "../assets/images/jackpot.png";
+import plinko from "../assets/images/plinko.png";
+import roulette from "../assets/images/roulette.png";
+import mines from "../assets/images/mines.png";
+import cases from "../assets/images/cases.png";
+import arrowDownBlue from "../assets/images/arrowDownBlue.png";
+import arrowUpBlue from "../assets/images/arrowUpBlue.png";
+import world from "../assets/images/world.png";
+import judgement from "../assets/images/judgement.png";
+import padlock from "../assets/images/padlock.png";
+import race2 from "../assets/images/race2.png";
+import affiliatesWhite from "../assets/images/affiliatesWhite.png";
+import dicesWhite from "../assets/images/dicesWhite.png";
+import judgementWhite from "../assets/images/judgementWhite.png";
+import padlockWhite from "../assets/images/padlockWhite.png";
+import vault from "../assets/images/vault.png";
+import wikiWhite from "../assets/images/wikiWhite.png";
+
 const images = {
+  affiliatesWhite,
+  dicesWhite,
+  judgementWhite,
+  padlockWhite,
+  vault,
+  wikiWhite,
+  race2,
+  world,
+  judgement,
+  padlock,
+  arrowDownBlue,
+  arrowUpBlue,
+  battles,
+  upgrader,
+  jackpot,
+  plinko,
+  roulette,
+  mines,
+  cases,
+  gameYellow,
   gameShadow,
   jackpotPurple,
   jackpotBlue,

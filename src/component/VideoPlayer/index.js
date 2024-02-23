@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import images from "../../utilities/images";
 import ScrollToTopLink from "../ScrollToTopLink";
 
-const VideoPlayer = ({ src, navigate }) => {
+const VideoPlayer = ({ src, navigate , name }) => {
   const [played, setPlayed] = useState(false);
   const videoRef = useRef(null);
   const isHovering = useRef(false);
@@ -22,7 +22,7 @@ const VideoPlayer = ({ src, navigate }) => {
       isHovering.current = false;
       if (!played) {
         video.pause();
-        video.currentTime = 0; // Resets the video to starting point
+        video.currentTime = 0; 
       }
     };
 
@@ -43,23 +43,32 @@ const VideoPlayer = ({ src, navigate }) => {
 
   return (
     <ScrollToTopLink to={navigate}>
-      <div className="w-full h-full relative cursor-pointer relative border-t border-r border-l  border-lineBlue">
-        <video
-          ref={videoRef}
-          width="100%"
-          height="100%"
-          loop
-          muted
-          src={src}
-          type="video/webm"
-          className={`rounded-sm h-full`}
-          // style={{ zIndex: -1 }}
-        >
-          Your browser does not support the video tag.
-        </video>
+      <div className="w-full h-full  cursor-pointer border-t border-r border-l  border-lineBlue">
+        <div className="w-full h-full relative">
+        <img
+            src={images.gameShadow}
+            className="absolute bottom-0 bg w-full h-[60%]"
+          /> 
+          <video
+            ref={videoRef}
+            width="100%"
+            height="100%"
+            loop
+            muted
+            src={src}
+            type="video/webm"
+            className={`rounded-sm`}
+          >
+            Your browser does not support the video tag.
+          </video>
+          <div className="text-white absolute bottom-5  w-full">
+            <div className="text-center text-lg font-semibold">{name}</div>
+          </div>
+        </div>
       </div>
     </ScrollToTopLink>
   );
 };
 
 export default VideoPlayer;
+

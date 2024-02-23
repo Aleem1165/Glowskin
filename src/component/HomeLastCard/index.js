@@ -29,46 +29,44 @@ const HomeLastCard = () => {
           {data.map((card, index) => (
             <div
               key={card.id}
-              className="bg-cover bg-contain bg-no-repeat flex flex-col items-center justify-between pt-3 pb-5 cursor-pointer "
-              style={{
-                backgroundImage: `url(${images.dashboardLastCardBG})`,
-              }}
+              className="hover:scale-105 transition-transform duration-300 transform bg-cover bg-darkBlue2 border-r border-l border-t border-lineBlue bg-contain bg-no-repeat flex flex-col items-center justify-between pt-3 pb-5 cursor-pointer "
             >
-              <img
-                src={card.image}
-                className="rounded-md  w-50p transition-transform duration-300 transform hover:scale-105 "
-              />
-              <div className=" flex flex-col items-center">
-                <div className="text-yellow text-xl font-semibold">
+              <div className="w-full flex flex-col items-center justify-center">
+                <img
+                  src={card.image}
+                  className="rounded-md object-contain w-[50%] h-[120px]"
+                />
+                <div className="text-yellow text-xl font-semibold w-full text-center">
                   {card.title}
                 </div>
-                <div className="w-80p text-center text-sm text-white">
-                  {card.description
-                    .split(
-                      /(create their own cases|5000 Gems|Leaderboard|Glowskins.gg|wide variety of methods)/
-                    )
-                    .map((part, i) => {
-                      if (
-                        [
-                          "create their own cases",
-                          "5000 Gems",
-                          "Leaderboard",
-                          "Glowskins.gg",
-                          "wide variety of methods",
-                        ].includes(part.trim())
-                      ) {
-                        return (
-                          <span
-                            key={i}
-                            className="text-headerBorder font-semibold"
-                          >
-                            {part}
-                          </span>
-                        );
-                      }
-                      return <span key={i}>{part}</span>;
-                    })}
-                </div>
+              </div>
+
+              <div className="w-full px-1 md:px-8 mt-2 text-center text-sm text-white">
+                {card.description
+                  .split(
+                    /(create their own cases|5000 Gems|Leaderboard|Glowskins.gg|wide variety of methods)/
+                  )
+                  .map((part, i) => {
+                    if (
+                      [
+                        "create their own cases",
+                        "5000 Gems",
+                        "Leaderboard",
+                        "Glowskins.gg",
+                        "wide variety of methods",
+                      ].includes(part.trim())
+                    ) {
+                      return (
+                        <span
+                          key={i}
+                          className="text-headerBorder font-semibold"
+                        >
+                          {part}
+                        </span>
+                      );
+                    }
+                    return <span key={i}>{part}</span>;
+                  })}
               </div>
             </div>
           ))}
