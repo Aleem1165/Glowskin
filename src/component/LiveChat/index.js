@@ -92,10 +92,10 @@ export default function LiveChat({ showChat }) {
   return (
     <div
       className={
-        showChat ? "border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0 hidden 2xl:block"
+        showChat
+          ? "border border-lineBlue w-[200px] h-[91vh] mr-[10px] fixed top-[60px] right-0 hidden 2xl:block"
           : "border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0  hidden"
       }
-    // className="border border-lineBlue w-[200px] h-[88vh] mr-[10px] fixed top-[12vh] right-0 hidden 2xl:block"
     >
       <div className="flex items-end justify-between h-[7vh] pr-2 border-b border-lineBlue pb-3">
         <div className="text-sm font-semibold text-white ml-4">
@@ -115,7 +115,7 @@ export default function LiveChat({ showChat }) {
           <img src={images.chatArrowDown} className="w-3 h-2" />
         </div>
       </div>
-      <div className=" h-[70vh]  check overflow-y-scroll">
+      <div className=" h-[73vh]  check overflow-y-scroll">
         {message.map((item, index) => {
           return (
             <div

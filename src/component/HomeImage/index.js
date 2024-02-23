@@ -11,7 +11,7 @@ const HomeImage = () => {
   const [progress, setProgress] = useState(40);
 
   return (
-    <div className="mb-10 flex w-full flex-col lg:flex-row justify-center gap-4 mt-8 max-w-screen-xl mx-auto ">
+    <div className="mb-10 flex w-full flex-col lg:flex-row justify-center gap-4 mt-16 max-w-screen-xl mx-auto ">
       <div className="w-full bg-darkBlue2 border-t border-l px-[10%] lg:px-4 border-r border-lineBlue h-[160px] lg:w-1/2 relative flex flex-col items-center sm:items-start justify-center">
         {signin ? (
           <div className="flex flex-col items-end ">

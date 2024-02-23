@@ -77,46 +77,53 @@ export default function PaymentModal({ deposit, setDeposit }) {
             e.stopPropagation();
           }}
         >
+          <img
+            src={images.crossWhite}
+            className="w-4 h-4 cursor-pointer ml-auto mb-2 sm:hidden"
+            onClick={closeModal}
+          />
           <div className="w-full flex flex-row items-center justify-between">
-            <div className="flex flex-row items-center justify-between gap-2">
-              <div
-                className={
-                  deposit
-                    ? "bg-white px-3 py-2 text-sm font-semibold text-paymentModalBg cursor-pointer active:opacity-50"
-                    : "bg-btnGray2 px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50"
-                }
-                onClick={() => setDeposit(true)}
-              >
-                Deposit
+            <div className="flex flex-col sm:flex-row sm:justify-between w-full sm:w-full gap-2">
+              <div className="flex flex-row items-center justify-between gap-2">
+                <div
+                  className={
+                    deposit
+                      ? "bg-white px-3 py-2 text-sm font-semibold text-paymentModalBg cursor-pointer active:opacity-50"
+                      : "bg-btnGray2 px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50"
+                  }
+                  onClick={() => setDeposit(true)}
+                >
+                  Deposit
+                </div>
+                <div
+                  className={
+                    deposit
+                      ? "bg-btnGray2 px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50"
+                      : "bg-white px-3 py-2 text-sm font-semibold text-paymentModalBg cursor-pointer active:opacity-50"
+                  }
+                  onClick={() => setDeposit(false)}
+                >
+                  Withdraw
+                </div>
               </div>
-              <div
-                className={
-                  deposit
-                    ? "bg-btnGray2 px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50"
-                    : "bg-white px-3 py-2 text-sm font-semibold text-paymentModalBg cursor-pointer active:opacity-50"
-                }
-                onClick={() => setDeposit(false)}
-              >
-                Withdraw
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-center gap-4">
-              <div className="flex flex-row items-center justify-center bg-blue2 py-1 px-2">
-                <input
-                  type="text"
-                  placeholder="Affiliate Code"
-                  className="focus:outline-none text-sm p-1 bg-transparent text-white placeholder-white w-[160px]"
+              <div className="flex flex-row items-center justify-between sm:justify-center gap-4">
+                <div className="flex flex-row items-center justify-center bg-blue2 py-1 px-2">
+                  <input
+                    type="text"
+                    placeholder="Affiliate Code"
+                    className="focus:outline-none text-sm p-1 bg-transparent text-white placeholder-white w-[160px]"
+                  />
+                  <img src={images.infoSquare} className="w-5 h-5" />
+                </div>
+                <div className="bg-lineBlue px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50">
+                  Apply
+                </div>
+                <img
+                  src={images.crossWhite}
+                  className="w-4 h-4 cursor-pointer hidden sm:block"
+                  onClick={closeModal}
                 />
-                <img src={images.infoSquare} className="w-5 h-5" />
               </div>
-              <div className="bg-lineBlue px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50">
-                Apply
-              </div>
-              <img
-                src={images.crossWhite}
-                className="w-4 h-4 cursor-pointer"
-                onClick={closeModal}
-              />
             </div>
           </div>
           {deposit ? (
@@ -660,4 +667,51 @@ export default function PaymentModal({ deposit, setDeposit }) {
       </div>
     </div>
   );
+}
+
+{
+  /* <div className="flex flex-row gap-2 mx-auto w-full items-start justify-between">
+  <div className="flex flex-col sm:flex-row gap-2 sm:w-full sm:items-center sm:justify-between">
+    <div className="flex flex-row items-center justify-between gap-2">
+      <div
+        className={
+          deposit
+            ? "bg-white px-3 py-2 text-sm font-semibold text-paymentModalBg cursor-pointer active:opacity-50"
+            : "bg-btnGray2 px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50"
+        }
+        onClick={() => setDeposit(true)}
+      >
+        Deposit
+      </div>
+      <div
+        className={
+          deposit
+            ? "bg-btnGray2 px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50"
+            : "bg-white px-3 py-2 text-sm font-semibold text-paymentModalBg cursor-pointer active:opacity-50"
+        }
+        onClick={() => setDeposit(false)}
+      >
+        Withdraw
+      </div>
+    </div>
+    <div className="flex flex-row items-center justify-center gap-4">
+      <div className="flex flex-row items-center justify-center bg-blue2 py-1 px-2">
+        <input
+          type="text"
+          placeholder="Affiliate Code"
+          className="focus:outline-none text-sm p-1 bg-transparent text-white placeholder-white w-[160px]"
+        />
+        <img src={images.infoSquare} className="w-5 h-5" />
+      </div>
+      <div className="bg-lineBlue px-3 py-2 text-sm font-semibold text-white cursor-pointer active:opacity-50">
+        Apply
+      </div>
+    </div>
+  </div>
+  <img
+    src={images.crossWhite}
+    className="w-4 h-4 cursor-pointer mt-2"
+    onClick={closeModal}
+  />
+</div>; */
 }

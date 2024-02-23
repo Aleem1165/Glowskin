@@ -9,11 +9,13 @@ import images from "../../utilities/images";
 
 export default function Home() {
   return (
-    <div className="max-w-screen-xl mx-auto px-5 pb-40">
+    <div className="max-w-screen-xl mx-auto px-5 pt-[350px]">
       <HomeImage />
       <div className="flex items-center justify-center">
-        <img src={images.gameYellow} className="w-8 mr-2"/>
-        <span className="text-2xl text-white font-semibold">Glow Skin Originals</span>
+        <img src={images.gameYellow} className="w-8 mr-2" />
+        <span className="text-2xl text-white font-semibold">
+          Glow Skin Originals
+        </span>
       </div>
       <Game />
       <CheckItOut />
