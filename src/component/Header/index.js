@@ -22,7 +22,7 @@ export default function Header({ deposit, setDeposit }) {
   const [headerRight, setHeaderRight] = useState(false);
   const [headerRightSignin, setHeaderRightSignin] = useState(false);
   const [notification, setNotification] = useState(false);
-  const [activeListings, setActiveListings] = useState(true);
+  const [activeListings, setActiveListings] = useState(false);
   const [activeListingsTab, setActiveListingsTab] = useState("deposit");
 
   useEffect(() => {
@@ -227,9 +227,6 @@ export default function Header({ deposit, setDeposit }) {
                 </div>
               )}
             </div>
-            {/* <div className="h-7 bg-yellow flex items-center px-1 ml-2 cursor-pointer">
-              <img src={images.transfer} className="h-6" />
-            </div> */}
             <div className="relative">
               <div
                 onClick={() => {
@@ -311,13 +308,16 @@ export default function Header({ deposit, setDeposit }) {
                     <img src={images.padlockWhite} className="w-5 ml-2 mr-2" />
                     Game Responsibility
                   </div>
-                  <div className="block px-2 py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer">
+                  <ScrollToTopLink
+                    to={"/fairness"}
+                    className="block px-2 py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer"
+                  >
                     <img
                       src={images.judgementWhite}
                       className="w-5 ml-2 mr-2"
                     />
                     Fairness
-                  </div>
+                  </ScrollToTopLink>
                   <div className="block px-2 py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer">
                     <img src={images.dicesWhite} className="w-5 ml-2 mr-2" />
                     Game History
@@ -368,15 +368,19 @@ export default function Header({ deposit, setDeposit }) {
                   className="absolute py-2 right-0 bg-paymentModalBg shadow-md w-[200px] shadow-lg"
                   onMouseEnter={() => setHeaderRight(true)}
                   onMouseLeave={() => setHeaderRight(false)}
+                  onClick={() => setHeaderRight(false)}
                 >
                   <div className="block px-2 py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer">
                     <img src={images.padlock} className="w-5 mr-2" />
                     Game Responsibility
                   </div>
-                  <div className="block px-2 py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer">
+                  <ScrollToTopLink
+                    to={"/fairness"}
+                    className="block px-2 py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer"
+                  >
                     <img src={images.judgement} className="w-5 mr-2" />
                     Fairness
-                  </div>
+                  </ScrollToTopLink>
                   <div className="block px-2 py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer">
                     <img src={images.world} className="w-5 mr-2" />
                     Wiki
@@ -619,10 +623,13 @@ export default function Header({ deposit, setDeposit }) {
                   <img src={images.padlockWhite} className="w-5 mr-2" />
                   Game Responsibility
                 </div>
-                <div className="block md:hidden px- py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer">
+                <ScrollToTopLink
+                  to={"/fairness"}
+                  className="block md:hidden px- py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer"
+                >
                   <img src={images.judgementWhite} className="w-5 mr-2" />
                   Fairness
-                </div>
+                </ScrollToTopLink>
                 <div className="block md:hidden px- py-2 text-white text-sm flex flrx-row items-center hover:bg-blue4 text-white cursor-pointer">
                   <img src={images.dicesWhite} className="w-5 mr-2" />
                   Game History
@@ -794,7 +801,8 @@ export default function Header({ deposit, setDeposit }) {
                   <img src={images.padlockWhite} className="w-4  mr-2" />
                   Game Responsibility
                 </div>
-                <div
+                <ScrollToTopLink
+                  to={"/fairness"}
                   className={
                     activePath === ""
                       ? " cursor-pointer text-lineBlue flex flex-row items-center pr-1 text-lg mt-1"
@@ -803,7 +811,7 @@ export default function Header({ deposit, setDeposit }) {
                 >
                   <img src={images.judgementWhite} className="w-4  mr-2" />
                   Fairness
-                </div>
+                </ScrollToTopLink>
                 <div
                   className={
                     activePath === ""

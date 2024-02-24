@@ -9,7 +9,7 @@ import images from "../../utilities/images";
 
 export default function Home() {
   return (
-    <div className="max-w-screen-xl mx-auto px-5 pt-[350px]">
+    <div className="max-w-screen-xl mx-auto px-5 sm:pt-[350px]">
       <HomeImage />
       <div className="flex items-center justify-center">
         <img src={images.gameYellow} className="w-8 mr-2" />
