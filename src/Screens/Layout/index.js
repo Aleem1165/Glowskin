@@ -49,7 +49,9 @@ const Layout = () => {
               <LiveChat showChat={showChat} />
               <img
                 onClick={() => setShowLiveDrops(!showLiveDrops)}
-                src={showLiveDrops ? images.hideLiveDrops : images.showLiveDrops}
+                src={
+                  showLiveDrops ? images.hideLiveDrops : images.showLiveDrops
+                }
                 className={
                   showLiveDrops
                     ? "fixed top-[50vh] left-[200px] z-10 w-4 cursor-pointer"
@@ -72,8 +74,8 @@ const Layout = () => {
                       ? "flex flex-col pt-[7vh] bg-cover lg:pl-[200px] 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
                       : "flex flex-col pt-[7vh] bg-cover lg:pl-[200px] min-h-[100vh] items-center justify-between"
                     : showChat
-                      ? "flex flex-col pt-[7vh] bg-cover 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
-                      : "flex flex-col pt-[7vh] bg-cover min-h-[100vh] items-center justify-between"
+                    ? "flex flex-col pt-[7vh] bg-cover 2xl:pr-[210px] min-h-[100vh] items-center justify-between"
+                    : "flex flex-col pt-[7vh] bg-cover min-h-[100vh] items-center justify-between"
                 }
                 style={{
                   backgroundImage: `url(${images.BG})`,
@@ -82,7 +84,7 @@ const Layout = () => {
                 <div className="w-full ">
                   <Outlet />
                 </div>
-                {/* <Footer /> */}
+                <Footer />
               </div>
               <AuthModal />
               <PaymentModal deposit={deposit} setDeposit={setDeposit} />
@@ -127,4 +129,3 @@ const useHamberg = () => {
 };
 
 export { usePayment, useSignIn, useModal, useHamberg, Layout as default };
-
