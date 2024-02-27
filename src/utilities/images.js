@@ -139,8 +139,10 @@ import arrowleft from "../assets/images/arrowleft.png"
 import arrowright from "../assets/images/arrowright.png"
 import infoicon from "../assets/images/infoicon.png"
 import heart from "../assets/images/heart.png"
+import clock from "../assets/images/clock.png"
 
 const images = {
+  clock,
   heart,
   infoicon,
   arrowright,

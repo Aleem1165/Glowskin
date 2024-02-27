@@ -21,6 +21,7 @@ import Karambit from "../../Screens/Karambit";
 import Huntsman from "../../Screens/Huntsman";
 import Jackpot from "../../Screens/Jackpot";
 import Unboxing from "../../Screens/Unboxing";
+import Battle from "../../Screens/Battle";
 
 const router = createBrowserRouter([
   {
@@ -65,7 +66,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/Unboxing",
-        element: <Unboxing/>
+        element: <Unboxing />
       },
       {
         path: "/disclaimer",
@@ -103,10 +104,13 @@ const router = createBrowserRouter([
         path: "/Huntsman",
         element: <Huntsman />,
       },
-      ,
       {
         path: "/jackpot",
         element: <Jackpot />,
+      },
+      {
+        path: "/battle",
+        element: <Battle />,
       },
     ],
   },
