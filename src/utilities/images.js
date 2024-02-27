@@ -129,8 +129,28 @@ import judgementWhite from "../assets/images/judgementWhite.png";
 import padlockWhite from "../assets/images/padlockWhite.png";
 import vault from "../assets/images/vault.png";
 import wikiWhite from "../assets/images/wikiWhite.png";
+import coingold from "../assets/images/coingold.png"
+import arrowgreen from "../assets/images/arrowgreen.png"
+import addblue from "../assets/images/addblue.png"
+import addmen from "../assets/images/addmen.png"
+import Newww from "../assets/images/Newww.png"
+import rectangle from "../assets/images/rectangle.png"
+import arrowleft from "../assets/images/arrowleft.png"
+import arrowright from "../assets/images/arrowright.png"
+import infoicon from "../assets/images/infoicon.png"
+import heart from "../assets/images/heart.png"
 
 const images = {
+  heart,
+  infoicon,
+  arrowright,
+  arrowleft,
+  rectangle,
+  Newww,
+  coingold,
+  arrowgreen,
+  addblue,
+  addmen,
   affiliatesWhite,
   dicesWhite,
   judgementWhite,

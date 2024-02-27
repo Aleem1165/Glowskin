@@ -9,6 +9,9 @@ module.exports = {
         yellowDis: "#AEA696",
         logoLine: "#D9D9D9",
         lineBlue: "#0CAAF3",
+        bgcolor: "#021a24",
+        cardcolor: "#002C4D",
+        textgray: "#6B7174",
         //
         darkBlue2: "#12101B",
         headerBorder: "#0CAAF3",

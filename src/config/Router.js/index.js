@@ -20,6 +20,7 @@ import M9Bayonet from "../../Screens/M9Bayonet";
 import Karambit from "../../Screens/Karambit";
 import Huntsman from "../../Screens/Huntsman";
 import Jackpot from "../../Screens/Jackpot";
+import Unboxing from "../../Screens/Unboxing";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs />,
+      },
+      {
+        path: "/Unboxing",
+        element: <Unboxing/>
       },
       {
         path: "/disclaimer",
