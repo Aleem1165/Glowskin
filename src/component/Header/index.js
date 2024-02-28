@@ -159,13 +159,16 @@ export default function Header({ deposit, setDeposit }) {
                   <div className="text-grayText text-xs">Uncover the mines</div>
                 </div>
               </ScrollToTopLink>
-              <div className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+              <ScrollToTopLink
+                to={"/cases"}
+                className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+              >
                 <img src={images.cases} className="w-8 mx-3" />
                 <div className=" w-[165px]">
                   <div className="text-sm text-white">Cases</div>
                   <div className="text-grayText text-xs">Open Skins</div>
                 </div>
-              </div>
+              </ScrollToTopLink>
             </div>
           )}
         </div>
@@ -782,13 +785,16 @@ export default function Header({ deposit, setDeposit }) {
                         </div>
                       </div>
                     </ScrollToTopLink>
-                    <div className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/cases"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.cases} className="w-8 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Cases</div>
                         <div className="text-grayText text-xs">Open Skins</div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
                   </div>
                 )}
                 <div

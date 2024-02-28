@@ -64,7 +64,7 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "/Unboxing",
+        path: "/cases",
         element: <Unboxing/>
       },
       {

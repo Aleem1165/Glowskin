@@ -7,6 +7,19 @@ export default function Unboxing() {
   const Cards = [
     {
       image: images.liveDropImg,
+      image2: images.liveDropImg2,
+      image3 : images.dashboardImg2,
+      description: "Presidential",
+      currency: images.coin,
+      cost: "3,271.62",
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      image2: images.liveDropImg2,
+      image3 : images.dashboardImg2,
+
       description: "Presidential",
       currency: images.coin,
       cost: "3,271.62",
@@ -16,6 +29,154 @@ export default function Unboxing() {
     {
       image: images.liveDropImg,
       description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      cost: "3,271.62",
+      image2: images.liveDropImg2,
+
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      cost: "3,271.62",
+      image2: images.liveDropImg2,
+
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      image2: images.liveDropImg2,
+
+      cost: "3,271.62",
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      cost: "3,271.62",
+      image2: images.liveDropImg2,
+
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      cost: "3,271.62",
+      image2: images.liveDropImg2,
+
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      cost: "3,271.62",
+      image2: images.liveDropImg2,
+
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      cost: "3,271.62",
+      image2: images.liveDropImg2,
+
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image3 : images.dashboardImg2,
+
+      currency: images.coin,
+      image2: images.liveDropImg2,
+
+      cost: "3,271.62",
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      currency: images.coin,
+      image3 : images.dashboardImg2,
+
+      cost: "3,271.62",
+      image2: images.liveDropImg2,
+
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      currency: images.coin,
+      image3 : images.dashboardImg2,
+
+      cost: "3,271.62",
+      heart: images.heart,
+      image2: images.liveDropImg2,
+
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      currency: images.coin,
+      image3 : images.dashboardImg2,
+
+      image2: images.liveDropImg2,
+
+      cost: "3,271.62",
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      currency: images.coin,
+      image3 : images.dashboardImg2,
+
+      image2: images.liveDropImg2,
+
+      cost: "3,271.62",
+      heart: images.heart,
+      timesopened: "Opened 592 times",
+    },
+    {
+      image: images.liveDropImg,
+      description: "Presidential",
+      image2: images.liveDropImg2,
+      image3 : images.dashboardImg2,
+
+
       currency: images.coin,
       cost: "3,271.62",
       heart: images.heart,
@@ -25,12 +186,20 @@ export default function Unboxing() {
       image: images.liveDropImg,
       description: "Presidential",
       currency: images.coin,
+      image3 : images.dashboardImg2,
+
+      image2: images.liveDropImg2,
+
       cost: "3,271.62",
       heart: images.heart,
       timesopened: "Opened 592 times",
     },
     {
       image: images.liveDropImg,
+      image2: images.liveDropImg2,
+      image3 : images.dashboardImg2,
+
+
       description: "Presidential",
       currency: images.coin,
       cost: "3,271.62",
@@ -40,110 +209,9 @@ export default function Unboxing() {
     {
       image: images.liveDropImg,
       description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
-      currency: images.coin,
-      cost: "3,271.62",
-      heart: images.heart,
-      timesopened: "Opened 592 times",
-    },
-    {
-      image: images.liveDropImg,
-      description: "Presidential",
+      image2: images.liveDropImg2,
+      image3 : images.dashboardImg2,
+
       currency: images.coin,
       cost: "3,271.62",
       heart: images.heart,
@@ -202,17 +270,25 @@ export default function Unboxing() {
             <img src={images.coingold} alt="" className="w-6 " />
             Classic
           </div>
-          <div className="flex bg-headercolor lg:bg-transparent opacity-40 border-lineBlue p-2 lg:p-0 gap-2 font-semibold cursor-pointer border md:border lg:border-0 active:opacity-50">
+          <div
+            className={`flex bg-headercolor lg:bg-transparent  border-lineBlue p-2 lg:p-0 gap-2 font-semibold cursor-pointer border md:border lg:border-0 active:opacity-50
+            ${choosetabs == "Trending" ? `font-semibold` : `opacity-40`}`}
+            onClick={() => setchoosetab("Trending")}
+          >
             <img src={images.arrowgreen} alt="" className="w-6 " />
             Trending
           </div>
-          <div className="flex  bg-headercolor lg:bg-transparent opacity-40  border-lineBlue p-2 lg:p-0 gap-2 font-semibold cursor-pointer border md:border lg:border-0 active:opacity-50">
+          <div
+            className={`flex bg-headercolor lg:bg-transparent  border-lineBlue p-2 lg:p-0 gap-2 font-semibold cursor-pointer border md:border lg:border-0 active:opacity-50
+            ${choosetabs == "New" ? `font-semibold` : `opacity-40`}`}
+            onClick={() => setchoosetab("New")}
+          >
             <img src={images.addblue} alt="" className="w-6 " />
             New
           </div>
           <div
             className={`flex bg-headercolor lg:bg-transparent border-lineBlue p-2 lg:p-0 gap-2 font-semibold cursor-pointer border md:border lg:border-0 active:opacity-50
-            ${choosetabs == 'Community' ? `font-semibold` :  `opacity-40`}
+            ${choosetabs == "Community" ? `font-semibold` : `opacity-40`}
             `}
             onClick={() => setchoosetab("Community")}
           >
@@ -242,7 +318,7 @@ export default function Unboxing() {
       </div>
       {choosetabs === "Community" ? (
         <div className="mt-2 grid grid-cols-1 gap-2 lg:flex  w-full justify-between items-center">
-          <div className="flex gap-2 ">
+          <div className="flex  gap-2 ">
             <div className=" bg-btnDark text-white w-full lg:w-52 p-3 text-sm cursor-pointer active:opacity-50">
               All
             </div>
@@ -250,7 +326,7 @@ export default function Unboxing() {
               Popularity Descending
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex w-full justify-end items-center gap-2">
             <div className="gap-2 bg-yellow text-sm w-52  p-3 font-bold flex items-center cursor-pointer active:opacity-50 ">
               <img src={images.infoicon} className="h-5" /> Popularity
               Descending{" "}
@@ -284,7 +360,8 @@ export default function Unboxing() {
           {Cards.map((item, index) => (
             <div
               key={index}
-              className="pt-5 relative flex flex-col items-center">
+              className="pt-5 relative flex flex-col items-center"
+            >
               <div className="text-white pb-2  text-xl relative w-80p sm:w-full   bg-cardcolor bg-opacity-80 pt-5 pb-2  items-center flex flex-col border-t border-x  border-lineBlue border-l ">
                 <img
                   src={item.image}
@@ -306,20 +383,68 @@ export default function Unboxing() {
           {Cards.map((item, index) => (
             <div
               key={index}
-              className="pt-5 relative flex flex-col items-center">
+              className="pt-5 relative flex flex-col items-center"
+            >
               <div className="text-white pb-2  text-xl relative w-80p sm:w-full   bg-cardcolor bg-opacity-80 pt-5 pb-2  items-center flex flex-col border-t border-x  border-lineBlue border-l ">
                 <div className="bg-lineBlue left-[74%] bottom-[90%] flex items-center bg-opacity-20 w-14 text-sm gap-2 absolute   items-center justify-center rounded">
                   <img src={item.heart} className="h-3 gap-2" /> 30
                 </div>
                 <img
                   src={item.image}
-                  className="pb-2 cursor-pointer active:opacity-50"/>
+                  className="pb-2 cursor-pointer active:opacity-50"
+                />
                 <div className="pb-2">{item.description}</div>
                 <div className="pb-2 opacity-60 text-sm  ">
                   {item.timesopened}
                 </div>
                 <div className="absolute  top-[95%]">
                   <div className="bg-cardcolor cursor-pointer active:opacity-50 relative  text-sm items-center p-2 flex bg-opacity-80 border-2 border-lineBlue ">
+                    <img src={item.currency} className="h-4" />
+                    Open {item.cost}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : choosetabs === "New" ? (
+        <div className="grid w-full  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 ">
+          {Cards.map((item, index) => (
+            <div
+              key={index}
+              className="pt-5 relative flex flex-col items-center"
+            >
+              <div className="text-white pb-2  text-xl relative w-80p sm:w-full   bg-cardcolor bg-opacity-80 pt-5 pb-2  items-center flex flex-col border-t border-x  border-lineBlue border-l ">
+                <img
+                  src={item.image3}
+                  className="pb-2 w-40 cursor-pointer active:opacity-50"
+                />
+                <div className="pb-2">{item.description}</div>
+                <div className="absolute top-[93%]  ">
+                  <div className="bg-cardcolor cursor-pointer active:opacity-50   text-sm items-center p-2 flex bg-opacity-80 border-2 border-lineBlue ">
+                    <img src={item.currency} className="h-4" />
+                    Open {item.cost}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : choosetabs === "Trending" ? (
+        <div className="grid w-full  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 ">
+          {Cards.map((item, index) => (
+            <div
+              key={index}
+              className="pt-5 relative flex flex-col items-center"
+            >
+              <div className="text-white pb-2  text-xl relative w-80p sm:w-full   bg-cardcolor bg-opacity-80 pt-5 pb-2  items-center flex flex-col border-t border-x  border-lineBlue border-l ">
+                <img
+                  src={item.image2}
+                  className="pb-2 w-80 cursor-pointer active:opacity-50"
+                />
+                <div className="pb-2">{item.description}</div>
+                <div className="absolute top-[93%]  ">
+                  <div className="bg-cardcolor cursor-pointer active:opacity-50   text-sm items-center p-2 flex bg-opacity-80 border-2 border-lineBlue ">
                     <img src={item.currency} className="h-4" />
                     Open {item.cost}
                   </div>
