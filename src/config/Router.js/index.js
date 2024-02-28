@@ -65,7 +65,25 @@ const router = createBrowserRouter([
       },
       {
         path: "/cases",
-        element: <Unboxing/>
+        element: <Unboxing />,
+        children: [
+          {
+            path: "/cases/Classic",
+            element : <Unboxing/>
+          },
+          {
+            path: "/cases/Trending",
+            element : <Unboxing/>
+          },
+          {
+            path: "/cases/New",
+            element : <Unboxing/>
+          },
+          {
+            path: "/cases/Community",
+            element : <Unboxing/>
+          },
+        ],
       },
       {
         path: "/disclaimer",

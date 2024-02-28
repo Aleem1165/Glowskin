@@ -160,7 +160,7 @@ export default function Header({ deposit, setDeposit }) {
                 </div>
               </ScrollToTopLink>
               <ScrollToTopLink
-                to={"/cases"}
+                to={"/cases/Classic"}
                 className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
               >
                 <img src={images.cases} className="w-8 mx-3" />
@@ -786,7 +786,7 @@ export default function Header({ deposit, setDeposit }) {
                       </div>
                     </ScrollToTopLink>
                     <ScrollToTopLink
-                      to={"/cases"}
+                      to={"/cases/Classic"}
                       className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
                     >
                       <img src={images.cases} className="w-8 mx-3" />
