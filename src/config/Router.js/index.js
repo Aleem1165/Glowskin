@@ -21,6 +21,7 @@ import Karambit from "../../Screens/Karambit";
 import Huntsman from "../../Screens/Huntsman";
 import Jackpot from "../../Screens/Jackpot";
 import Unboxing from "../../Screens/Unboxing";
+import Subunboxing from "../../Screens/Subunboxing";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
+        path: "/cases/opencases",
+        element : <Subunboxing/>
+      },
+      {
         path: "/cases",
         element: <Unboxing />,
         children: [
@@ -83,6 +88,7 @@ const router = createBrowserRouter([
             path: "/cases/Community",
             element : <Unboxing/>
           },
+      
         ],
       },
       {

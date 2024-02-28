@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         headercolor: "#09253e",
+        backarrowcolor: "#032434",
+        paginationcolor: "#052739",
         headerBg: "#072740",
         yellow: "#FFAC0C",
         yellowDis: "#AEA696",
@@ -13,6 +15,7 @@ module.exports = {
         bgcolor: "#021a24",
         cardcolor: "#002C4D",
         textgray: "#6B7174",
+        carddarkercolor: "#001b2e",
         //
         darkBlue2: "#12101B",
         headerBorder: "#0CAAF3",

@@ -139,8 +139,12 @@ import arrowleft from "../assets/images/arrowleft.png"
 import arrowright from "../assets/images/arrowright.png"
 import infoicon from "../assets/images/infoicon.png"
 import heart from "../assets/images/heart.png"
+import circletick from '../assets/images/circletick.png'
+import gun2 from "../assets/images/gun2.png"
 
 const images = {
+  gun2, 
+  circletick,
   heart,
   infoicon,
   arrowright,
