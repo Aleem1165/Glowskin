@@ -23,6 +23,7 @@ import Jackpot from "../../Screens/Jackpot";
 import Unboxing from "../../Screens/Unboxing";
 import Battle from "../../Screens/Battle";
 import Subunboxing from "../../Screens/Subunboxing";
+import Upgrader from "../../Screens/Upgrader";
 
 const router = createBrowserRouter([
   {
@@ -67,7 +68,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/cases/opencases",
-        element : <Subunboxing/>
+        element: <Subunboxing />,
+      },
+      {
+        path: "/upgrade",
+        element: <Upgrader />,
       },
       {
         path: "/cases",
@@ -75,21 +80,20 @@ const router = createBrowserRouter([
         children: [
           {
             path: "/cases/Classic",
-            element : <Unboxing/>
+            element: <Unboxing />,
           },
           {
             path: "/cases/Trending",
-            element : <Unboxing/>
+            element: <Unboxing />,
           },
           {
             path: "/cases/New",
-            element : <Unboxing/>
+            element: <Unboxing />,
           },
           {
             path: "/cases/Community",
-            element : <Unboxing/>
+            element: <Unboxing />,
           },
-      
         ],
       },
       {

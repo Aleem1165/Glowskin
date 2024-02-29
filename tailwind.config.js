@@ -17,6 +17,9 @@ module.exports = {
         cardcolor: "#002C4D",
         textgray: "#6B7174",
         carddarkercolor: "#001b2e",
+        darkerbordercolor : "#010f16",
+        selectitemcolor  : "#011e32",
+        bluebuttoncolor: "#033044",
         //
         darkBlue2: "#12101B",
         headerBorder: "#0CAAF3",

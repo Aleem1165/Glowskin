@@ -95,7 +95,7 @@ export default function Header({ deposit, setDeposit }) {
                   : images.arrowUpWhite
                 : activePath === "/mines" ||
                   activePath === "/jackpot" ||
-                  activePath === "/plinko"||
+                  activePath === "/plinko" ||
                   activePath === "/battle"
                 ? images.arrowDownBlue
                 : images.arrowDownWhite
@@ -104,9 +104,10 @@ export default function Header({ deposit, setDeposit }) {
           />
           {isOpen && (
             <div className="absolute py-2 top-full left-[-70%] top-[30px] bg-paymentModalBg shadow-lg">
-              <ScrollToTopLink 
-              to={'/battle'}
-              className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+              <ScrollToTopLink
+                to={"/battle"}
+                className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+              >
                 <img src={images.battles} className="w-7 mx-3" />
                 <div className=" w-[165px]">
                   <div className="text-sm text-white">Battles</div>
@@ -114,7 +115,10 @@ export default function Header({ deposit, setDeposit }) {
                 </div>
               </ScrollToTopLink>
 
-              <div className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+              <ScrollToTopLink
+                to={"/upgrade"}
+                className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+              >
                 <img src={images.upgrader} className="w-7 mx-3" />
                 <div className=" w-[165px]">
                   <div className="text-sm text-white">Upgrader</div>
@@ -122,7 +126,7 @@ export default function Header({ deposit, setDeposit }) {
                     Upgrade your skins
                   </div>
                 </div>
-              </div>
+              </ScrollToTopLink>
 
               <ScrollToTopLink
                 to={"/jackpot"}
@@ -532,7 +536,7 @@ export default function Header({ deposit, setDeposit }) {
                           : images.arrowUpWhite
                         : activePath === "/mines" ||
                           activePath === "/jackpot" ||
-                          activePath === "/plinko"||
+                          activePath === "/plinko" ||
                           activePath === "/battle"
                         ? images.arrowDownBlue
                         : images.arrowDownWhite
@@ -556,7 +560,10 @@ export default function Header({ deposit, setDeposit }) {
                       </div>
                     </div>
 
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/upgrade"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.upgrader} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Upgrader</div>
@@ -564,7 +571,7 @@ export default function Header({ deposit, setDeposit }) {
                           Upgrade your skins
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
                     <ScrollToTopLink
                       to={"/jackpot"}
@@ -708,13 +715,13 @@ export default function Header({ deposit, setDeposit }) {
                       isOpen
                         ? activePath === "/mines" ||
                           activePath === "/jackpot" ||
-                          activePath === "/plinko"||
+                          activePath === "/plinko" ||
                           activePath === "/battle"
                           ? images.arrowUpBlue
                           : images.arrowUpWhite
                         : activePath === "/mines" ||
                           activePath === "/jackpot" ||
-                          activePath === "/plinko"||
+                          activePath === "/plinko" ||
                           activePath === "/battle"
                         ? images.arrowDownBlue
                         : images.arrowDownWhite
@@ -738,7 +745,10 @@ export default function Header({ deposit, setDeposit }) {
                       </div>
                     </div>
 
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/upgrade"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.upgrader} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Upgrader</div>
@@ -746,7 +756,7 @@ export default function Header({ deposit, setDeposit }) {
                           Upgrade your skins
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
                     <ScrollToTopLink
                       to={"/jackpot"}

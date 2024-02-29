@@ -142,8 +142,14 @@ import heart from "../assets/images/heart.png"
 import clock from "../assets/images/clock.png"
 import circletick from '../assets/images/circletick.png'
 import gun2 from "../assets/images/gun2.png"
+import badgeblue from "../assets/images/badgeblue.png"
+import shuffle from "../assets/images/shuffle.png"
+import animation from "../assets/images/animation.png"
 
 const images = {
+  animation,
+  shuffle,
+  badgeblue,
   clock,
   gun2, 
   circletick,
