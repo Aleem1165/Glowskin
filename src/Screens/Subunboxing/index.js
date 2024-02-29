@@ -1,5 +1,6 @@
 import React from "react";
 import images from "../../utilities/images";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Subunboxing() {
   const carddata = [
@@ -47,13 +48,18 @@ export default function Subunboxing() {
     },
   ];
 
+  const navigate = useNavigate();
+
   return (
     <div className="max-w-screen-xl pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
       <div className="text-white font-bold w-60  text-xl border-b-4 border-lineBlue">
         <div className="pb-2">CS:GO & CS2 Unboxing</div>
       </div>
       <div className="flex mt-10 w-full  gap-5">
-        <div className="bg-backarrowcolor h-10 p-3 rounded cursor-pointer active:opacity-50 ">
+        <div
+          className="bg-backarrowcolor items-center flex  h-10 p-3 rounded cursor-pointer active:opacity-50 "
+          onClick={() => navigate("/cases/Classic")}
+        >
           <img src={images.backArrow} className="h-3 w-full " />
         </div>
         <div className="flex text-white w-full">
@@ -93,23 +99,23 @@ export default function Subunboxing() {
         </div>
       </div>
       <div className="grid grid-cols-3 w-full">
-      {carddata.map((item, index) => (
-        <div
-          key={index}
-          className="text-white text-sm bg-carddarkercolor  p-4 border-t-2 mt-10 border-x  border-lineBlue w-96"
-        >
-          <div className="flex gap-2 items-center">
-            <img src={item.images} className="h-28" />
-            <div className="flex flex-col ">
-              <div className="opacity-80">{item.guntype}</div>
-              <div className="text-yellow "> {item.gunname}</div>
-              <div className="flex items-center">
-                <img src={item.constimage} className="h-5" /> {item.cost}
+        {carddata.map((item, index) => (
+          <div
+            key={index}
+            className="text-white text-sm bg-carddarkercolor  p-4 border-t-2 mt-10 border-x  border-lineBlue w-96"
+          >
+            <div className="flex gap-2 items-center">
+              <img src={item.images} className="h-28" />
+              <div className="flex flex-col ">
+                <div className="opacity-80">{item.guntype}</div>
+                <div className="text-yellow "> {item.gunname}</div>
+                <div className="flex items-center">
+                  <img src={item.constimage} className="h-5" /> {item.cost}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
       </div>
     </div>
   );

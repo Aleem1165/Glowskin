@@ -1,23 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import images from "../../utilities/images";
 
 const Pagination = ({
   currentPage,
   totalPages,
   onPageChange,
-  currentPage2,
-  totalPages2,
-  onPageChange2,
-  currentPage3,
-  totalPages3,
-  onPageChange3,
-  currentPage4,
-  totalPages4,
-  onPageChange4,
 }) => {
+  // State to track the number of displayed pages
+  const [displayPages, setDisplayPages] = useState(10);
+
+  // Effect to update the number of displayed pages based on screen size
+  useEffect(() => {
+    const updateDisplayPages = () => {
+      if (window.innerWidth < 768) {
+        // If screen size is smaller than medium (768px)
+        setDisplayPages(3);
+      } else {
+        // If screen size is medium or larger
+        setDisplayPages(10);
+      }
+    };
+
+    // Initial call to set the number of displayed pages
+    updateDisplayPages();
+
+    // Event listener to handle screen resize
+    window.addEventListener("resize", updateDisplayPages);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener("resize", updateDisplayPages);
+  }, []);
+
   const renderPageNumbers = (currentPage, totalPages, onPageChange) => {
     const pageNumbers = [];
-    const displayPages = 11;
 
     if (totalPages <= displayPages) {
       for (let i = 1; i <= totalPages; i++) {
@@ -25,9 +40,7 @@ const Pagination = ({
           <li
             key={i}
             className={`inline-block bg-paginationcolor cursor-pointer p-2 w-11 text-center rounded text-md${
-              currentPage === i
-                ? " text-white border border-lineBlue"
-                : " border"
+              currentPage === i ? " text-white border border-lineBlue" : " border"
             }`}
             onClick={() => onPageChange(i)}
           >
@@ -39,15 +52,12 @@ const Pagination = ({
       const startPage = Math.max(1, currentPage - Math.floor(displayPages / 2));
       const endPage = Math.min(totalPages, startPage + displayPages - 1);
 
-      const startIndex = endPage - displayPages + 1;
-      for (let i = startIndex; i <= endPage; i++) {
+      for (let i = startPage; i <= endPage; i++) {
         pageNumbers.push(
           <li
             key={i}
             className={`inline-block bg-paginationcolor cursor-pointer p-2 w-11 text-center rounded text-md${
-              currentPage === i
-                ? " text-white border border-lineBlue"
-                : " border"
+              currentPage === i ? " text-white border border-lineBlue" : " border"
             }`}
             onClick={() => onPageChange(i)}
           >
@@ -58,17 +68,6 @@ const Pagination = ({
     }
     return pageNumbers;
   };
-
-  const paginationData = [
-    { currentPage, totalPages, onPageChange },
-    { currentPage2, totalPages2, onPageChange2 },
-    { currentPage3, totalPages3, onPageChange3 },
-    { currentPage4, totalPages4, onPageChange4 },
-  ];
-
-  const paginationData2 = [{ currentPage2, totalPages2, onPageChange2 }];
-  const paginationData3 = [{ currentPage3, totalPages3, onPageChange3 }];
-  const paginationData4 = [{ currentPage4, totalPages4, onPageChange4 }];
 
   return (
     <div className="mt-5 flex items-center w-full">
@@ -84,13 +83,9 @@ const Pagination = ({
           <img src={images.arrowleft} className="h-3" alt="Previous" />
         </li>
 
-        {paginationData.map(
-          ({ currentPage, totalPages, onPageChange }, index) => (
-            <div key={index} className="text-white gap-4 flex">
-              {renderPageNumbers(currentPage, totalPages, onPageChange)}
-            </div>
-          )
-        )}
+        <div className="text-white gap-4 flex">
+          {renderPageNumbers(currentPage, totalPages, onPageChange)}
+        </div>
 
         <li
           className={`bg-cardcolor cursor-pointer active:opacity-50 p-3 h-14 flex items-center rounded-r-xl border-lineBlue border `}
