@@ -9,7 +9,7 @@ const HomeLastCard = () => {
     {
       title: "Cases Creation",
       description:
-        "Cse Creation allows players to create their own cases with items and odds of their choice.",
+        "Case Creation allows players to create their own cases with items and odds of their choice.",
       image: images.DashboardLastCard1,
     },
     {

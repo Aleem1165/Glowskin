@@ -145,8 +145,36 @@ import gun2 from "../assets/images/gun2.png"
 import badgeblue from "../assets/images/badgeblue.png"
 import shuffle from "../assets/images/shuffle.png"
 import animation from "../assets/images/animation.png"
+import yellowpoli from "../assets/images/yellowpoli.png"
+import yellowtri from "../assets/images/yellowtri.png"
+import swordbattle from "../assets/images/swordbattle.png"
+import itemimage from "../assets/images/itemimage.png"
+import caseblue from "../assets/images/caseblue.png"
+import casegreen from "../assets/images/casegreen.png"
+import casered from "../assets/images/casered.png"
+import casepurple from "../assets/images/casepurple.png"
+import caselime from "../assets/images/caselime.png"
+import redo from "../assets/images/redo.png"
+import m4a4 from "../assets/images/m4a4.png"
+import vox from "../assets/images/vox.png"
+import glovespurple from '../assets/images/glovespurple.png'
+import kato from '../assets/images/kato.png'
 
 const images = {
+  m4a4,
+  kato,
+  glovespurple,
+  vox,
+  redo,
+  caseblue,
+  casegreen,
+  casered,
+  casepurple,
+  caselime,
+  itemimage,
+  swordbattle,
+  yellowpoli,
+  yellowtri,
   animation,
   shuffle,
   badgeblue,

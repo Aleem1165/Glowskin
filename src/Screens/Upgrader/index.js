@@ -26,6 +26,7 @@ export default function Upgrader() {
     },
     {
       images: images.liveDropImg2,
+      image2: images.liveDropImg,
       guntype: "AUG",
       gunname: "The Executioner MW",
       constimage: images.coin,
@@ -192,13 +193,15 @@ export default function Upgrader() {
           </div>
         </div>
       </div>
-      <div className="text-white p-2 w-full flex justify-between">
-        <div className="pt-2 flex w-full justify-between items-center ">
+      <div className="text-white p-2   w-full flex justify-between">
+        <div className="pt-2 lg:flex   w-full justify-between items-center ">
+          <div className="pb-2 lg:pb-0">
           <input
             type=""
-            className=" focus:outline-none text-white border border-lineBlue w-72 pl-2 p-2 bg-btnDark"
+            className=" focus:outline-none text-white border border-lineBlue w-full lg:w-72 pl-2 p-2 bg-btnDark"
             placeholder="Search for cases..."
           />
+          </div>
           <div className="flex  gap-2 ">
             <div className=" bg-btnDark text-white w-full lg:w-52 p-3 text-sm cursor-pointer active:opacity-50">
               All
@@ -210,15 +213,15 @@ export default function Upgrader() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 mt-4 gap-10    w-full ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4 gap-3    w-full ">
         {carddata.map((item, index) => (
           <div
             key={index}
-            className="text-white text-sm bg-carddarkercolor    p-4 border-t-2  border-x  border-lineBlue w-96"
+            className="text-white text-sm bg-carddarkercolor w-full  cursor-pointer active:opacity-50   p-4 border-t-2  border-x  border-lineBlue w-96"
           onClick={() => setdataselect(true)}
           >
-            <div className="flex  gap-2 items-center">
-              <div className="flex flex-col ">
+            <div className="flex  gap-2 w-full  items-center">
+              <div className="flex flex-col mt-12  ">
                 <div className="text-yellow "> {item.gunname}</div>
                 <div className="flex items-center">
                   <img src={item.constimage} className="h-5" /> {item.cost}

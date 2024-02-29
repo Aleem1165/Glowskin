@@ -58,8 +58,7 @@ export default function Subunboxing() {
       <div className="flex mt-10 w-full  gap-5">
         <div
           className="bg-backarrowcolor items-center flex  h-10 p-3 rounded cursor-pointer active:opacity-50 "
-          onClick={() => navigate("/cases/Classic")}
-        >
+          onClick={() => navigate("/cases/Classic")}>
           <img src={images.backArrow} className="h-3 w-full " />
         </div>
         <div className="flex text-white w-full">
@@ -91,10 +90,62 @@ export default function Subunboxing() {
                 Demo
               </div>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center text-sm gap-2">
               <img src={images.circletick} className="h-5" />
               Provably Fair
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative">
+        <div className="flex items-center mt-4   overflow-x-auto check flex-row justify-between text-white p-6 gap-2 bg-sununboxingcolor w-full">
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className=" flex-shrink-0">
+            <img src={images.gun2} className="h-24" />
+          </div>
+          <div className="absolute top-5  left-[50%]">
+            <img className="h-2" src={images.yellowpoli} />
+          </div>
+          <div className="absolute bottom-1  left-[50%]">
+            <img className="h-2" src={images.yellowtri} />
           </div>
         </div>
       </div>

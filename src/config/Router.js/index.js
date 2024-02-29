@@ -24,6 +24,7 @@ import Unboxing from "../../Screens/Unboxing";
 import Battle from "../../Screens/Battle";
 import Subunboxing from "../../Screens/Subunboxing";
 import Upgrader from "../../Screens/Upgrader";
+import Casecreation from "../../Screens/Casecreation";
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
       {
         path: "/cases/opencases",
         element: <Subunboxing />,
+      },
+      {
+        path: "/casecreation",
+        element: <Casecreation />,
       },
       {
         path: "/upgrade",
