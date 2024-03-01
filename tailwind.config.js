@@ -67,6 +67,7 @@ module.exports = {
         darkercolor: "#033247",
         gold: "#3F2E0D",
         red2: "#3D1725",
+        arrowlightercolorblue : "#0E2632"
       },
       width: {
         "5p": "5%",

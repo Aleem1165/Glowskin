@@ -159,8 +159,12 @@ import m4a4 from "../assets/images/m4a4.png"
 import vox from "../assets/images/vox.png"
 import glovespurple from '../assets/images/glovespurple.png'
 import kato from '../assets/images/kato.png'
+import yellowtringleleft from "../assets/images/yellowtringleleft.png"
+import yellowtriangleright from "../assets/images/yellowtriangleright.png"
 
 const images = {
+  yellowtriangleright,
+  yellowtringleleft,
   m4a4,
   kato,
   glovespurple,
