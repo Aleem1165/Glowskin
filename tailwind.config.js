@@ -63,6 +63,8 @@ module.exports = {
         placeholderlighterblue : "#092E3F",
         textdarkerwhite: "#809098",
         darkerlightercolor : "#062d3f",
+        darkercodemode : "#001B2F",
+        darkercolor: "#033247",
         gold: "#3F2E0D",
         red2: "#3D1725",
       },

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import images from "../../utilities/images";
 
 export default function Battle() {
+
+  
   const data = [
     {
       image: images.liveDropImg,

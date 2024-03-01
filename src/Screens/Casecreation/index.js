@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import images from "../../utilities/images";
 
@@ -26,71 +26,242 @@ export default function Casecreation() {
 
   const dataitems = [
     {
+      id: 1,
       images: images.m4a4,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 2,
       images: images.kato,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 3,
       images: images.glovespurple,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 4,
       images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 5,
       images: images.m4a4,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 6,
       images: images.kato,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 7,
       images: images.glovespurple,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 8,
       images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 9,
+      images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 10,
       images: images.m4a4,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 11,
       images: images.kato,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 12,
       images: images.glovespurple,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 13,
       images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 14,
+      images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 1,
       images: images.m4a4,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 2,
       images: images.kato,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 3,
       images: images.glovespurple,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 4,
       images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 5,
       images: images.m4a4,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 6,
       images: images.kato,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 7,
       images: images.glovespurple,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
     {
+      id: 8,
       images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 9,
+      images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 10,
+      images: images.m4a4,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 11,
+      images: images.kato,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 12,
+      images: images.glovespurple,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 13,
+      images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
+    },
+    {
+      id: 14,
+      images: images.vox,
+      guname: "StatTrak",
+      guntitle: "Titan (Holo) | Katowice 2014",
+      coin: images.coin,
+      cost: "26,400.00",
     },
   ];
+
+  const [selectedItem, setselectedItem] = useState(null);
+
+
+  const handleclick = (item) => {
+    setselectedItem(item);
+  };
 
   const navigate = useNavigate();
 
   return (
-    <div className="max-w-screen-xl pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
+    <div className="max-w-screen-xl pb-20   mx-auto flex  flex-col items-start mt-5p px-5">
       <div className="flex  items-center  w-full ">
         <div className="w-full flex flex gap-7">
           <div
@@ -172,7 +343,7 @@ export default function Casecreation() {
             </div>
           </div>
         </div>
-        <div className="flex w-full gap-2">
+        <div className="flex w-full items-start gap-2">
           <div className="gap-4 w-full mt-5 bg-darkBlue2 flex items-center   text-white p-4">
             <div className="flex flex-col w-full items-center">
               <div className="flex items-center gap-4 w-full">
@@ -182,7 +353,7 @@ export default function Casecreation() {
                 <div className="text-xl">Select up to 20 items</div>
               </div>
               <div className="flex justify-between mt-2 gap-28  items-center w-full">
-                <div className=" w-full">
+                <div className=" w-full pb-2">
                   <input
                     type=""
                     className=" focus:outline-none rounded-lg text-white  w-80 pl-2 h-10 bg-placeholderlighterblue"
@@ -209,25 +380,29 @@ export default function Casecreation() {
                   </div>
                 </div>
               </div>
-              <div className="w-full grid grid-cols-4  gap-4">
+              <div className="w-full h-[1000px] grid grid-cols-4 overflow-y-scroll check gap-4">
                 {dataitems.map((items, index) => (
                   <div
-                    key={index}
-                    className="bg-cardlightblue h-52 text-sm mt-4 w-full flex   "
+                    key={items.id}
+                    className="bg-cardlightblue cursor-pointer active:opacity-50 h-52 text-sm mt-4 w-full flex"
+                    onClick={() => handleclick(items)}
                   >
                     <div className="flex flex-col items-center w-full">
                       <div className="flex items-start flex flex-col w-full text-xs p-2">
                         FN
                       </div>
-                      <img src={items.images} className="h-20 full " />
+                      <img
+                        src={items.images}
+                        className="h-20 full flex-shrink-0"
+                      />
                       <div className="flex items-start flex flex-col w-full text-xs p-2 mt-5">
-                        <div className="flex  gap-1">
-                          <div className="text-yellow">StatTrak </div>
+                        <div className="flex gap-1">
+                          <div className="text-yellow">{items.guname}</div>
                           <div className="opacity-40"> M4A4 </div>
                         </div>
                         <div>Howl </div>
                         <div className="text-lg flex items-center">
-                          <img src={images.coin} className="h-5" /> 26,400.00{" "}
+                          <img src={items.coin} className="h-5" /> {items.cost}
                         </div>
                       </div>
                     </div>
@@ -247,42 +422,43 @@ export default function Casecreation() {
                   <div className="text-xl text-yellow">0.00% </div>
                 </div>
               </div>
-
-           
-              <div className="mt-10 bg-darkerlightercolor ">
-              {/* {dataitems.map((items,index) =>())} */}
-
-                <div className="mt-4 bg-cardlightblue p-4 gap-5 pt-7 flex">
-                  <img src={images.glovespurple} className="h-14" />
-                  <div className="flex flex-col">
-                    <div className="text-yellow flex gap-2 text-sm">
-                      StatTrak
-                      <div className="text-white opacity-40 text-sm">
-                        {" "}
-                        M4A4{" "}
+              <div className="grid grid-cols-1">
+                {selectedItem && (
+                  <div className="mt-10 bg-darkercolor ">
+                    <div className="mt-4 bg-darkercolor p-4 gap-5 pt-7 flex">
+                      <img src={selectedItem.images} className="h-14" />
+                      <div className="flex flex-col">
+                        <div className="text-yellow flex gap-2 text-sm">
+                          {selectedItem.guname}
+                          <div className="text-white opacity-40 text-sm">
+                            M4A4
+                          </div>
+                        </div>
+                        <div className="text-sm">
+                          Titan (Holo) | Katowice 2014
+                        </div>
+                        <div className="flex   items-center">
+                          <img src={selectedItem.coin} className="h-5" />{" "}
+                          {selectedItem.cost}
+                        </div>
                       </div>
                     </div>
-                    <div className="text-sm">Titan (Holo) | Katowice 2014</div>
-                    <div className="flex items-center">
-                      <img src={images.coin} className="h-5" /> 26,400.00
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex gap-4 p-2 ">
-                  <div className="border h-12 gap-2 it w-full flex items-center justify-start pl-4">
-                    <div className="text-yellow font-semibold">%</div>
-                    <div>0.00</div>
-                  </div>
-                  <div className="text-yellow font-semibold border bg-darkBlue2 border-yellow w-full flex items-center justify-center">
-                    <div className="  font-semibold ">
-                      
-                      <div>
-                        <img src={images.coin} className="h-6" />
+                    <div className="bg-darkerlightercolor flex gap-4 p-2 ">
+                      <div className="cursor-pointer active:opacity-50 border h-12 gap-2 it w-full flex items-center justify-start pl-4">
+                        <div className="text-yellow font-semibold">%</div>
+                        <div>0.00</div>
+                      </div>
+                      <div className="cursor-pointer active:opacity-50 text-yellow font-semibold border bg-darkBlue2 border-yellow w-full flex items-center justify-center">
+                        <div className="font-semibold ">
+                          <div>
+                            <img src={images.coin} className="h-6" />
+                          </div>
+                        </div>
+                        <div>0.00</div>
                       </div>
                     </div>
-                    <div>0.00</div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
           </div>
