@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import images from "../../utilities/images";
+import { useNavigate } from "react-router-dom";
 
 export default function Battle() {
 
-  
+  const navigate  = useNavigate()
+
+
   const data = [
     {
       image: images.liveDropImg,
@@ -35,7 +38,39 @@ export default function Battle() {
       running: "41",
       currency: "121.75",
     },
+  ];
 
+  const imagedatae = [
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
+    {
+      image: images.liveDropImg,
+    },
   ];
 
   const [tab, setTab] = useState("price");
@@ -67,7 +102,7 @@ export default function Battle() {
             DATE
           </div>
         </div>
-        <div className="bg-darkBlue2 flex w-full   flex-row items-center justify-between">
+        <div className="bg-darkBlue2 flex w-60p   flex-row items-center justify-between">
           <div className="flex flex-row w-full p-2 items-center">
             <img src={images.swordbattle} className="w-4 mr-2" />
             <div className="w-full">
@@ -94,67 +129,49 @@ export default function Battle() {
           </div>
         </div>
       </div>
-      {data.map((item,index) => (  <div key={index} className="bg-cardblue mt-10 flex items-center gap-10 p-4 text-white">
-        <div className="flex flex-col items-center ">
-          <div className="bg-lighterblue h-12 w-12 flex items-center justify-center rounded-lg">
-            {item.running}
-          </div>
-          Running
-        </div>
-        <div className="relative w-full ">
-          <div className="flex items-center       overflow-x-auto check flex-row justify-between text-white  gap-2  w-full">
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg0} className="h-24" />
+      <div className="mt-10">
+        {data.map((item, index) => (
+          <div
+            key={index}
+            className="bg-cardblue mt-5 flex items-center gap-10 p-4 text-white cursor-pointer"
+            onClick={()=> navigate('/casebattle')}
+          >
+            <div className="flex flex-col items-center ">
+              <div className="bg-lighterblue h-12 w-12 flex items-center justify-center rounded-lg">
+                {item.running}
+              </div>
+              Running
             </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
+            <div className="relative w-full ">
+              <div className="flex items-center overflow-x-auto check flex-row justify-between text-white  gap-2  w-full">
+                {imagedatae.map((item, index) => (
+                  <div key={index} className=" flex-shrink-0">
+                    <img src={item.image} className="h-24" />
+                  </div>
+                ))}
+              </div>
+              <div className="absolute bottom-[100%]  left-[51%]">
+                <img className="h-2" src={images.yellowpoli} />
+              </div>
+              <div className="absolute   left-[51%]">
+                <img className="h-2" src={images.yellowtri} />
+              </div>
             </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-            <div className=" flex-shrink-0">
-              <img src={images.liveDropImg} className="h-24" />
-            </div>
-          </div>
-          <div className="absolute bottom-[100%]  left-[51%]">
-            <img className="h-2" src={images.yellowpoli} />
-          </div>
-          <div className="absolute   left-[51%]">
-            <img className="h-2" src={images.yellowtri} />
-          </div>
-        </div>
-        <div className="w-60p justify-end  flex items-center text-xl ">
-          <img src={images.coin} className="h-8" />
-          121.75
-          <div className="pl-10 cursor-pointer active:opacity-50">
-            <img src={images.itemimage} className="h-24" />
-          </div>
-          <div className="pl-10">
-            <div className="bg-yellow text-black font-bold text-sm h-12 w-32 mb-2 cursor-pointer active:opacity-50 flex items-center justify-center">
-              View
+            <div className="w-60p justify-end  flex items-center text-xl ">
+              <img src={images.coin} className="h-8" />
+              121.75
+              <div className="pl-10 cursor-pointer active:opacity-50">
+                <img src={images.itemimage} className="h-24" />
+              </div>
+              <div className="pl-10">
+                <div className="bg-yellow text-black font-bold text-sm h-12 w-32 mb-2 cursor-pointer active:opacity-50 flex items-center justify-center">
+                  View
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>))}
-    
+        ))}
+      </div>
     </div>
   );
 }

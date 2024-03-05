@@ -53,6 +53,7 @@ module.exports = {
         lightGray: "#CBCACA",
         disabledGray: "#A7A7A7",
         disabledGray2: "#757575",
+        lighterblue2 : "#03354b",
         steamBtn: "#334155",
         btnBlue: "#2563EB",
         pink: "#3F1A48",
@@ -67,7 +68,8 @@ module.exports = {
         darkercolor: "#033247",
         gold: "#3F2E0D",
         red2: "#3D1725",
-        arrowlightercolorblue : "#0E2632"
+        arrowlightercolorblue : "#0E2632",
+        darkblue3: "#01567D",
       },
       width: {
         "5p": "5%",

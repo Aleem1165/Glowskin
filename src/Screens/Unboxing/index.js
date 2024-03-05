@@ -7,6 +7,7 @@ import Classic from "../../component/Classic";
 import Trending from "../../component/Trending";
 import New from "../../component/New";
 import Community from "../../component/Community";
+import Subcasebattle from "../Subcasebattles";
 
 export default function Unboxing() {
   // const [choosetabs, setchoosetab] = useState("");

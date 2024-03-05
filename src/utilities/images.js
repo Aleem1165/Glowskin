@@ -161,9 +161,21 @@ import glovespurple from '../assets/images/glovespurple.png'
 import kato from '../assets/images/kato.png'
 import yellowtringleleft from "../assets/images/yellowtringleleft.png"
 import yellowtriangleright from "../assets/images/yellowtriangleright.png"
+import tenk from "../assets/images/tenk.png"
+import tenkback from "../assets/images/tenkback.png"
+import yellowdots from "../assets/images/yellowdots.png"
+import Raceflag from "../assets/images/Raceflag.png"
+import transparentfag from "../assets/images/transparentfag.png"
+import tiny from "../assets/images/tiny.png"
 
 const images = {
+  tiny,
+  transparentfag,
+  Raceflag,
+  yellowdots,
+  tenkback,
   yellowtriangleright,
+  tenk,
   yellowtringleleft,
   m4a4,
   kato,

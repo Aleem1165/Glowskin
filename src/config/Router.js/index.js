@@ -26,6 +26,7 @@ import Subunboxing from "../../Screens/Subunboxing";
 import Upgrader from "../../Screens/Upgrader";
 import Casecreation from "../../Screens/Casecreation";
 import Subcasebattle from "../../Screens/Subcasebattles";
+import Tenk from "../../Screens/Tenk";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: "/questions",
         element: <Questions />,
+      },
+      {
+        path: "/10k",
+        element: <Tenk/>,
       },
       {
         path: "/tos",
