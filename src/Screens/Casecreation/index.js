@@ -3416,10 +3416,7 @@ export default function Casecreation() {
   const handleNext = () => {
     imageGridRed.current.handleNext();
   };
-
-
-
-
+  
   const handlePrev = () => {
     imageGridRed.current.handlePrev();
   };

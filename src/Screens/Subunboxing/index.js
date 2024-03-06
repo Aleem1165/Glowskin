@@ -49,7 +49,6 @@ export default function Subunboxing() {
   ];
 
   const navigate = useNavigate();
-
   return (
     <div className="max-w-screen-xl pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
       <div className="text-white font-bold w-60  text-xl border-b-4 border-lineBlue">

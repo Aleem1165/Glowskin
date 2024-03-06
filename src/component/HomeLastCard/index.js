@@ -1,9 +1,12 @@
 import { useState } from "react";
 import images from "../../utilities/images";
 import { usePayment } from "../../Screens/Layout";
+import { useNavigate } from "react-router-dom";
 
 const HomeLastCard = () => {
   const { paymentModal, setPaymentModal } = usePayment();
+
+  const navigate = useNavigate()
 
   const [data] = useState([
     {
@@ -27,6 +30,13 @@ const HomeLastCard = () => {
   ]);
 
   const handleNavigate = (index) => {
+    if(index==1){
+      navigate('/10k')
+    }
+
+    if(index===0){
+    navigate('/casecreation')
+    }
    if(index === 2){
     setPaymentModal(true)
    }

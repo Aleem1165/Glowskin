@@ -550,7 +550,10 @@ export default function Header({ deposit, setDeposit }) {
                     onClick={() => setHamberg(!hamberg)}
                     className="bg-transparent md:hidden"
                   >
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/battle"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.battles} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Battles</div>
@@ -558,7 +561,7 @@ export default function Header({ deposit, setDeposit }) {
                           Pvp case opening
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
                     <ScrollToTopLink
                       to={"/upgrade"}
@@ -735,7 +738,9 @@ export default function Header({ deposit, setDeposit }) {
                     onClick={() => setHamberg(!hamberg)}
                     className="bg-transparent"
                   >
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink 
+                    to={'/battle'}
+                    className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
                       <img src={images.battles} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Battles</div>
@@ -743,7 +748,7 @@ export default function Header({ deposit, setDeposit }) {
                           Pvp case opening
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
                     <ScrollToTopLink
                       to={"/upgrade"}

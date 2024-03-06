@@ -81,40 +81,54 @@ export default function Subcasebattle({ Cards }) {
       gun2: images.gun2,
     },
     {
-      gun2: images.DashboardLastCard2,
-    },
-    {
-      gun2: images.animation,
+      gun2: images.gun2,
     },
     {
       gun2: images.gun2,
     },
     {
-      gun2: images.DashboardLastCard2,
-    },
-    {
-      gun2: images.animation,
+      gun2: images.gun2,
     },
     {
       gun2: images.gun2,
     },
     {
-      gun2: images.DashboardLastCard2,
-    },
-    {
-      gun2: images.animation,
+      gun2: images.gun2,
     },
     {
       gun2: images.gun2,
     },
     {
-      gun2: images.DashboardLastCard2,
+      gun2: images.gun2,
     },
     {
-      gun2: images.animation,
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
+    },
+    {
+      gun2: images.gun2,
     },
   ];
-
 
   return (
     <div className="max-w-screen-xl pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
@@ -180,21 +194,20 @@ export default function Subcasebattle({ Cards }) {
                   3.32
                 </div>
               </div>
-              <div className="overflow-y-scroll h-[360px] check flex flex-col items-center relative"
-              >
-                <div className="flex flex-col gap-10 items-center absolute top-0">
-                  {gunsdata.map((item, index) => (
-                    <div key={index} className="mx-2">
-                      <img
-                        src={item.gun2}
-                        className={`w-40 transition-transform`}
-                        alt={`gun${index}`}
-                        style={{
-                          transform: `translateY(-${index * 100}px)`,
-                        }}
-                      />
+              <div className="relative">
+                <img src={images.yellowtringleleft} className="absolute top-[45%] left-[95%]" />
+                <img src={images.yellowtriangleright} className="absolute top-[45%]  " />
+
+                <div className="overflow-y-scroll h-[360px] check flex flex-col items-center relative">
+                  <div className="flex flex-col gap-10 items-center absolute top-0">
+                    <div className="">
+                      {gunsdata.map((item, index) => (
+                        <div key={index} className="mx-2">
+                          <img src={item.gun2} className={`w-40 `} />
+                        </div>
+                      ))}
                     </div>
-                  ))}
+                  </div>
                 </div>
               </div>
               <div className="">
