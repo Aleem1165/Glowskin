@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HomeImage from "../../component/HomeImage";
 import LiveDrops from "../../component/LiveDrops";
 import LiveChat from "../../component/LiveChat";
@@ -6,6 +6,8 @@ import CheckItOut from "../../component/CheckItOut";
 import HomeLastCard from "../../component/HomeLastCard";
 import Game from "../Game";
 import images from "../../utilities/images";
+import { Bounce, ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Home() {
   return (

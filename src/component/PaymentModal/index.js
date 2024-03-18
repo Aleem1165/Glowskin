@@ -31,7 +31,7 @@ import Promotion from "../Promotion";
 export default function PaymentModal({ deposit, setDeposit }) {
   const { paymentModal, setPaymentModal } = usePayment();
 
-  const [selectedDeposit, setSelectDeposit] = useState("asd");
+  const [selectedDeposit, setSelectDeposit] = useState("");
   const [selectedWidthdraw, setSelectedWidthdraw] = useState("");
 
   const closeModal = () => {
