@@ -8,13 +8,17 @@ export default function Game() {
     <div className="max-w-screen-xl mx-auto w-full flex flex-col gap-3 mt-6">
       <div className="flex flex-col sm:flex-row gap-3">
         <div className="w-full sm:w-[29%] relative">
-          <VideoPlayer navigate={"/"} src={videos.caseee} name={"Cases"} />
+          <VideoPlayer
+            navigate={"/cases/Classic"}
+            src={videos.caseee}
+            name={"Cases"}
+          />
         </div>
         <div className="flex-1 ">
           <div className="flex flex-col h-full">
             <div className="flex-1">
               <VideoPlayer
-                navigate={"/"}
+                navigate={"/battle"}
                 src={videos.battle}
                 name={"Battles HOT"}
               />
@@ -37,7 +41,11 @@ export default function Game() {
           <VideoPlayer navigate={"/mines"} src={videos.mines} name={"Mines"} />
         </div>
         <div className="w-full sm:w-[25%]">
-          <VideoPlayer navigate={"/"} src={videos.upgrade} name={"Upgrader"} />
+          <VideoPlayer
+            navigate={"/upgrade"}
+            src={videos.upgrade}
+            name={"Upgrader"}
+          />
         </div>
         <div className="w-full sm:w-[25%]">
           <VideoPlayer

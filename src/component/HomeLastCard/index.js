@@ -1,12 +1,18 @@
 import { useState } from "react";
 import images from "../../utilities/images";
+import { usePayment } from "../../Screens/Layout";
+import { useNavigate } from "react-router-dom";
 
 const HomeLastCard = () => {
+  const { paymentModal, setPaymentModal } = usePayment();
+
+  const navigate = useNavigate()
+
   const [data] = useState([
     {
       title: "Cases Creation",
       description:
-        "Cse Creation allows players to create their own cases with items and odds of their choice.",
+        "Case Creation allows players to create their own cases with items and odds of their choice.",
       image: images.DashboardLastCard1,
     },
     {
@@ -22,12 +28,27 @@ const HomeLastCard = () => {
       image: images.DashboardLastCard3,
     },
   ]);
+
+  const handleNavigate = (index) => {
+    if(index==1){
+      navigate('/10k')
+    }
+
+    if(index===0){
+    navigate('/casecreation')
+    }
+   if(index === 2){
+    setPaymentModal(true)
+   }
+  }
+
   return (
     <div className="mx-auto  w-full mt-16">
       <div className="flex justify-center">
         <div className="max-w-screen-xl w-full  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4">
           {data.map((card, index) => (
             <div
+              onClick={() => handleNavigate(index)}
               key={card.id}
               className="hover:scale-105 transition-transform duration-300 transform bg-cover bg-darkBlue2 border-r border-l border-t border-lineBlue bg-contain bg-no-repeat flex flex-col items-center justify-between pt-3 pb-5 cursor-pointer "
             >

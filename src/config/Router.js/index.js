@@ -20,6 +20,13 @@ import M9Bayonet from "../../Screens/M9Bayonet";
 import Karambit from "../../Screens/Karambit";
 import Huntsman from "../../Screens/Huntsman";
 import Jackpot from "../../Screens/Jackpot";
+import Unboxing from "../../Screens/Unboxing";
+import Battle from "../../Screens/Battle";
+import Subunboxing from "../../Screens/Subunboxing";
+import Upgrader from "../../Screens/Upgrader";
+import Casecreation from "../../Screens/Casecreation";
+import Subcasebattle from "../../Screens/Subcasebattles";
+import Tenk from "../../Screens/Tenk";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +50,10 @@ const router = createBrowserRouter([
         element: <Questions />,
       },
       {
+        path: "/10k",
+        element: <Tenk/>,
+      },
+      {
         path: "/tos",
         element: <TermsOfService />,
       },
@@ -61,6 +72,44 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs />,
+      },
+      {
+        path: "/cases/opencases",
+        element: <Subunboxing />,
+      },
+      {
+        path: "/casecreation",
+        element: <Casecreation />,
+      },
+      {
+        path: "/casebattle",
+        element : <Subcasebattle/>
+      },
+      {
+        path: "/upgrade",
+        element: <Upgrader />,
+      },
+      {
+        path: "/cases",
+        element: <Unboxing />,
+        children: [
+          {
+            path: "/cases/Classic",
+            element: <Unboxing />,
+          },
+          {
+            path: "/cases/Trending",
+            element: <Unboxing />,
+          },
+          {
+            path: "/cases/New",
+            element: <Unboxing />,
+          },
+          {
+            path: "/cases/Community",
+            element: <Unboxing />,
+          },
+        ],
       },
       {
         path: "/disclaimer",
@@ -98,10 +147,13 @@ const router = createBrowserRouter([
         path: "/Huntsman",
         element: <Huntsman />,
       },
-      ,
       {
         path: "/jackpot",
         element: <Jackpot />,
+      },
+      {
+        path: "/battle",
+        element: <Battle />,
       },
     ],
   },

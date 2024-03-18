@@ -173,9 +173,11 @@ export default function Footer() {
         </div>
         {game && (
           <div className="flex flex-col">
-            <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
+            <ScrollToTopLink
+            to={'/battle'}
+            className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
               Battles
-            </div>
+            </ScrollToTopLink>
             <div className="text-white text-sm  cursor-pointer hover:text-opacity-50  ">
               Upgrader
             </div>

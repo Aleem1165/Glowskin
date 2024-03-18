@@ -72,7 +72,8 @@ export default function Header({ deposit, setDeposit }) {
           className={
             activePath === "/mines" ||
             activePath === "/jackpot" ||
-            activePath === "/plinko"
+            activePath === "/plinko" ||
+            activePath === "/battle"
               ? "flex items-center relative cursor-pointer text-lineBlue px-1 font-semibold text-lg border-b-2 border-lineBlue"
               : "flex items-center relative cursor-pointer text-white font-semibold text-lg"
           }
@@ -88,12 +89,14 @@ export default function Header({ deposit, setDeposit }) {
               isOpen
                 ? activePath === "/mines" ||
                   activePath === "/jackpot" ||
-                  activePath === "/plinko"
+                  activePath === "/plinko" ||
+                  activePath === "/battle"
                   ? images.arrowUpBlue
                   : images.arrowUpWhite
                 : activePath === "/mines" ||
                   activePath === "/jackpot" ||
-                  activePath === "/plinko"
+                  activePath === "/plinko" ||
+                  activePath === "/battle"
                 ? images.arrowDownBlue
                 : images.arrowDownWhite
             }
@@ -101,15 +104,21 @@ export default function Header({ deposit, setDeposit }) {
           />
           {isOpen && (
             <div className="absolute py-2 top-full left-[-70%] top-[30px] bg-paymentModalBg shadow-lg">
-              <div className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+              <ScrollToTopLink
+                to={"/battle"}
+                className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+              >
                 <img src={images.battles} className="w-7 mx-3" />
                 <div className=" w-[165px]">
                   <div className="text-sm text-white">Battles</div>
                   <div className="text-grayText text-xs">Pvp case opening</div>
                 </div>
-              </div>
+              </ScrollToTopLink>
 
-              <div className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+              <ScrollToTopLink
+                to={"/upgrade"}
+                className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+              >
                 <img src={images.upgrader} className="w-7 mx-3" />
                 <div className=" w-[165px]">
                   <div className="text-sm text-white">Upgrader</div>
@@ -117,7 +126,7 @@ export default function Header({ deposit, setDeposit }) {
                     Upgrade your skins
                   </div>
                 </div>
-              </div>
+              </ScrollToTopLink>
 
               <ScrollToTopLink
                 to={"/jackpot"}
@@ -159,13 +168,16 @@ export default function Header({ deposit, setDeposit }) {
                   <div className="text-grayText text-xs">Uncover the mines</div>
                 </div>
               </ScrollToTopLink>
-              <div className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+              <ScrollToTopLink
+                to={"/cases/Classic"}
+                className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+              >
                 <img src={images.cases} className="w-8 mx-3" />
                 <div className=" w-[165px]">
                   <div className="text-sm text-white">Cases</div>
                   <div className="text-grayText text-xs">Open Skins</div>
                 </div>
-              </div>
+              </ScrollToTopLink>
             </div>
           )}
         </div>
@@ -518,12 +530,14 @@ export default function Header({ deposit, setDeposit }) {
                       isOpen
                         ? activePath === "/mines" ||
                           activePath === "/jackpot" ||
-                          activePath === "/plinko"
+                          activePath === "/plinko" ||
+                          activePath === "/battle"
                           ? images.arrowUpBlue
                           : images.arrowUpWhite
                         : activePath === "/mines" ||
                           activePath === "/jackpot" ||
-                          activePath === "/plinko"
+                          activePath === "/plinko" ||
+                          activePath === "/battle"
                         ? images.arrowDownBlue
                         : images.arrowDownWhite
                     }
@@ -536,7 +550,10 @@ export default function Header({ deposit, setDeposit }) {
                     onClick={() => setHamberg(!hamberg)}
                     className="bg-transparent md:hidden"
                   >
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/battle"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.battles} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Battles</div>
@@ -544,9 +561,12 @@ export default function Header({ deposit, setDeposit }) {
                           Pvp case opening
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/upgrade"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.upgrader} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Upgrader</div>
@@ -554,7 +574,7 @@ export default function Header({ deposit, setDeposit }) {
                           Upgrade your skins
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
                     <ScrollToTopLink
                       to={"/jackpot"}
@@ -698,12 +718,14 @@ export default function Header({ deposit, setDeposit }) {
                       isOpen
                         ? activePath === "/mines" ||
                           activePath === "/jackpot" ||
-                          activePath === "/plinko"
+                          activePath === "/plinko" ||
+                          activePath === "/battle"
                           ? images.arrowUpBlue
                           : images.arrowUpWhite
                         : activePath === "/mines" ||
                           activePath === "/jackpot" ||
-                          activePath === "/plinko"
+                          activePath === "/plinko" ||
+                          activePath === "/battle"
                         ? images.arrowDownBlue
                         : images.arrowDownWhite
                     }
@@ -716,7 +738,9 @@ export default function Header({ deposit, setDeposit }) {
                     onClick={() => setHamberg(!hamberg)}
                     className="bg-transparent"
                   >
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink 
+                    to={'/battle'}
+                    className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
                       <img src={images.battles} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Battles</div>
@@ -724,9 +748,12 @@ export default function Header({ deposit, setDeposit }) {
                           Pvp case opening
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
-                    <div className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/upgrade"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.upgrader} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Upgrader</div>
@@ -734,7 +761,7 @@ export default function Header({ deposit, setDeposit }) {
                           Upgrade your skins
                         </div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
 
                     <ScrollToTopLink
                       to={"/jackpot"}
@@ -782,13 +809,16 @@ export default function Header({ deposit, setDeposit }) {
                         </div>
                       </div>
                     </ScrollToTopLink>
-                    <div className=" flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/cases/Classic"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.cases} className="w-8 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Cases</div>
                         <div className="text-grayText text-xs">Open Skins</div>
                       </div>
-                    </div>
+                    </ScrollToTopLink>
                   </div>
                 )}
                 <div

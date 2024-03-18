@@ -17,9 +17,9 @@ export default function Fairness() {
             // backgroundImage: `url(${images.dashboardBackground})`,
           }}
         >
-          <div className=" flex  flex-row mt-5">
+          <div className=" flex  flex-row mt-5 overflow-x-scroll coniatner">
             <div
-              className={`text-white text-sm p-2 ${
+              className={`text-white text-sm py-2 min-w-[110px] text-center ${
                 tabName === "How it works" ? "activeItem" : "inactiveItem"
               } `}
               onClick={() => setTabName("How it works")}
@@ -91,6 +91,8 @@ export default function Fairness() {
               Cases
             </div>
           </div>
+        
+        
           <img
             src={images.banner2}
             className="w-39p  absolute right-5 hidden xl:block"

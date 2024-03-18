@@ -129,8 +129,84 @@ import judgementWhite from "../assets/images/judgementWhite.png";
 import padlockWhite from "../assets/images/padlockWhite.png";
 import vault from "../assets/images/vault.png";
 import wikiWhite from "../assets/images/wikiWhite.png";
+import coingold from "../assets/images/coingold.png"
+import arrowgreen from "../assets/images/arrowgreen.png"
+import addblue from "../assets/images/addblue.png"
+import addmen from "../assets/images/addmen.png"
+import Newww from "../assets/images/Newww.png"
+import rectangle from "../assets/images/rectangle.png"
+import arrowleft from "../assets/images/arrowleft.png"
+import arrowright from "../assets/images/arrowright.png"
+import infoicon from "../assets/images/infoicon.png"
+import heart from "../assets/images/heart.png"
+import clock from "../assets/images/clock.png"
+import circletick from '../assets/images/circletick.png'
+import gun2 from "../assets/images/gun2.png"
+import badgeblue from "../assets/images/badgeblue.png"
+import shuffle from "../assets/images/shuffle.png"
+import animation from "../assets/images/animation.png"
+import yellowpoli from "../assets/images/yellowpoli.png"
+import yellowtri from "../assets/images/yellowtri.png"
+import swordbattle from "../assets/images/swordbattle.png"
+import itemimage from "../assets/images/itemimage.png"
+import caseblue from "../assets/images/caseblue.png"
+import casegreen from "../assets/images/casegreen.png"
+import casered from "../assets/images/casered.png"
+import casepurple from "../assets/images/casepurple.png"
+import caselime from "../assets/images/caselime.png"
+import redo from "../assets/images/redo.png"
+import m4a4 from "../assets/images/m4a4.png"
+import vox from "../assets/images/vox.png"
+import glovespurple from '../assets/images/glovespurple.png'
+import kato from '../assets/images/kato.png'
+import yellowtringleleft from "../assets/images/yellowtringleleft.png"
+import yellowtriangleright from "../assets/images/yellowtriangleright.png"
+import tenk from "../assets/images/tenk.png"
+import tenkback from "../assets/images/tenkback.png"
+import yellowdots from "../assets/images/yellowdots.png"
+import Raceflag from "../assets/images/Raceflag.png"
+import transparentfag from "../assets/images/transparentfag.png"
+import tiny from "../assets/images/tiny.png"
 
 const images = {
+  tiny,
+  transparentfag,
+  Raceflag,
+  yellowdots,
+  tenkback,
+  yellowtriangleright,
+  tenk,
+  yellowtringleleft,
+  m4a4,
+  kato,
+  glovespurple,
+  vox,
+  redo,
+  caseblue,
+  casegreen,
+  casered,
+  casepurple,
+  caselime,
+  itemimage,
+  swordbattle,
+  yellowpoli,
+  yellowtri,
+  animation,
+  shuffle,
+  badgeblue,
+  clock,
+  gun2, 
+  circletick,
+  heart,
+  infoicon,
+  arrowright,
+  arrowleft,
+  rectangle,
+  Newww,
+  coingold,
+  arrowgreen,
+  addblue,
+  addmen,
   affiliatesWhite,
   dicesWhite,
   judgementWhite,
