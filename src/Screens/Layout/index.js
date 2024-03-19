@@ -7,6 +7,8 @@ import LiveDrops from "../../component/LiveDrops";
 import LiveChat from "../../component/LiveChat";
 import images from "../../utilities/images";
 import PaymentModal from "../../component/PaymentModal";
+import { useSelector } from "react-redux";
+import { selectAuthToken } from "../../Store/AuthTokenSlice";
 
 const ModalContext = createContext();
 const SignInContext = createContext();
@@ -14,6 +16,17 @@ const PaymentContext = createContext();
 const HambergContext = createContext();
 
 const Layout = () => {
+  const authToken = useSelector(selectAuthToken);
+  console.log("auth token leyout ", authToken);
+
+  useEffect(() => {
+    if (authToken) {
+      setSignin(true);
+    } else {
+      setSignin(false);
+    }
+  }, [authToken]);
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [signin, setSignin] = useState(false);
   const [paymentModal, setPaymentModal] = useState(false);

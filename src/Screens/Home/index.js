@@ -8,8 +8,11 @@ import Game from "../Game";
 import images from "../../utilities/images";
 import { Bounce, ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useSelector } from "react-redux";
+import { selectAuthToken } from "../../Store/AuthTokenSlice";
 
 export default function Home() {
+  const reduxState = useSelector(selectAuthToken);
   return (
     <div className="max-w-screen-xl mx-auto px-5 sm:pt-[350px]">
       <HomeImage />

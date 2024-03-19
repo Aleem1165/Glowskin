@@ -8,8 +8,11 @@ import {
 } from "../../Screens/Layout";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import ScrollToTopLink from "../ScrollToTopLink";
+import { useDispatch } from "react-redux";
+import { removeToken } from "../../Store/AuthTokenSlice";
 
 export default function Header({ deposit, setDeposit }) {
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   const location = useLocation();
   const activePath = location.pathname;
@@ -39,7 +42,8 @@ export default function Header({ deposit, setDeposit }) {
 
   const handleSignOut = async () => {
     setHeaderRightSignin(false);
-    setSignin(false);
+    // setSignin(false);
+    dispatch(removeToken());
   };
 
   return (
@@ -738,9 +742,10 @@ export default function Header({ deposit, setDeposit }) {
                     onClick={() => setHamberg(!hamberg)}
                     className="bg-transparent"
                   >
-                    <ScrollToTopLink 
-                    to={'/battle'}
-                    className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2">
+                    <ScrollToTopLink
+                      to={"/battle"}
+                      className="flex flex-row items-center cursor-pointer hover:bg-blue4 py-2"
+                    >
                       <img src={images.battles} className="w-7 mx-3" />
                       <div className=" w-[165px]">
                         <div className="text-sm text-white">Battles</div>

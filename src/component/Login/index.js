@@ -8,8 +8,12 @@ import "react-toastify/dist/ReactToastify.css";
 import { handleError } from "../ToastFunctions";
 import { Signin } from "../../config/Api";
 import { FadeLoader, ScaleLoader } from "react-spinners";
+import { useDispatch } from "react-redux";
+import { setToken } from "../../Store/AuthTokenSlice";
 
 export default function Login({ onClose }) {
+  const dispatch = useDispatch();
+
   const { isModalOpen, setIsModalOpen } = useModal();
   const { signin, setSignin } = useSignIn();
   const { hamberg, setHamberg } = useHamberg();
@@ -18,7 +22,7 @@ export default function Login({ onClose }) {
   const [loader, setLoader] = useState(false);
 
   const handleClick = (e) => {
-    e.stopPropagation(); // Prevent the click event from reaching the parent div
+    e.stopPropagation();
   };
 
   const handleSignIn = async () => {
@@ -28,8 +32,24 @@ export default function Login({ onClose }) {
         setLoader(false);
         return handleError("*All fields are required.");
       }
-      const response = await Signin();
-      console.log(response);
+      const body = { email, password };
+      const response = await Signin(body);
+      if (response?.status == 200) {
+        const { data } = response;
+        console.log("200", data);
+        if (data?.success) {
+          const token = data?.token;
+          setIsModalOpen(false);
+          dispatch(setToken(token));
+          setEmail("");
+          setPassword("");
+        } else {
+          handleError(data?.message);
+        }
+      } else {
+        const { data } = response?.response;
+        handleError(data?.error);
+      }
       setLoader(false);
     } catch (error) {
       setLoader(false);

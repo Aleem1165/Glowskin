@@ -4,8 +4,11 @@ import videos from "../../utilities/videos";
 import { useModal, useSignIn } from "../../Screens/Layout";
 import AutoVideoPlayer from "../AutoVideoPlayer";
 import Progress from "../ProgresBar";
+import { useDispatch } from "react-redux";
 
 const HomeImage = () => {
+  const dispatch = useDispatch();
+
   const { isModalOpen, setIsModalOpen } = useModal();
   const { signin, setSignin } = useSignIn();
   const [progress, setProgress] = useState(40);
