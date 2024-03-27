@@ -10,7 +10,7 @@ export default function Profile() {
   return (
     <div>
       <div
-        className="mt-5p p-3 w-90p max-w-screen-xl mx-auto  px-10"
+        className="mt-5p p-3 w-90 mx-auto  px-10"
         style={{
           backgroundImage: `url(${images.profileBg})`,
         }}

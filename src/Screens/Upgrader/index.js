@@ -91,7 +91,7 @@ export default function Upgrader() {
   ];
 
   return (
-    <div className="max-w-screen-xl pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
+    <div className="pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
       <div className="text-white font-bold w-60  text-xl border-b-4 border-lineBlue">
         <div className="pb-2">CS:GO & CS2 Unboxing</div>
       </div>

@@ -25,14 +25,14 @@ import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import authTokenReducer from "./AuthTokenSlice";
 
-const rootReducer = combineReducers({
-  authToken: authTokenReducer,
-});
-
 const persistConfig = {
   key: "root",
   storage,
 };
+
+const rootReducer = combineReducers({
+  authToken: authTokenReducer,
+});
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 

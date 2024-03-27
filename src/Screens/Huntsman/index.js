@@ -7,7 +7,7 @@ export default function Huntsman() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="mx-auto">
       <div
         className="p-4 bg-cover bg-center"
         style={

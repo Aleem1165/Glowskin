@@ -12,9 +12,8 @@ import { useSelector } from "react-redux";
 import { selectAuthToken } from "../../Store/AuthTokenSlice";
 
 export default function Home() {
-  const reduxState = useSelector(selectAuthToken);
   return (
-    <div className="max-w-screen-xl mx-auto px-5 sm:pt-[350px]">
+    <div className="mx-auto px-5 sm:pt-[350px]">
       <HomeImage />
       <div className="flex items-center justify-center">
         <img src={images.gameYellow} className="w-8 mr-2" />

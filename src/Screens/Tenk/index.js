@@ -24,7 +24,7 @@ export default function Tenk() {
   const Navigate = useNavigate();
 
   return (
-    <div className="max-w-screen-xl pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
+    <div className="pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
       {" "}
       <div className="w-full flex flex gap-7">
         <div

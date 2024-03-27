@@ -34,7 +34,7 @@ const SettingsModal = ({ isModalOpen, setIsModalOpen }) => {
         zIndex: isModalOpen ? 50 : -1,
       }}
     >
-      <div className="w-full bg-transparent h-full flex items-center justify-center max-w-screen-xl ">
+      <div className="w-full bg-transparent h-full flex items-center justify-center">
         <div
           className="bg-paymentModalBg shadow-lg shadow-white-900 bg-cover bg-center p-4  rounded-md w-45p h-[80vh]  flex flex-col items-start"
           onClick={(e) => {

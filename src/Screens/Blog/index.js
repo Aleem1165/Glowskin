@@ -684,7 +684,7 @@ export default function Blog() {
     },
   ]);
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="mx-auto">
         <div
           className="p-4 bg-cover bg-center"
           style={{
@@ -693,7 +693,7 @@ export default function Blog() {
         >
           <div className="mx-auto  w-full mt-5">
             <div className="flex justify-center">
-              <div className="max-w-screen-xl w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 mb-5p">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 mb-5p">
                 {data.map((card) => (
                   <div
                     key={card.id}

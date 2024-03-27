@@ -6,7 +6,7 @@ export default function Jackpot() {
   const [amount, setAmount] = useState(0.01);
   const [selectedJakpot, setSelectedJakpot] = useState("blue");
   return (
-    <div className=" max-w-screen-xl mx-auto flex flex-col items-start mt-5p px-5">
+    <div className="  mx-auto flex flex-col items-start mt-5p px-5">
       <div className="text-white font-semibold text-lg border-b-4 border-lineBlue pb-1 pr-3 ">
         <span>CS2 & CS:GO Jackpot</span>
       </div>

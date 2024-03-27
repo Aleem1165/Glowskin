@@ -5,7 +5,7 @@ import videos from "../../utilities/videos";
 
 export default function Game() {
   return (
-    <div className="max-w-screen-xl mx-auto w-full flex flex-col gap-3 mt-6">
+    <div className="mx-auto w-full flex flex-col gap-3 mt-6">
       <div className="flex flex-col sm:flex-row gap-3">
         <div className="w-full sm:w-[29%] relative">
           <VideoPlayer

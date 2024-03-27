@@ -70,7 +70,7 @@ export default function PaymentModal({ deposit, setDeposit }) {
         zIndex: paymentModal ? 50 : -1,
       }}
     >
-      <div className="w-full bg-transparent h-full flex items-center justify-center max-w-screen-xl">
+      <div className="w-full bg-transparent h-full flex items-center justify-center">
         <div
           className="shadow-lg shadow-white-900 bg-paymentModalBg bg-cover bg-center rounded-lg p-4 w-85p h-[80vh] flex flex-col items-start "
           onClick={(e) => {

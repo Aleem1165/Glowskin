@@ -9,7 +9,7 @@ export default function Fairness() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [tabName, setTabName] = useState("How it works");
   return (
-    <div  className="max-w-screen-xl mx-auto ">
+    <div  className="mx-auto ">
       <div >
         <div
           className="p-4 bg-cover bg-center "

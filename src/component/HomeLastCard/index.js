@@ -45,7 +45,7 @@ const HomeLastCard = () => {
   return (
     <div className="mx-auto  w-full mt-16">
       <div className="flex justify-center">
-        <div className="max-w-screen-xl w-full  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="w-full  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4">
           {data.map((card, index) => (
             <div
               onClick={() => handleNavigate(index)}

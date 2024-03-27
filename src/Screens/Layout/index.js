@@ -35,15 +35,6 @@ const Layout = () => {
   const [showChat, setShowChat] = useState(false);
   const [hamberg, setHamberg] = useState(false);
 
-  // useEffect(() => {
-  //   // Condition based on screen width
-  //   if (window.innerWidth < 1020) {
-  //     setShowLiveDrops(false);
-  //   } else {
-  //     setShowLiveDrops(true);
-  //   }
-  // }, []);
-
   const openModal = () => {
     setIsModalOpen(true);
   };
@@ -94,7 +85,7 @@ const Layout = () => {
                   backgroundImage: `url(${images.BG})`,
                 }}
               >
-                <div className="w-full ">
+                <div className="w-full max-w-screen-3xl">
                   <Outlet />
                 </div>
                 <Footer />

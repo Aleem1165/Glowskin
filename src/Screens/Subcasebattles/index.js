@@ -131,7 +131,7 @@ export default function Subcasebattle({ Cards }) {
   ];
 
   return (
-    <div className="max-w-screen-xl pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
+    <div className="pb-20  mx-auto flex  flex-col items-start mt-5p px-5">
       <div className="text-white font-bold w-72  text-xl border-b-4 border-lineBlue">
         <div className="pb-2">CS2 & CS:GO Case Battles</div>
       </div>
